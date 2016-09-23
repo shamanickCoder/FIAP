@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECCDA9D4-9ACD-BFDF-F9AD-01B184392816" name="T_AULA10_CLIENTE">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:20:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="1F57A469-9E92-6D84-A44C-094A2E437C6B">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:21:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="nm_cliente" id="8C36BCA0-7D34-F1BA-4AFF-468CF50A95B0">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:24:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="nr_cnpj" id="152EAA23-7C6C-0D1C-21D0-85A2423AAF8F">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:24:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F584427C-DFDD-A26D-953B-9D100E43E64B" name="T_AULA10_CLIENTE PK">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:21:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F57A469-9E92-6D84-A44C-094A2E437C6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B10E252E-F684-58F4-9B13-6D6C4C0789CE" name="T_SIP_PROJETO">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:19:54 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="44AE4B8E-E663-EBFC-6717-FA169594D45E">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:24:20 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="4E87984B-58F7-85CC-ABE5-DC621C8A7E33">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:24:23 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="378DA574-E646-9487-9E26-B0CDA320C6D9">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:24:26 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="7CDE825B-F2BF-5F8F-55E6-180F83A813AE">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:24:29 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA80AC57-0916-B29F-3AEA-23A98983D206" name="T_SIP_PROJETO PK">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:24:40 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44AE4B8E-E663-EBFC-6717-FA169594D45E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

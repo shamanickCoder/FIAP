@@ -1,0 +1,35 @@
+package br.com.fiap.beans;
+
+public class CD {
+	private int totalFaixas;
+	private boolean lancamento;
+	private String artista;
+	public CD(int totalFaixas, boolean lancamento, String artista) {
+		super();
+		this.totalFaixas = totalFaixas;
+		this.lancamento = lancamento;
+		this.artista = artista;
+	}
+	public CD() {
+		super();
+	}
+	public int getTotalFaixas() {
+		return totalFaixas;
+	}
+	public void setTotalFaixas(int totalFaixas) {
+		this.totalFaixas = totalFaixas;
+	}
+	public boolean isLancamento() {
+		return lancamento;
+	}
+	public void setLancamento(boolean lancamento) {
+		this.lancamento = lancamento;
+	}
+	public String getArtista() {
+		return artista;
+	}
+	public void setArtista(String artista) {
+		this.artista = artista;
+	}
+
+}

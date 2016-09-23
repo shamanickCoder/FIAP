@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2E32A41-63A1-DC4A-9ACA-2F370BF1C8F8" name="T_AULAS">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:02:38 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_sequencial" id="D25A1FDC-3E01-0447-913A-C272D6DE7806">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:03:59 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_sala1" id="A5CDD8C3-F129-361F-BDD5-47328690ACBD">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:41:29 UTC</createdTime>
+<generatorID>F43D0922-446D-6FFB-DCE3-92DA19CBCE69</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>24616919-A308-7BD7-1A56-71B8CD7E5541</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_modalidade" id="0852FCC4-E97F-A9F0-06C0-A7ADF9C08D12">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-01 11:35:28 UTC</createdTime>
+<generatorID>1245F453-3530-2DE0-3275-D39FF9C265D1</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>51F1C0EF-0E61-E819-F1AA-360CFB703604</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_modalidade" id="875F00D2-10AA-F70F-7B4C-B6BAF8F2953C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:09 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nivel" id="7DCD017F-A246-1984-E24B-528F3F665FBB">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:17 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_professor" id="0C8094B9-68CE-BA17-F647-D35ED3DD2EDF">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:26 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_sala" id="67ABC817-B095-78C4-4D0F-D4A148446276">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:33 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="E63A8C66-83BD-4D8A-B83E-39FB8325C05A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:41 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_duracao" id="124BD33C-2A36-9DF5-9EC3-8C67B5A012BA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:47 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="BCF1421D-6503-F1D0-36AD-8AB90D43F93C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-01 11:42:50 UTC</createdTime>
+<generatorID>6A52297C-6DD9-75A7-000D-1E6E247440F1</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>098C3EFF-2D36-F97C-F744-4DA009411B1D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95C6E8B2-9A45-7FBE-3C35-4498A7E2EFDB" name="T_AULAS PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:04:04 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D25A1FDC-3E01-0447-913A-C272D6DE7806</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

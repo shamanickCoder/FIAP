@@ -1,0 +1,16 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.ContaCorrente;
+import br.com.fiap.excecoes.Excecoes;
+
+public class TesteContaCorrente {
+
+	public static void main(String[] args) throws Excecoes{
+		// TODO Auto-generated method stub
+		ContaCorrente objContaCorrente = new ContaCorrente();
+		
+		
+
+}

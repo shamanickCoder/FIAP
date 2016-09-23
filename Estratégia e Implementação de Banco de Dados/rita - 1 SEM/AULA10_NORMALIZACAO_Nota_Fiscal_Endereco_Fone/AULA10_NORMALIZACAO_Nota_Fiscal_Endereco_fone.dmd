@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone" id="9E27B6E8-C3EB-36F4-7E35-467A154CCB84" version="3.5">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:19:26 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9E27B6E8-C3EB-36F4-7E35-467A154CCB84</designId>
+</OSDM_Design>

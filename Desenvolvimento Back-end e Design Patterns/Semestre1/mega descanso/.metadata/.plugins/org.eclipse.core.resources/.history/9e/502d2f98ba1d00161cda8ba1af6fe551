@@ -1,0 +1,13 @@
+package br.com.fiap.beans;
+
+public class ExameMedico {
+ private int codigo;
+ private Aluno matricula;
+ private Medico codMed;
+ private int dataAvaliacao;
+ private int valorPressao;
+ private int qtBatimentos;
+ private double altura;
+ private double peso;
+ private String obs;
+}

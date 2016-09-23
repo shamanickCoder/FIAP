@@ -1,0 +1,12 @@
+package br.com.fiap.testes;
+
+import br.com.fiap.excecoes.Excecoes;
+
+public class TesteCliente {
+
+	public static void main(String[] args) throws Excecoes{
+		// TODO Auto-generated method stub
+      
+	}
+
+}

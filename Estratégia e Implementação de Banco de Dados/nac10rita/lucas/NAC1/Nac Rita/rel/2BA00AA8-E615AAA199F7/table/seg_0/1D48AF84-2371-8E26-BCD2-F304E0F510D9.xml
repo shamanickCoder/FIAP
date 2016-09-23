@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D48AF84-2371-8E26-BCD2-F304E0F510D9" name="T_AM_ART_TIPO_TAREFA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>10FA6AA7-A1E1-128D-CE45-64B0754506EB</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_tipo_tarefa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_tarefa" id="A5548F06-6EC4-E6FC-5ED2-1DE5D63B1CC5">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>1193F758-A598-2AA6-84E4-9BC18FB0D67D</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_tarefa" id="658A92F3-D657-3A59-E6F1-266EC2528726">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>487AE4FD-42BD-9321-53C6-3173DB862A85</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="566C27B2-C47C-3269-B03D-EA12FB7E6141" name="PK_AM_ART_TIPO_TAREFA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>8D4E5600-3202-D065-2252-5FD42655F686</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5548F06-6EC4-E6FC-5ED2-1DE5D63B1CC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F32DFFCC-EDCA-E2DC-CDAB-779AE08C1CBC" name="UN_AM_ART_TIPO_TAREFA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:43:57 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="658A92F3-D657-3A59-E6F1-266EC2528726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,10 @@
+package br.com.fiap.beans;
+
+public class Aula {
+ private int seqAula;
+ private Modalidade codModalidade;
+ private Sala numSala;
+ private int nivelDificulta;
+ private int dtHorarioInicio;
+ private int numTempoDuracao;
+}

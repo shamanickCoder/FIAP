@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;04-JSP/WebContent/menu.jsp&apos; to &apos;topo.jsp&apos;" description="Rename resource &apos;menu.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/menu.jsp" name="topo.jsp" stamp="1470915371721" updateReferences="true"/>
+</session>

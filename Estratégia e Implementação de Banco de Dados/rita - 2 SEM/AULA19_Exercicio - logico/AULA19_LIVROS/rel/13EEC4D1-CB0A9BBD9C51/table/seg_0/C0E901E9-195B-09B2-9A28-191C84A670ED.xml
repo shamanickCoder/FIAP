@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0E901E9-195B-09B2-9A28-191C84A670ED" name="T_AULA19_AUTOR_LIVRO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>0B74478D-B1EA-B986-98EE-2A47D037FD76</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_autor" id="49D3B1A6-A718-5291-41EA-1CC8C3777DB0">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>975269B0-5B3B-9FC2-C3C5-009D6B201434</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="386E9683-9CF3-36B5-8E19-5D4776FDEB57" referredColumn="6CD7E759-851C-6F17-2247-936AB9F55EE0"/>
+</associations>
+</Column>
+<Column name="nr_isbn" id="8BCC7404-02C1-F24B-D5F5-F41B177F0E88">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>A034E7EA-2AE1-F745-357E-2A133E9AFAC5</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="328B99D6-2490-ADD2-CC6D-34992F286638" referredColumn="31335F43-76F4-89E0-6BE7-E2665B335283"/>
+</associations>
+</Column>
+<Column name="st_autor_principal" id="97757179-5E92-C70B-6312-B38F788B0092">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<comment>1-SIM&lt;br/&gt;2-NÃO</comment>
+<generatorID>BB998A6B-52F1-CD24-89DC-B930BE7FABC7</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="345300F5-FA2C-A375-83BB-366331735E71" name="PK_AULA19_AUTOR_LIVRO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>826E41FF-3999-F74E-1A69-006E4030E59F</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BCC7404-02C1-F24B-D5F5-F41B177F0E88"/>
+<colUsage columnID="49D3B1A6-A718-5291-41EA-1CC8C3777DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4E9BBAE-7803-45E7-0A20-5183FFBBF252" name="FK_AULA15_AUTOR_LIVRO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>3A049C41-7288-FA76-83B1-DD5CE51873F5</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49D3B1A6-A718-5291-41EA-1CC8C3777DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A88683B-0401-4688-F786-BEAB7BAF6B34" name="FK_AULA15_LIVRO_AUTOR">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>E9F147AB-2EE0-4B7F-556B-0F853E8D9F33</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BCC7404-02C1-F24B-D5F5-F41B177F0E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AULA19_AUTOR_LIVRO_STAT" directorySegmentName="seg_0" id="7130EF77-C86B-E4CE-69DA-764E45224B43">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:51:14 UTC</createdTime>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<rule>st_autor_principal in (1,2)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,15 @@
+$().ready(function(){
+	$("#cores").change(function(){
+		//Recupera a cor selecionada
+		
+		if($("#cores").val() == "Amarelo"){
+			$("h1").css("color", "yellow");
+		}
+		else if($("#cores").val() == "Verde"){
+			$("h1").css("color", "green");
+		}
+		else if($("#cores").val() == "Azul"){
+			$("h1").css("color", "blue");
+		}
+	});
+});

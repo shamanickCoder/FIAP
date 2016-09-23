@@ -1,0 +1,32 @@
+package br.com.fiap.bo;
+
+import java.util.List;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.dao.CargoDAO;
+import br.com.fiap.excecoes.Excecao;
+
+public class CargoBO {
+
+
+	public void validarGravar(Cargo cargo) throws Exception{
+		if(cargo.getCargo().length() < 2) {
+			throw new Excecao("Caracteres insuficientes em cargo");
+		}
+		if(cargo.getNivel().length() < 2) {
+			throw new Excecao("Caracteres insuficientes em nível");
+		}
+		if(cargo.getSalario() < 700) {
+			throw new Excecao("Salário insuficiente");
+		}
+		new CargoDAO().gravar(cargo);
+	}
+	
+	public List<Cargo> validarGetLista() throws Exception{
+		return new CargoDAO().getLista();
+	}
+	
+	public List<Cargo> consultarCargo(String pCargo) throws Exception {
+		return new CargoDAO().consultar(pCargo.toUpperCase());
+	}
+}

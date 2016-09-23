@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E735860F-ACBC-89A2-9852-0C7BCF19DE61" name="T_AULA19_CATEGORIA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>C1C82552-7A5D-056D-259C-D1B27F0ED871</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categoria" id="DD30F73A-F06E-9B81-22B1-2349A2CE6F28">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>70A48F10-D085-7C38-4E0C-CA17D02CFF14</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sigla_categoria" id="99BA7B3C-2354-5383-3D16-46F1D242B7C2">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>BF7F50F9-673B-74EC-EEE2-DC0C4DAC1E9B</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categoria" id="0512EC43-98EF-76E9-16AE-7D7AAD6243B8">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>30E25EE9-D34A-70EF-1C33-2E740116DE00</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C0F6177-A9BD-A50B-6251-E0D0D9FF1029" name="PK_AULA19_CATEGORIA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>79590768-A210-3832-5AA0-6FA53CC3523B</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD30F73A-F06E-9B81-22B1-2349A2CE6F28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A9A1829-E612-3246-90D0-1D8BC20B6217" name="UN_AULA19_CATEGORIA_SIGLA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:42:44 UTC</createdTime>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99BA7B3C-2354-5383-3D16-46F1D242B7C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38D4F7E4-A888-6A46-5DBF-A2654B1EF654" name="UN_AULA19_CATEGORIA_CATEGORIA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:42:44 UTC</createdTime>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0512EC43-98EF-76E9-16AE-7D7AAD6243B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

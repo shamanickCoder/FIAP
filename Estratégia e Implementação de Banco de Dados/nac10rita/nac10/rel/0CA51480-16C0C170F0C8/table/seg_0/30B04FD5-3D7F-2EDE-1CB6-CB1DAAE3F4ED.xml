@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30B04FD5-3D7F-2EDE-1CB6-CB1DAAE3F4ED" name="T_AM_HIST_PROC_TX">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>1402EFD5-725C-05A5-89E7-34CCA17AD918</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_processo" id="299C05EB-9699-DC44-8FC0-509E9588E4DC">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>271527E8-B975-BCB1-5FAB-6E634063784F</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDDC392E-DFA5-6525-F7A0-65D038EE370E" referredColumn="A3D9F5F5-FC57-F5B2-7B83-A2CE1E05E1B7"/>
+</associations>
+</Column>
+<Column name="cd_taxa" id="4EDD7E61-FC30-68CB-1863-0D8FE017C74D">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>0B56659C-A324-C921-A19F-4B05EB89FDC1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="453BE3FF-B52D-219C-3813-D39FE6428924" referredColumn="C730D6BE-8878-8736-EEAB-8FDEC4626B00"/>
+</associations>
+</Column>
+<Column name="dt_validade" id="3E10C0CA-FB31-2224-BE03-AE1DB7D213AC">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>AF997BAE-4B7B-FC06-3060-F74F7647E9D3</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F70F8A1-D0C9-1C3B-E4BD-CF4810208A19" name="PK_AM_HIST_PROC_TX">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>DA64078C-1246-285B-A270-BFC589084F7F</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EDD7E61-FC30-68CB-1863-0D8FE017C74D"/>
+<colUsage columnID="299C05EB-9699-DC44-8FC0-509E9588E4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49EBCAA1-31C3-FD05-552A-86E4EA119451" name="FK_AM_HIST_TAXA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>517DA3D5-E8B4-6399-FD16-C2216D6882CB</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EDD7E61-FC30-68CB-1863-0D8FE017C74D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85CD887A-C604-F245-B130-8303DAA7D021" name="FK_AM_PROC_TX">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>1C9AC7B6-2DA0-9536-891A-0BB96E0698D1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="299C05EB-9699-DC44-8FC0-509E9588E4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

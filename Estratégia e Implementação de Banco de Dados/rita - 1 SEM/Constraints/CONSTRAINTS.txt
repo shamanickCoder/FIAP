@@ -1,0 +1,19 @@
+Constraints -> Regras/Restrições
+
+ * Mandatório (*) => not null
+   conteúdo preenchido obrigatoriamente.
+
+ * Chave primária => primary key (PK)
+   Identificador único da entidade/tabela (Identifica ocorrência de forma única).
+
+ * Chave estrangeira => foreign key (FK)
+   Atributo que estabelece a relação entre 2 entidades. Garante a integridade referencial.
+
+ * Unique => UN
+   Não permite repetições de conteúdo para um determinado campo. Ex: CPF, Email, Nome Depto, Nome unidade medida, nome modalidade.
+
+ * Check => CK
+   Regra de validação/checagem para um determinado campo. Ex: sexo = 'F' or sexo = 'm', salario >= 880, dt_final > dt_inicio.
+
+ * Default => DF
+   Permite utilizar valores "padrão" para conteúdo dos campos quando um valor não for informado pelo usuário. 

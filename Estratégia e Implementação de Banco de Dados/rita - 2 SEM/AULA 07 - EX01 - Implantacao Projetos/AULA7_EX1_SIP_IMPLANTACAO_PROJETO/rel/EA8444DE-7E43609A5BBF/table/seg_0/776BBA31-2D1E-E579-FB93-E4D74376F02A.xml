@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="776BBA31-2D1E-E579-FB93-E4D74376F02A" name="T_SIP_ESTADO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>4749114F-BEB5-5809-D4BA-AF34EA05E00E</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="87CEE32B-39DD-5B31-0E0A-77EC5397E346">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>7550C3DA-F876-FFDC-FB30-7F8B0C9B88DC</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="8493900D-8964-48FF-F90E-60A47D6B8B2F">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>CDBF8067-5AB2-78D6-FA0B-4D27E1CDEFB6</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="DD8E0C3A-A4BD-9912-4525-4417A9A30C3B">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>0F53451E-273A-0BF8-584E-200CB691F467</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0A6C2CF-BEF9-CC01-6E91-2B40E4EC9D48" name="PK_SIP_ESTADO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>34BC072E-EDD0-5026-DA98-F0D6CA602CD6</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87CEE32B-39DD-5B31-0E0A-77EC5397E346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

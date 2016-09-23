@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AULA7_EX1_SIP_IMPLANTACAO_PROJETO" id="796119D9-21D9-A7D4-DAA2-B51634B57317" version="3.5">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:16:49 UTC</createdTime>
+<ownerDesignName>AULA5_EX3_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>796119D9-21D9-A7D4-DAA2-B51634B57317</designId>
+</OSDM_Design>

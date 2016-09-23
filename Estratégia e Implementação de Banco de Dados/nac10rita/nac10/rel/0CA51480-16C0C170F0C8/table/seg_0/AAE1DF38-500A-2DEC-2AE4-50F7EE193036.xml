@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE1DF38-500A-2DEC-2AE4-50F7EE193036" name="T_AM_HIST_TAXA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9CD13944-548E-B8E4-2154-A711E9FF799D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_taxa" id="C730D6BE-8878-8736-EEAB-8FDEC4626B00">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>C5B73A34-EB7F-8370-6CF3-2F48E311AFC0</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vigencia" id="8D781EC8-C869-EFBE-A8A7-F723D648A114">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>577F8261-04CA-1A32-4A25-8248C39A06C1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_taxa_adm" id="63BC0662-8F3D-42B9-23B5-D0F1BDFD9C63">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>72ECA9B6-75A2-663B-34BA-22CB35EB6FE7</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_taxa_juros" id="7DB3B56F-C923-068D-2670-DF62FBED3E81">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>EFE4887D-5C8C-2A2F-02B9-8F77F25F52C4</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_mora_diaria" id="A76ACB83-DD66-492D-62EE-95B5027CC6D2">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BBA44961-A809-E2DD-DB92-E78E4CECD824</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3558DBC-188F-29FD-C407-41CA4E184151" name="PK_AM_HIST_TAXA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>17FE4F78-E9E5-DBA0-F514-D213F360374D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C730D6BE-8878-8736-EEAB-8FDEC4626B00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_HIST_TAXA_ADM" directorySegmentName="seg_0" id="7BA404B6-03CD-AFF4-36A7-A3049120FAE3">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:41:45 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>vl_hora &gt; 0</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_HIST_TAXA_JUROS" directorySegmentName="seg_0" id="28DF057C-ABF5-6F4A-4044-554FDBD5750B">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:41:45 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>vl_taxa_juros &gt; 0 </rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_HIST_TAXA_MORA" directorySegmentName="seg_0" id="26972D68-D184-6C6A-3C70-E0FFB2A55F4A">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:41:45 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>vl_mora_diaria &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,42 @@
+package br.com.fiap.beans;
+
+public class PFisicaAcademia extends PFisica{
+ private int numeroMatricula;
+ private String dtNascimento;
+ private char sexo;
+ 
+public PFisicaAcademia() {
+	super();
+}
+public PFisicaAcademia(int numeroMatricula, String dtNascimento, char sexo){
+	this.numeroMatricula = numeroMatricula;
+	this.dtNascimento = dtNascimento;
+	this.sexo = sexo;
+}
+public PFisicaAcademia(String rg, String cpf, int numeroMatricula, String dtNascimento, char sexo) {
+	super(rg, cpf);
+	this.numeroMatricula = numeroMatricula;
+	this.dtNascimento = dtNascimento;
+	this.sexo = sexo;
+}
+public int getNumeroMatricula() {
+	return numeroMatricula;
+}
+public void setNumeroMatricula(int numeroMatricula) {
+	this.numeroMatricula = numeroMatricula;
+}
+public String getDtNascimento() {
+	return dtNascimento;
+}
+public void setDtNascimento(String dtNascimento) {
+	this.dtNascimento = dtNascimento;
+}
+public char getSexo() {
+	return sexo;
+}
+public void setSexo(char sexo) {
+	this.sexo = sexo;
+}
+ 
+ 
+}

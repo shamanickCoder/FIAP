@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9A329E6-5712-6ADE-0CA5-3079B70CE2AD" name="T_TIPO_AULA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:05:41 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_sequencial" id="EB2C3EC5-B4C5-F1BD-3128-0D9758068C12">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:07:41 UTC</createdTime>
+<generatorID>4F50CE97-D894-4FC1-5C03-E278729127FB</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>D25A1FDC-3E01-0447-913A-C272D6DE7806</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="4F93E44E-BC98-F8E2-E5B0-FEBD906BFFB8">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:07:45 UTC</createdTime>
+<generatorID>7A4CE830-AA92-8B42-4AD8-99E54F260355</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>5BF70E7A-0CA9-7F82-2652-605F45969BC4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_modalidade" id="D657A259-DB51-B16E-0416-A0C4DEAFF798">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:14:16 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6635931-05A6-C9E4-66B9-4C6BAF1C5D0D" name="T_TIPO_AULA PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:14:26 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D657A259-DB51-B16E-0416-A0C4DEAFF798</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de séries</title>
+</head>
+<body>
+<div>
+<form action = "cadastro" method = "post">
+ <fieldset>
+  <legend>Cadastro de séries</legend>
+  <div>
+   <label for = "titulo">Título:</label>
+   <input type = "text" name = "titulo" id = "titulo">
+  </div>
+  <br>
+  <div>
+   <label for = "ano">Ano:</label> 
+   <select name = "ano" id = "ano">
+    <option>2016</option>
+    <option>2015</option>
+    <option>2014</option>
+    <option>2013</option>
+    <option>2012</option>
+   </select>
+  </div>
+  <br>
+  <div>
+   Gênero:
+   <br>
+   <label for = "acao">Ação</label> <input type = "checkbox" name = "acao" id = "acao">
+   <label for = "suspense">Suspense</label> <input type = "checkbox" name = "suspense" id = "suspense">
+   <label for = "drama">Drama</label> <input type = "checkbox" name = "drama" id = "drama">
+  </div>
+ </fieldset>
+</form>
+</div>
+</body>
+</html>

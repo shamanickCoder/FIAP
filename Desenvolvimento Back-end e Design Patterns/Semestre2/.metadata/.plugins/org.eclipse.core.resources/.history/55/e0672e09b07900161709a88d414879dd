@@ -1,0 +1,21 @@
+package br.com.fiap.testes;
+
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.dao.CargoDAO;
+
+public class TesteCargoDAO3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CargoDAO dao = new CargoDAO();
+		Lista<Cargo> lista = dao.consultar(JOptionPane.showInputDialog("Digite o cargo para pesquisar: "));
+        for(Cargo c: lista){
+        	System.out.println(c.getTudo());
+        }
+	}
+
+}

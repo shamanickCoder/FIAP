@@ -1,0 +1,22 @@
+td {
+	border: 1px solid black;
+	width: 100px; /*largura*/
+	height: 100px; /*altura*/
+	text-align: center;
+	font-size: 60px;
+	color: #888888;
+}
+table {
+	margin: auto; /*centraliza*/
+	border-collapse: collapse;
+}
+h1, p {
+	text-align: center;
+}
+body {
+	font-family: Tahoma, Verdana, Sans-serif;
+}
+td:hover {
+	background-color: silver;
+	cursor: pointer;
+}

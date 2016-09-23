@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;07-JSP-Cadastro/WebContent/cadastro.jsp&apos; to &apos;home.jsp&apos;" description="Rename resource &apos;cadastro.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/cadastro.jsp" name="home.jsp" stamp="1471523208656" updateReferences="true"/>
+</session>

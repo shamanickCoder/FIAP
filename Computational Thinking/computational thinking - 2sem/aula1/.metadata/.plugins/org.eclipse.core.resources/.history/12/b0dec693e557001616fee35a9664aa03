@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Exercício4 {
+     
+	public static void main(String[] args){
+		
+		float[] temperatura = new float[12];
+		Scanner leitura = new Scanner(System.in);
+		int i;
+	}
+}

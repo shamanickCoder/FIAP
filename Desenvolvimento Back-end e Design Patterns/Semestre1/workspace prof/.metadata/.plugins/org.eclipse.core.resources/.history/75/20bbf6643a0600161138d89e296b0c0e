@@ -1,0 +1,35 @@
+package br.com.fiap.beans;
+
+public class Livro {
+	private int totalPaginas;
+	private String autor;
+	private String editora;
+	public Livro(int totalPaginas, String autor, String editora) {
+		super();
+		this.totalPaginas = totalPaginas;
+		this.autor = autor;
+		this.editora = editora;
+	}
+	public Livro() {
+		super();
+	}
+	public int getTotalPaginas() {
+		return totalPaginas;
+	}
+	public void setTotalPaginas(int totalPaginas) {
+		this.totalPaginas = totalPaginas;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getEditora() {
+		return editora;
+	}
+	public void setEditora(String editora) {
+		this.editora = editora;
+	}
+
+}

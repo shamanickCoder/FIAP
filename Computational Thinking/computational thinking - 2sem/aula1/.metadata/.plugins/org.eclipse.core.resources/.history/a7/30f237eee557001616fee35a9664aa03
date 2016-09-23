@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Exercício4 {
+     
+	public static void main(String[] args){
+		
+		float[] temperatura = new float[12];
+		Scanner leitura = new Scanner(System.in);
+		int i;
+		String[] meses = new String{"Janeiro", "Fevereiro", "Março", "Abril", "Maio",
+		                            "Junho", "Julho", "Agosto", "Setembro", "Outubro",
+	                                "Novembro", "Dezembro"};
+				
+	}
+}

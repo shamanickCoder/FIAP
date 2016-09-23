@@ -1,0 +1,15 @@
+package br.com.fiap.testes;
+
+import java.util.Scanner;
+
+public class Exemplo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner entrada = new Scanner(System.in);
+        int matriz[][] = new int[10][4];
+        
+        entrada.close();
+	}
+
+}

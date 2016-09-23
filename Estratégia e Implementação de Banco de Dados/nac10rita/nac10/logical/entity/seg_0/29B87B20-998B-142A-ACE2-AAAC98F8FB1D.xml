@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29B87B20-998B-142A-ACE2-AAAC98F8FB1D" name="T_AM_LANCA_DESPESA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:05:13 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lancamento" id="25CC38B6-F403-4435-B158-36805EE8E64A">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:05:32 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_despesa" id="457BA291-5ED7-02C1-F2B0-93275E99837C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:05:54 UTC</createdTime>
+<generatorID>80FBAC4C-CFB1-A385-1381-C25B7DA6A929</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>37204A09-A563-CB82-E7BD-32E400882865</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_processo" id="8538121A-6F54-D320-07E9-12CDB6522E80">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:06:47 UTC</createdTime>
+<generatorID>9A6591DD-1441-C304-A25F-A5E50753391D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>2122AAD7-8B30-A967-B7FF-E8332118D77F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_despesa" id="9FF25E4C-A626-5F61-9DF8-A26C86C04459">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:05:38 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_despesa" id="7F949E0D-F0E6-6562-740D-AB59DAD3EEE4">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:05:50 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_observacao" id="8C308BCC-58EB-59C8-A7A9-22F75B5D7EDC">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:05:59 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B07878A-1AF4-B02A-165A-5704D338E83D" name="T_AM_LANCA_DESPESA PK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:05:36 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25CC38B6-F403-4435-B158-36805EE8E64A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

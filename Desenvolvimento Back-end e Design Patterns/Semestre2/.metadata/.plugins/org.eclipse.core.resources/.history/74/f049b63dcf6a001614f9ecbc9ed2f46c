@@ -1,0 +1,47 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Funcionario;
+
+public class Teste {
+
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+        Funcionario objFuncionario[] = new Funcionario[2];
+        int totalFuncionario = 0;
+        double mediaGeral = 0, somaSalario = 0;
+        
+        objFuncionario[0] = new Funcionario();
+        
+        objFuncionario[0].setCargo(JOptionPane.showInputDialog("Digite o cargo"));
+        objFuncionario[0].setFalta(Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de faltas: ")));
+        objFuncionario[0].setNome(JOptionPane.showInputDialog("Digite o nome: "));
+        objFuncionario[0].setSalario(Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: ")));
+        
+        totalFuncionario++;
+        somaSalario = somaSalario + objFuncionario[0].getSalario();
+        
+        
+        objFuncionario[1] = new Funcionario();
+        
+        objFuncionario[1].setCargo(JOptionPane.showInputDialog("Digite o cargo"));
+        objFuncionario[1].setFalta(Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de faltas: ")));
+        objFuncionario[1].setNome(JOptionPane.showInputDialog("Digite o nome: "));
+        objFuncionario[1].setSalario(Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: ")));
+        
+        
+        //JOptionPane.showMessageDialog(null, "Total de funcionários: " + totalFuncionario);
+        //JOptionPane.showMessageDialog(null, objFuncionario.getTudo());
+        
+        totalFuncionario++;
+        somaSalario = somaSalario + objFuncionario[1].getSalario();
+        mediaGeral = somaSalario/totalFuncionario;
+        JOptionPane.showMessageDialog(null, "A média dos salários é: ");
+	}
+
+}

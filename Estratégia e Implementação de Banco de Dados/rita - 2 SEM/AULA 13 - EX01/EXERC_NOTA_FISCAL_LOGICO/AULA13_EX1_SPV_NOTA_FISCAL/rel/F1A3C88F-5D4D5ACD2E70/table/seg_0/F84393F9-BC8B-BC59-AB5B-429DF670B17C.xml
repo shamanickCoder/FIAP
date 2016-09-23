@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F84393F9-BC8B-BC59-AB5B-429DF670B17C" name="T_SPV_PRODUTO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>EF430F6E-EE27-6B18-5B4C-3EA0E2E66FDE</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_produto" id="345150CD-CA41-40AA-C51F-54617E29BA68">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>2D37198D-9FA4-BAE7-4837-EC3CD83317B1</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_produto" id="F4C3D3E5-3A0F-BE66-D100-D366E5807BD4">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>FE4EAD97-4AD3-9619-CB63-BA30763AF47E</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_completa_produto" id="51870D34-4A11-594E-989C-B101FDC6012D">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>FA7306D8-3E89-BEA6-27C9-F3ECF2F82CF5</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_estoque" id="A4B663EA-65DD-BD0E-403B-544CE1682E5F">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>D254972B-F599-E9BB-37B0-DBD0AF39C7E4</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco_unitario" id="8DD26DBE-210D-3F38-FE0C-7500D5AD7B05">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>8A1A643F-7FF4-7504-98EC-E86625EF82E6</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74FF16BC-4815-D717-05E7-5BF7D47706AF" name="T_SPV_PRODUTO_PK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>56FB5BE4-BCA9-8A47-05CE-7EAC231C7E19</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="5E45C7E7-F647-95A4-9604-D8D5CC25DC87" name="T_SPV_PRODUTO_T_SPV_UNIDADE_MEDIDA_FK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>F3877700-42D8-32EC-E479-1FAB20AEEC24</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

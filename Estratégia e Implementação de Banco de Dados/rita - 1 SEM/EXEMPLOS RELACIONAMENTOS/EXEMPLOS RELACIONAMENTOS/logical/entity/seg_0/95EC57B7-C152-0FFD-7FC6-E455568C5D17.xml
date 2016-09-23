@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95EC57B7-C152-0FFD-7FC6-E455568C5D17" name="T_FUNCIONARIO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 11:37:38 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="3B4FF191-0232-2B65-6615-C94A7B638BAA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 11:38:02 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="F0B04714-B698-FD82-7665-C59F48C1D850">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 11:38:28 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="FC55EE8E-1F42-AA8F-475D-0B7CD9EFFB5C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 11:38:37 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16878E6C-98CC-9911-FDF8-B1D202C9C198" name="T_FUNCIONARIO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 11:38:24 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B4FF191-0232-2B65-6615-C94A7B638BAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

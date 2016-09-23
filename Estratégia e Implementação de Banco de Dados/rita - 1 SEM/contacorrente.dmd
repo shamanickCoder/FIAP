@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="contacorrente" id="A8570880-AB43-A360-C0C6-590D436F0AB6" version="3.5">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:34:18 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A8570880-AB43-A360-C0C6-590D436F0AB6</designId>
+</OSDM_Design>

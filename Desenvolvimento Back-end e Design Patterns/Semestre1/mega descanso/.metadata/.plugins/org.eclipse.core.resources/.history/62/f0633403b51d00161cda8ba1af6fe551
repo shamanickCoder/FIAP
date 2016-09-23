@@ -1,0 +1,8 @@
+package br.com.fiap.beans;
+
+public class PFisica {
+ private String rg;
+ private String cpf;
+ 
+ 
+}

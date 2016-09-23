@@ -1,0 +1,17 @@
+package br.com.fiap.testes;
+
+import java.util.Scanner;
+
+public class Exemplo4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner entrada = new Scanner(System.in);
+        int codQuant[][] = new int[5][5];
+        int i = 0, j = 0;
+        
+        
+        entrada.close();
+	}
+
+}

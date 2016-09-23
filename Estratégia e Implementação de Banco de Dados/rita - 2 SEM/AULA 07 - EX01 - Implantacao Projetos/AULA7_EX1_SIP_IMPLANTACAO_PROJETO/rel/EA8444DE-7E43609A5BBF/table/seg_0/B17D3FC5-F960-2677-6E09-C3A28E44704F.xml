@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B17D3FC5-F960-2677-6E09-C3A28E44704F" name="T_SIP_DEPARTAMENTO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>D25B0DAA-DE7B-D0D8-C271-2BC999789A87</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="9739894B-6033-D349-22B7-F8C8043851B6">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>218CCBB2-1817-9613-6C1C-89FDECA0B366</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="65916D95-83AA-AED3-6268-116A7032E56F">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>6A3776F1-4A1F-65D3-12E5-B7384A3D035B</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC3F70A0-DF66-A38F-C7ED-9B21319F433A" name="PK_SIP_DEPARTAMENTO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>3906FE38-54B0-E39D-E469-79247C340CB7</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9739894B-6033-D349-22B7-F8C8043851B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E325F134-1770-8BDB-60D9-32DA13EB058D" name="UN_SIP_DEPTO_NOME">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 12:32:10 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65916D95-83AA-AED3-6268-116A7032E56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

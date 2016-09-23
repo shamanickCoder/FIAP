@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C857184-B143-F24B-CE9E-FDD5CB5D9286" name="T_AM_TIPO_DESPESA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:06:22 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_despesa" id="37204A09-A563-CB82-E7BD-32E400882865">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:06:35 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_despesa" id="86BE25E9-C915-75B7-5105-2247FEA86513">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:06:44 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C1AD0D2-FAA9-7993-F8F2-138D0A8B551A" name="T_AM_TIPO_DEFESA PK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:06:42 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37204A09-A563-CB82-E7BD-32E400882865</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

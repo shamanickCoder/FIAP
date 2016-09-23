@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<title>Introdução ao JS</title>
+</head>
+<body>
+ <h1>Olá mundo JS!</h1>
+ <button onclick = "saudar()">Clique aqui</button>
+ <button onclick = "somar()">Somar</button>
+ <button onclick = "media()">Calcular média</button> 
+ <script type="text/javascript">
+  function saudar(){
+   var nome = prompt("Digite o seu nome: ");
+   return alert("Bom dia " + nome + "!");
+  }
+    
+  function somar(){
+   var a, b;
+    a = parseInt(prompt("Digite o primeiro número: "));
+    b = parseInt(prompt("Digite o segundo número: "));
+   return alert("A soma " + a + " + " + b + " = " + (a+b));
+   //alternativa: alert("A soma " + a + " + " + b + " = " + soma); obs:criar a var soma e fazer soma = a+b;
+  }  
+  function media(){
+   var nac, am, ps, media;
+   nac = parseFloat(prompt("Digite a nota da NAC: "));
+   am = parseFloat(prompt("Digite a nota da AM: "));
+   ps = parseFloat(prompt("Digite a nota da PS: "));
+   media = ((0.2*nac)) + ((0.3*am)) + ((0.5)*ps);
+   if (media >= 6) return alert("A sua média é: " + media + "\n" + "Você foi aprovado!");
+   else return alert("A sua média é: " + media + "\n" + "Você foi reprovado!");
+  }
+ </script>
+</body>
+</html>

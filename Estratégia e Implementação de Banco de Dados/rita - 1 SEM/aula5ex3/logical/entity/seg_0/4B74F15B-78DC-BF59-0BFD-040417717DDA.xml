@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B74F15B-78DC-BF59-0BFD-040417717DDA" name="T_DEPENDENTE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:25:32 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="0FB163A2-657E-15DB-BD86-1A3F238491AC">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:05 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="F53CB808-DBBA-E459-7FF8-A978834C863D">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:15 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="DFD88893-8781-19F5-7243-219A8F9E33EA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:25 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="17B0BF7C-2251-D250-6B29-18D4ED0957ED">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:42:34 UTC</createdTime>
+<generatorID>F7B21321-5773-135C-2B8E-B9EC377CA5E7</generatorID>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<referedAttribute>F4741100-D950-864F-1ACC-4CE1EB2CDF2C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="379ED7EA-DF5A-6802-DB03-A83284811F1B" name="T_DEPENDENTE PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:10 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FB163A2-657E-15DB-BD86-1A3F238491AC</attributeRef>
+<attributeRef>17B0BF7C-2251-D250-6B29-18D4ED0957ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

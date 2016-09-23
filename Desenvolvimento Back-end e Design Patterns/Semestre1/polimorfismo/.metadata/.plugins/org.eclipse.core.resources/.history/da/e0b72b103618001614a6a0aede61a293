@@ -1,0 +1,12 @@
+package br.com.fiap.testes;
+
+import br.com.fiap.beans.Formacao;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Formacao objFormacao = new Formacao();
+
+	}
+
+}

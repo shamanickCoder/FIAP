@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A10CB3D6-7320-6463-E1D8-D299ED2B5667" name="T_AM_TIPO_TAREFA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>1DC2C878-B41E-B960-E392-E4E475591DBA</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_tarefa" id="FD6F6A40-4087-418C-D9B5-7B7D3537CECF">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BC2120AB-6A59-A374-ACC1-0C2B30B85BC6</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_tarefa" id="699B0265-9D50-9056-5265-816CE340D90C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>EF8D275D-E477-B033-D4E8-86BCAD7EDAAE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBFF93F2-72A1-A2E7-4626-46260A381B6B" name="PK_AM_TIPO_TAREFA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>C8C4EDCF-9650-9EB1-F223-F01280E3EB90</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD6F6A40-4087-418C-D9B5-7B7D3537CECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED37795E-8F04-BB3E-4310-F1EB7E658668" name="UN_AM_TIPO_TAREFA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:13:32 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699B0265-9D50-9056-5265-816CE340D90C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

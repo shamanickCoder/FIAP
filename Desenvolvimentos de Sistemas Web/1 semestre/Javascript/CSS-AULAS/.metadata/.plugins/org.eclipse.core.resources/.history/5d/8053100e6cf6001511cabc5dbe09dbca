@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href = "estilo.css" type = "text/css">
+<title>Cadastro de séries</title>
+</head>
+<body>
+<div>
+<form action = "cadastro" method = "post">
+ <fieldset>
+  <legend>Cadastro de séries</legend>
+  <div>
+   <label for = "titulo">Título:</label>
+   <input type = "text" name = "titulo" id = "titulo">
+  </div>
+  <br>
+  <div>
+   <label for = "imagem">Imagem:</label>
+   <input type = "file" value = "Procurar" name = "imagem" id = "imagem">
+  </div>
+  <br>
+  <div>
+   <label for = "ano">Ano:</label> 
+   <select name = "ano" id = "ano">
+    <option>2016</option>
+    <option>2015</option>
+    <option>2014</option>
+    <option>2013</option>
+    <option>2012</option>
+   </select>
+  </div>
+  <br>
+  <div>
+   Gênero:
+   <br>
+   <label for = "acao">Ação</label> <input type = "checkbox" name = "acao" id = "acao">
+   <label for = "suspense">Suspense</label> <input type = "checkbox" name = "suspense" id = "suspense">
+   <label for = "drama">Drama</label> <input type = "checkbox" name = "drama" id = "drama">
+  </div>
+  <br>
+  <div>
+   Faixa etária:
+   <br>
+   <label for = "livre">Livre</label> <input type = "radio" name = "livre" id = "livre">
+   <label for = "doze">12 - 18</label> <input type = "radio" name = "1218" id = "doze">
+   <label for = "dezoito">>18</label> <input type = "radio" name = "18" id = "dezoito">
+  </div>
+  <br>
+  <div>
+   <label for = "sinopse">Sinopse:</label>
+   <br>
+   <textarea rows = "5" cols = "50" id = "sinopse" name = "sinopse"></textarea>
+  </div>
+ </fieldset>
+ <br>
+ <div>
+  <input type = "submit" value = "Enviar">
+  <input type = "reset" value = "Limpar">
+ </div>
+</form>
+</div>
+</body>
+</html>

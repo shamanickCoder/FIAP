@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5456762A-5723-9823-8D6E-8A87CD6FDD6E" name="T_AM_ART_TELEFONE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>E1483D81-D48D-5AEE-EC15-CFDB561E7632</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_telefone</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_fone" id="D8498C0D-4519-3BD1-B87C-883BC864AC04">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>3CADC407-5869-0527-5D72-3571D8E2F7A2</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_fone" id="D292BDDB-53D3-2159-2CA1-88FF4676AF30">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>615535E8-8437-6B5B-D8A6-C0D2A9C0EB64</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD54FE34-9D32-519E-F2B9-940DA609F47F" referredColumn="BCF529D2-88C4-8612-5BCD-11056EBD42EF"/>
+</associations>
+</Column>
+<Column name="nr_ddd" id="1396407A-BD52-5368-434F-8ECCCF578DDB">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>4107B54A-856C-71AC-A627-02315A13ECC1</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_fone" id="FAC043E4-501B-AFD2-C2D0-8F99A0365282">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>E6199C4C-E56B-658A-2F65-95E34F150AD3</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBD17A04-5D80-F404-F758-31E553EF694A" name="PK_AM_ART_TELEFONE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>34EF4E51-F987-BF46-07B7-2EAA4E79E23C</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8498C0D-4519-3BD1-B87C-883BC864AC04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C1DF059-C9A5-C4C2-0887-DB83FCD748C4" name="FK_AM_ART_TIPO_FONE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>5893E903-4F57-5F3C-21DA-F56BEF232892</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D292BDDB-53D3-2159-2CA1-88FF4676AF30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

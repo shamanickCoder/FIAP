@@ -1,0 +1,13 @@
+package br.com.fiap.dao;
+
+import br.com.fiap.beans.Telefone;
+import br.com.fiap.conexao.ConexaoFactory;
+
+public class TelefoneDAO {
+	
+	ConexaoFactory conexao = new ConexaoFactory().getConnection();
+	
+	public void add(Telefone T, int codigoCliente){
+		
+	}
+}

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FA9013F-6102-CB73-A579-754D6A1F0C29" name="T_AM_TIPO_CAUSA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>84F426DC-7E40-B20B-DEEF-B4A2AA3E3251</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_causa" id="76E41DD6-61BC-B9B1-934A-985022969E1E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>920D6C0D-C888-3606-EB48-B8A1618B8424</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_causa" id="4EA504B7-FD7E-8452-96C7-105C26E879E9">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>671AAFCF-330F-BF98-557A-549829E583EE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE8F3E87-7159-AD79-96C8-B002167BC3D7" name="PK_AM_TIPO_CAUSA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>E75344DD-CD01-AA18-238B-FC9BE7AB9462</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76E41DD6-61BC-B9B1-934A-985022969E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F528E56-CE19-D5F0-F9AF-FCDEA2CA4788" name="UN_AM_TIPO_CAUSA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:04:13 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EA504B7-FD7E-8452-96C7-105C26E879E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

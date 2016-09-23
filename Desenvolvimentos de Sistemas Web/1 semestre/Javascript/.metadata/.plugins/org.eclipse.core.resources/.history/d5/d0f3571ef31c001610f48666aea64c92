@@ -1,0 +1,12 @@
+$().ready(function(){
+	$(".email").hide();
+	$("#nao").click(function(){
+		$(".email").hide();
+	});
+	$("#sim").click(function(){
+		$(".email").show();
+	});
+	$("button").click(function(){
+		$("h1").slideToggle();
+	});
+});

@@ -1,0 +1,24 @@
+package br.com.fiap.testes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Funcionario;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        List<Funcionario> listaFuncionario = new ArrayList<Funcionario>();
+        Funcionario objFuncionario = new Funcionario();
+        objFuncionario.setCargo(JOptionPane.showInputDialog("Digite o cargo"));
+        objFuncionario.setFalta(Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de faltas: ")));
+        objFuncionario.setNome(JOptionPane.showInputDialog("Digite o nome: "));
+        objFuncionario.setSalario(Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: ")));
+        
+        
+	}
+
+}

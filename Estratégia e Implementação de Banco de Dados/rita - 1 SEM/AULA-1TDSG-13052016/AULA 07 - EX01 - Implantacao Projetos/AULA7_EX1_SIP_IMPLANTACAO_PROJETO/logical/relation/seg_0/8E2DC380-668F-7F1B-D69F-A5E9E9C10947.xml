@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="terv1" directorySegmentName="seg_0" id="8E2DC380-668F-7F1B-D69F-A5E9E9C10947">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:45:55 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<sourcePk>BDE2589A-7753-64D8-8006-96E0E65284CD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5E64A7D-7765-772D-6D94-82D3C560EF17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA6C2BEC-A276-E89E-6B57-8D40E5C389B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

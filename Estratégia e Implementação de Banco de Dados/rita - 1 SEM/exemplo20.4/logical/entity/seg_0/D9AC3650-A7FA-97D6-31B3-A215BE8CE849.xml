@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9AC3650-A7FA-97D6-31B3-A215BE8CE849" name="VEICULO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:46:42 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_identificacao" id="7B164A01-7764-C5DD-7522-4B5C3ABE8E8B">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:47:12 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_placa" id="9FF20616-7FF4-0A1F-6294-1708D7AFB67C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:47:29 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_chassi" id="1D548A6A-37C5-7949-17A2-235488C9CC6D">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:47:43 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco" id="3B64032E-E61D-E6BE-F0F8-001CF0AF423E">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:47:57 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CAF4A89-78F9-4031-16DF-6EC56EDFDBD4" name="VEICULO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:47:27 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B164A01-7764-C5DD-7522-4B5C3ABE8E8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

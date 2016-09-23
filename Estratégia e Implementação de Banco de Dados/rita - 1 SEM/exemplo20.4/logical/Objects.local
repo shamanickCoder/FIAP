@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="61DA632A-43DF-9B9B-6ACC-B3335644810C" name="CAMINHAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9E20DC5A-4455-E9F0-09B6-96B04AC11909" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="1CD07D0F-6B0D-A530-E594-517721009710" name="CARRO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9E20DC5A-4455-E9F0-09B6-96B04AC11909" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D9AC3650-A7FA-97D6-31B3-A215BE8CE849" name="VEICULO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9E20DC5A-4455-E9F0-09B6-96B04AC11909" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="A89FC924-7AB1-80EC-AF74-8A969FDB138A" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9E20DC5A-4455-E9F0-09B6-96B04AC11909" propertySourceId="D9AC3650-A7FA-97D6-31B3-A215BE8CE849" propertyTargetId="1CD07D0F-6B0D-A530-E594-517721009710"/>
+   <object objectType="Relation" objectID="DFAB0238-C9CF-536A-5A81-87AAC09E6717" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9E20DC5A-4455-E9F0-09B6-96B04AC11909" propertySourceId="D9AC3650-A7FA-97D6-31B3-A215BE8CE849" propertyTargetId="61DA632A-43DF-9B9B-6ACC-B3335644810C"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Exercício4 {
+     
+	public static void main(String[] args){
+		
+		float[] temperatura = new float[12];
+		float maiorTemp, menorTemp;
+		Scanner leitura = new Scanner(System.in);
+		int i, maiorMes = 0, menorMes = 0;
+		String[] meses = new String[]{"Janeiro", "Fevereiro", "Março", "Abril", "Maio",
+		                            "Junho", "Julho", "Agosto", "Setembro", "Outubro",
+	                                "Novembro", "Dezembro"};
+	                                
+	    for (i = 0; i < 12; i++){
+	    	System.out.println("Informe a temperatura do mês " + meses[i]);
+	    	temperatura[i] = leitura.nextFloat();
+	    }
+	    maiorTemp = temperatura[0];
+	    menorTemp = temperatura[0];
+	    
+	    for(i = 1; i < 12; i++){
+	    	if(maiorTemp < temperatura[i])
+	    		maiorTemp = temperatura[i];
+	    	maiorMes = i;
+	    }
+	    
+        for(i = 1; i < 12; i++){
+	    	if(menorTemp > temperatura[i])
+	    		menorTemp = temperatura[i];
+	    	menorMes = i;
+	    }
+        
+        System.out.println("Maior temperatura " + maiorTemp + " ocorrida em: " + meses[maiorMes]);
+        System.out.println("Menor temperatura " + menorTemp + " ocorrida em: " + meses[menorMes]);
+				
+	}
+}

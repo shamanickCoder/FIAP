@@ -1,0 +1,6 @@
+$().ready(function(){
+	$("button").click(function(){
+		$("h1").slideToggle();
+		$("#email").hide();
+	});
+});

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61DA632A-43DF-9B9B-6ACC-B3335644810C" name="CAMINHAO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:49:03 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vl_peso" id="9F6EAE2D-6D56-BFA4-AA3C-A5F054235D3F">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:49:08 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_eixo" id="741D50B2-8419-53F8-8A2C-CEC390F9A948">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:49:24 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_identificacao" id="D1732E33-073A-2C81-517A-2C9870DD2E19">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:51:25 UTC</createdTime>
+<generatorID>DFAB0238-C9CF-536A-5A81-87AAC09E6717</generatorID>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<referedAttribute>7B164A01-7764-C5DD-7522-4B5C3ABE8E8B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BAC5FD2-BC49-43CD-6AC1-DFC4B05B6703" name="CAMINHAO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:51:29 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1732E33-073A-2C81-517A-2C9870DD2E19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,65 @@
+package br.com.fiap.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.conexao.ConexaoFactory;
+import br.com.fiap.excecoes.Excecao;
+
+public class CargoDAO {
+
+	private Connection conexao;
+
+	public CargoDAO() throws Exception {
+       this.conexao = new ConexaoFactory().getConnection();
+	}
+	
+	public void gravar(Cargo c) throws Exception{
+		String sql = "insert into TB_CARGO " + " (NM_CARGO, DS_NIVEL, VL_SALARIO) values (?,?,?)";
+		PreparedStatement estrutura = conexao.prepareStatement(sql);
+		estrutura.setString(1, c.getCargo());
+		estrutura.setString(2, c.getNivel());
+		estrutura.setDouble(3, c.getSalario());
+		estrutura.execute();
+		estrutura.close();
+	}
+	
+	public List<Cargo> getLista() throws Exception{
+		List<Cargo> lstCargos = new ArrayList<Cargo>();
+		PreparedStatement estrutura = this.conexao.prepareStatement("select * from TB_CARGO");
+		ResultSet resultadoDados = estrutura.executeQuery();
+		
+		while(resultadoDados.next()){
+			Cargo cargo = new Cargo();
+			cargo.setCargo(resultadoDados.getString("NM_CARGO"));
+			cargo.setNivel(resultadoDados.getString("DS_NIVEL"));
+			cargo.setSalario(resultadoDados.getDouble("VL_SALARIO"));
+			lstCargos.add(cargo);
+		}
+		resultadoDados.close();
+		estrutura.close();
+		return lstCargos;
+	}
+	
+	public List<Cargo> consultar(String pCargo)throws Exception{
+		List<Cargo> lista = new ArrayList<Cargo>();
+		PreparedStatement estrutura = this.conexao.prepareStatement("SELECT * FROM TB_CARGO WHERE NM_CARGO = ?");
+		estrutura.setString(1, pCargo);
+		ResultSet resultado = estrutura.executeQuery();
+		while(resultado.next()){
+			lista.add(new Cargo(resultado.getString("NM_CARGO"), resultado.getString("DS_NIVEL"), resultado.getDouble("VL_SALARIO")));
+		}
+		resultado.close();
+		estrutura.close();
+		return lista;
+	}
+}
+/*
+  preparedstatement -> parametros
+  statement -> concatenacao
+  execute() -> inseert,delete, update
+  executeQuery()->select*/

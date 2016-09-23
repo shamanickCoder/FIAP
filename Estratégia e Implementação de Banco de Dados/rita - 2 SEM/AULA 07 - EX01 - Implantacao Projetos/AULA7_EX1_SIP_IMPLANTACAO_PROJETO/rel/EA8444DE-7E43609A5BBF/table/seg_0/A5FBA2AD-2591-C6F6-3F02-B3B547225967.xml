@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5FBA2AD-2591-C6F6-3F02-B3B547225967" name="T_SIP_DEPENDENTE">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>A219E812-6320-21C8-DDC0-D94463096579</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="6C21904E-D7DA-2238-BFD0-9BA06555FBAD">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>9B32E87A-D72B-33A3-FCC1-1F8032FDE8EE</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="95075BF9-6E28-AE7D-9D28-B814F7059692">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>E9526031-8CDE-EE47-DD2A-2711AA39FCAA</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="176006CE-36A8-0C78-7557-9624767A02EA" referredColumn="B7E43D3F-6AF7-3268-6550-0332F14B0A67"/>
+</associations>
+</Column>
+<Column name="nm_dependente" id="E97E3DE6-0285-C959-EDD0-8546E6F9780A">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>5B847668-85BE-AE66-AF74-431AF806B2E0</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="6431A5D6-FF1A-2709-C9BE-2EC8682945FC">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>39FF57C3-8AE9-242A-1569-A6268471C8C9</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95C9B3E4-F1CE-5561-7ACD-79BD0B5DEC7F" name="PK_SIP_DEPENDENTE">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>20CF2FC2-ED38-23FE-4EE9-3784BE17A224</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C21904E-D7DA-2238-BFD0-9BA06555FBAD"/>
+<colUsage columnID="95075BF9-6E28-AE7D-9D28-B814F7059692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC4099FC-FE65-B60B-E877-9D8357550DDB" name="FK_SIP_DEPENDENTE_FUNC">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>8FFD06B0-E4EC-8F22-384D-25F4AEA1F383</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95075BF9-6E28-AE7D-9D28-B814F7059692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

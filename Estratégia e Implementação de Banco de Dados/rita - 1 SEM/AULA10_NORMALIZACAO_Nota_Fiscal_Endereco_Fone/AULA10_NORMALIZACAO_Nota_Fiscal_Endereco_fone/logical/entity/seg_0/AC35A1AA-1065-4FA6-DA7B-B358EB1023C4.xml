@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC35A1AA-1065-4FA6-DA7B-B358EB1023C4" name="T_AULA10_ITEM_NF">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:21:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="9E81882D-30C7-77DC-756B-D3EA729E110B">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:28:08 UTC</createdTime>
+<generatorID>EFF6FD28-F0C3-E7BC-0989-334D1B0F56AC</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<referedAttribute>F3771EF5-8DBC-74CE-0F70-F06975238A6F</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="cd_produto" id="1BC1D8D1-80FB-7B9C-B2F5-7E2F256FC188">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:28:20 UTC</createdTime>
+<generatorID>07CF7E8F-409C-9F98-11DE-1A6944C33766</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<referedAttribute>A3C5207A-1DB6-0A2E-B205-751859192CD4</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="qt_vendida" id="061E3F45-F2FE-F9AA-B471-B2E50861C956">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:26:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="vl_pre_unitario" id="20187123-AB44-138F-AF1D-1430DE10AD7E">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:26:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E046A38-EB41-28A6-F858-007817DE1C29" name="T_AULA10_ITEM_NF PK">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:28:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E81882D-30C7-77DC-756B-D3EA729E110B</attributeRef>
+<attributeRef>1BC1D8D1-80FB-7B9C-B2F5-7E2F256FC188</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

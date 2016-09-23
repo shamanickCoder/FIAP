@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C3ADFB7-1D66-66D7-0AA7-22CF8D6F93E4" name="T_AM_ART_HIST_PROC_TX">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>C7CBE7BA-FBF5-A494-B543-9ABD7FBEE7FD</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_hist_proc_tx</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_processo" id="13FD18C0-B97A-854F-27F1-A21CCC1832BC">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>6805F4C0-8A13-823D-589B-2B2228F98A47</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A3DE427-9B82-D05C-83BE-49C16A7AD882" referredColumn="AE35F44B-F9EB-58E3-F72B-1559FF0EF9DA"/>
+</associations>
+</Column>
+<Column name="cd_taxa" id="B45C99F1-41C1-5D3B-456C-4B6A0E2579E0">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>AF539A5F-D42E-86CB-182C-01823A20F686</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7D2CA16-0826-9EAA-C267-C32B9EDD7B70" referredColumn="7B78950D-8D0D-90E2-B0B7-779AA8B06710"/>
+</associations>
+</Column>
+<Column name="dt_validade" id="6C28D793-7B58-F2E7-503E-B937BFBD6DDB">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>98B91405-131B-8644-96CF-81C9BCAD6E3F</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F44758E3-2211-5B85-34E5-AE9343216DDB" name="PK_AM_ART_HIST_PROC_TX">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>529CC8EA-527C-B060-AC11-71D685A08943</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13FD18C0-B97A-854F-27F1-A21CCC1832BC"/>
+<colUsage columnID="B45C99F1-41C1-5D3B-456C-4B6A0E2579E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B877FB10-E82E-A4EE-0285-D0CC9EB1E5BB" name="FK_AM_ART_HIST_TAXA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>6DFC5BB4-DE81-1FAC-B5EE-8FF78CB1EC46</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B45C99F1-41C1-5D3B-456C-4B6A0E2579E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F57D31F-32A5-6699-DB09-D6589DC5CEFA" name="FK_AM_ART_PROC_TX">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>FB021FE1-AA50-C682-6CF3-71B5CA952268</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13FD18C0-B97A-854F-27F1-A21CCC1832BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

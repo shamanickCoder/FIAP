@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="025845E8-D8A2-76AE-79A8-26EE2AE6209B" name="T_AM_ART_FONE_PESSOA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>446E3A47-1245-0F19-C40D-964601A4C281</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_fone_pessoa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="3A582EE9-3E50-476E-7FB6-5C2FEC1E0712">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>A7DBEA46-9769-E26A-2CFD-6B0ABE7AE922</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="129937DC-5B2F-EE36-5D6B-35C0A4344EAA" referredColumn="BB484AFE-805D-66C6-ECE4-53FD46ACD001"/>
+</associations>
+</Column>
+<Column name="cd_fone" id="65AA8295-BC49-7930-F3A6-C28DA0A33296">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>B92E968E-632F-16B8-7ECA-BDDE2135A025</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BE26C42-B441-B480-86F8-9A9B74BEAE54" referredColumn="D8498C0D-4519-3BD1-B87C-883BC864AC04"/>
+</associations>
+</Column>
+<Column name="nr_ramal" id="61D1A8DD-67A4-10D7-0261-BD764A0E16FD">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>4A8D1E92-2761-94D3-0369-88CE105F4780</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="061378B0-8002-936C-A0FF-16C8FBDE5FA4" name="PK_AM_ART_FONE_PESSOA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>A99C727D-2B19-1E55-CBEB-4FD6D2DC1065</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A582EE9-3E50-476E-7FB6-5C2FEC1E0712"/>
+<colUsage columnID="65AA8295-BC49-7930-F3A6-C28DA0A33296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="554412D3-D87F-7661-AD1E-C49F04D343D6" name="FK_AM_ART_FONE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>F8AD76D9-DC43-85B5-2EE4-00DAB0F12FD9</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65AA8295-BC49-7930-F3A6-C28DA0A33296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF52B52C-A14D-E897-3FB4-31D57AD156C3" name="FK_AM_ART_PESSOA_FONE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>E482ED2B-A20E-AA8F-52D2-2D7EBC4242E9</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A582EE9-3E50-476E-7FB6-5C2FEC1E0712"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AULA19_LIVROS" id="13066DA2-DFC7-608B-7E42-89475DAD7232" version="3.5">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 20:00:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA15_LIVROS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>13066DA2-DFC7-608B-7E42-89475DAD7232</designId>
+</OSDM_Design>

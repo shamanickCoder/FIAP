@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possiorr" directorySegmentName="seg_0" id="D3F791BE-F5FD-04EA-CA8B-3603DEE72F7A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:44:59 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<sourcePk>E020968B-76FA-8854-F05F-43CAE3E3B11C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5174D472-6B25-4C86-CDDF-E2278BFDFE86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D7D6D505-B578-270A-3531-79408580D8EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

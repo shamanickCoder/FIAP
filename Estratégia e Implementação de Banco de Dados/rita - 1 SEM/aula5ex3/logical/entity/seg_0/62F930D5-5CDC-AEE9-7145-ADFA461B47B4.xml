@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62F930D5-5CDC-AEE9-7145-ADFA461B47B4" name="T_FUNCIONARIO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:25:22 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="F4741100-D950-864F-1ACC-4CE1EB2CDF2C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:27:37 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome" id="E3C3A96A-0E1D-5CFC-1304-85D84B2A153F">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:27:44 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="7271DCAB-F195-FD07-5FFF-F2D7AA9B92A8">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:28:05 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="C09D68F8-92C5-2ECC-E596-482ECEFF6D57">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:28:09 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="47A34889-1B58-A3BD-0031-9550C0156048">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:28:44 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sl_salario" id="F76ED837-9D69-A3B7-889C-5236D23B3A3A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:29:05 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_departamento" id="EA8CDC0F-F333-6F87-C370-15CA8E1D4805">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:50:35 UTC</createdTime>
+<generatorID>9C70DDED-FEBF-D852-CE7F-EABD77EBBF59</generatorID>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<referedAttribute>2DD250EC-6457-AA01-9A3E-053CD97A472F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2D92B28-BF9E-B873-5277-EC3C1AD0D6D7" name="T_FUNCIONARIO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:27:42 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4741100-D950-864F-1ACC-4CE1EB2CDF2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

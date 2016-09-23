@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59BA40CC-C6E1-FCA3-0546-9188220B06CC" name="T_SPV_PRODUTOv1">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>EF430F6E-EE27-6B18-5B4C-3EA0E2E66FDE</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_produto" id="A2ECC9EC-5B2A-235F-257C-D0D2C7C44D15">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>2D37198D-9FA4-BAE7-4837-EC3CD83317B1</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_unidade_medida" id="1B4B3A51-4677-1C66-D327-664E6A5D6564">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>02AAB2BD-556F-FF84-8669-7266E61FF2EA</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51C7E652-23B2-2C29-1C8C-CC63A9237C62" referredColumn="A537931B-9F88-B99B-CCEB-AEB83A1A39F4"/>
+</associations>
+</Column>
+<Column name="ds_produto" id="B7C83158-FDBC-4E7A-7664-DC4096C83622">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>FE4EAD97-4AD3-9619-CB63-BA30763AF47E</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_completa_produto" id="FB633B23-83A3-D64B-D068-4F21C8767832">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>FA7306D8-3E89-BEA6-27C9-F3ECF2F82CF5</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_estoque" id="667F04E0-C471-4CCA-4B4A-1EEB1061A58B">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>D254972B-F599-E9BB-37B0-DBD0AF39C7E4</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco_unitario" id="67A72DC1-7029-A7B4-7346-7B4E6ECF1738">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>8A1A643F-7FF4-7504-98EC-E86625EF82E6</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="818E0CF3-ABBA-C847-4E04-039385F55A03" name="PK_SPV_PRODUTOv1">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>56FB5BE4-BCA9-8A47-05CE-7EAC231C7E19</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2ECC9EC-5B2A-235F-257C-D0D2C7C44D15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FBBB46A-CD27-0DDC-540B-C5B32855CC4B" name="UN_SPV_PRODUTO_DESCRICAO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-10 11:21:22 UTC</createdTime>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C83158-FDBC-4E7A-7664-DC4096C83622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="582A8FD7-87F4-076C-6F7D-F3509A203244" name="FK_SPV_PROD_UNID_MEDIDA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>F3877700-42D8-32EC-E479-1FAB20AEEC24</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4B3A51-4677-1C66-D327-664E6A5D6564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SPV_PROD_QTDE" directorySegmentName="seg_0" id="16277A33-3016-19B8-64B3-25F758091061">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-10 11:23:57 UTC</createdTime>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<rule>qt_estoque &gt; 0&lt;br/&gt;</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_SPV_PROD_PRECO" directorySegmentName="seg_0" id="48B22658-3444-268C-D544-B0FFD17C6074">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-10 11:28:28 UTC</createdTime>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<rule>vl_preco_unitario &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

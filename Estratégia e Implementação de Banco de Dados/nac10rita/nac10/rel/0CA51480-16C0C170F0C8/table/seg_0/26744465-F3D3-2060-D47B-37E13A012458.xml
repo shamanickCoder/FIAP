@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26744465-F3D3-2060-D47B-37E13A012458" name="T_AM_BAIRRO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BB9CD840-838D-88D1-300C-72A83E43FF93</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="E04048B0-B6DA-53CC-BC96-D4A6ADF0F2AF">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>71FBD51F-D528-4826-20C6-06CA814F99F0</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cidade" id="4EA8E7B8-7379-06B3-2F89-471FC84BE710">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>C1E0A4E3-C851-30BA-11FA-11F8C47C5708</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C7B7E4-2018-4476-319A-A9A76856226F" referredColumn="3ED028AD-0848-A12A-C8AF-8ACF7908C412"/>
+</associations>
+</Column>
+<Column name="nm_bairro" id="6D84FD9A-72E5-B94F-351B-8119F205A0DC">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>68C9475B-D9C7-99BF-A1CF-20887C474CD8</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F77A6F4-3312-C779-EFF2-931953E65DCF" name="PK_AM_BAIRRO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>15471453-405B-D3F6-9C72-8EEF656CCD7E</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E04048B0-B6DA-53CC-BC96-D4A6ADF0F2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D7B370E-9619-AE01-9BDA-BDA9BFB315DE" name="FK_AM_CIDADE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>DAC0B97D-AD38-5DB3-8437-4025760A4CC3</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EA8E7B8-7379-06B3-2F89-471FC84BE710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

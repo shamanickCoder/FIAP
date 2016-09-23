@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2ED36A9-F5B5-E467-A8A2-F2637B28A983" name="T_AM_ART_ESPECIALIDADE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>45533D80-797E-D76B-937D-1804F49C5EA4</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_especialidade</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_advogado" id="F548E0AA-37A5-C306-FCC9-A67D86386A56">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>28673B77-F3BB-1096-30CE-312C43B60A24</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="120933A4-1928-9407-C241-0E70DC946734" referredColumn="74DE8992-303E-4D31-FD8E-F96835CF540C"/>
+</associations>
+</Column>
+<Column name="cd_causa" id="48EA2AA6-96A4-2463-651B-0923C9B4949F">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>BF157A0A-7167-AA28-BD6F-87AAA00A0150</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03990449-A988-ACB7-2D01-DA8B92F5508D" referredColumn="492171E7-52D7-92CC-1AB5-38F00B09AD08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E014E0E-266A-527C-9868-F4D3B4856AB5" name="PK_AM_ART_ESPECIALIDADE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>51040E07-B18B-1EF9-A4C0-60A5DA186BCE</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48EA2AA6-96A4-2463-651B-0923C9B4949F"/>
+<colUsage columnID="F548E0AA-37A5-C306-FCC9-A67D86386A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC4438C3-67C0-C59F-9D66-33AAAC26BAED" name="FK_AM_ART_ESPEC_ADVOGADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>F94DE3F2-A384-FFB9-9BF1-FE25BEC335A5</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F548E0AA-37A5-C306-FCC9-A67D86386A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58A7F648-CD98-8934-C795-380717F5750A" name="FK_AM_ART_ESPEC_CAUSA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>DB7B73D4-D447-B0B5-D4AC-1BF7C3F865C3</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48EA2AA6-96A4-2463-651B-0923C9B4949F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

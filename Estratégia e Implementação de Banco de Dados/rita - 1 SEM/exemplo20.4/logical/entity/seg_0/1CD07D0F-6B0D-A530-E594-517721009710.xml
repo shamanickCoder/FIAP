@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CD07D0F-6B0D-A530-E594-517721009710" name="CARRO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:48:22 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_velo_max" id="E119C796-A015-72F9-6243-54B46245E78C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:48:28 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_passage" id="D734B70C-9D88-6777-F622-93BD3FD5CC1F">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:48:48 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_identificacao" id="4B260FB2-B754-9C0E-6C34-73FACBD2F5E0">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:50:56 UTC</createdTime>
+<generatorID>A89FC924-7AB1-80EC-AF74-8A969FDB138A</generatorID>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<referedAttribute>7B164A01-7764-C5DD-7522-4B5C3ABE8E8B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="237811F6-8563-AD41-60E5-A50AFD1A6292" name="CARRO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-20 14:51:17 UTC</createdTime>
+<ownerDesignName>exemplo20.4</ownerDesignName>
+<engineerTo>
+<item key="C0483A77-B82F-E254-782C-6C8715E659EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B260FB2-B754-9C0E-6C34-73FACBD2F5E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

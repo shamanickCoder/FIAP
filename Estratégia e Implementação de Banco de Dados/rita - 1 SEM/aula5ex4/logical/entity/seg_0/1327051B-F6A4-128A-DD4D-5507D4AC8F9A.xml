@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1327051B-F6A4-128A-DD4D-5507D4AC8F9A" name="T_UNIDADE_MEDIDA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:05 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="854BCBD3-A039-4F75-3C49-ED81FC2E3243">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:15 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="416DB727-D56D-190B-F087-CA84D97488EC">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:24 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_completa_produto" id="5C9AEA77-0E93-05A4-2053-889D7BDEC772">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:30 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_estoque" id="494F60BE-600A-4478-BC9C-A6E0B50BCA3A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:38 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unitario" id="EA3B4F17-C459-A42B-73F8-0AE15E60386A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:43 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6853782-C5BC-F5AE-9137-1B273A764972" name="T_UNIDADE_MEDIDA PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:30:16 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>854BCBD3-A039-4F75-3C49-ED81FC2E3243</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

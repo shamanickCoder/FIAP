@@ -1,0 +1,42 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Formacao;
+import br.com.fiap.beans.Tecnologo;
+
+public class Teste {
+	static String texto(String a){
+		return JOptionPane.showInputDialog(a);
+	}
+	static int inteiro(String a){
+		return Integer.parseInt(JOptionPane.showInputDialog(a));
+	}
+	static double real(String a){
+		return Double.parseDouble(JOptionPane.showInputDialog(a));
+	}
+	static boolean b(String a){
+		return Boolean.parseBoolean(JOptionPane.showInputDialog(a));
+	}
+
+	public static void main(String[] args) {
+	  Formacao obj = null;
+	  String resposta = new String();
+	  
+	  resposta = JOptionPane.showInputDialog("1 para Tecnólogo"+"\n"+"2 para Bacharelado"+"\n"+"3 para Medio");
+	  
+	  if(resposta.equals("1")){
+		obj = new Tecnologo(b("Plano estendido? "), texto("Descrição: "), inteiro("Período: "), real("Mensalidade: "));
+		obj.setDuracao(obj);
+		if(obj instanceof Tecnologo){
+			System.out.println("OI");
+		}
+		
+	  }	  
+	  Formacao o = new Tecnologo();
+	  o.setDescricao("sfgfdf");
+	  o.setDuracao(o);
+	  System.out.println(o.getTudo());
+	  
+	}
+}

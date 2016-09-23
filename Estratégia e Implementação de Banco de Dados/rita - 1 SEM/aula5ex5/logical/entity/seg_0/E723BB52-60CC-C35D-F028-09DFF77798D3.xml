@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E723BB52-60CC-C35D-F028-09DFF77798D3" name="T_EXAME_MEDICO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:22:19 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_avaliacao" id="25365768-F5F3-F9D1-4AF0-69958C316D08">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:38:15 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="A530F75F-A753-61A6-5F98-03A568FEB2FB">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:45:03 UTC</createdTime>
+<generatorID>C4961A43-CFB0-46E6-3070-260C0B7F3651</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>5BF70E7A-0CA9-7F82-2652-605F45969BC4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_interno" id="121E35CA-9049-07EB-4010-8A5A0D006012">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:54:11 UTC</createdTime>
+<generatorID>249B69D5-4F24-3A88-4980-19E7C186B3D6</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>41020B6D-3DB9-79C6-563C-6D372525F334</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_pressao" id="A1AC70F3-AD7D-CD6D-DD68-4771B0716CA2">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:22:26 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_batimento" id="276A3B76-DF8F-13BA-4795-DC5365C4CB7D">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:22:33 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_peso" id="3CB9BC43-AEA8-C7E6-FE27-AC25B8AC644F">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:22:40 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_altura" id="B976E724-D5AC-1329-80AE-BC2457A4742A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:22:47 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_obs" id="4174857D-30D4-DB2C-0C92-78B9A565C63D">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:22:52 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="697408E3-A05F-CEB3-BB13-2399C191504D" name="T_EXAME_MEDICO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 14:38:19 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25365768-F5F3-F9D1-4AF0-69958C316D08</attributeRef>
+<attributeRef>A530F75F-A753-61A6-5F98-03A568FEB2FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

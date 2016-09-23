@@ -1,0 +1,21 @@
+package br.com.fiap.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MediaServlet extends HttpServlet{
+ public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	 double notaPs = Double.parseDouble(req.getParameter("ps"));
+	 String notaAm = req.getParameter("am");
+	 String notaNac = req.getParameter("nac");
+	 double media = 0;
+	 
+	 media = (notaPs*0.5) + (notaNac+0.2) + (notaAm*0.3);
+	 
+	 System.out.println(media);
+ }
+}

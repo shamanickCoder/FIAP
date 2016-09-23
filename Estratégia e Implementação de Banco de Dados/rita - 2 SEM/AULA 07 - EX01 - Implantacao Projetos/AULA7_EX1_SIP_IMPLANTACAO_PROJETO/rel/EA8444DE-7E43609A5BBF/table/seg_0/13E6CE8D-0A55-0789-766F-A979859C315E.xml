@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13E6CE8D-0A55-0789-766F-A979859C315E" name="T_SIP_IMPLANTACAO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>68D19030-2C81-6B00-CA31-F78EB6827556</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_implantacao" id="2A068471-DE42-753A-1EFB-99B0690760B6">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>CAC75151-15FF-224D-EA75-ACAB1F6909A3</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_projeto" id="3C52B001-7E3C-F0E5-BCAF-46B8A2FA85BD">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>6D6A8220-5DE2-886D-4395-2BB71CEF8034</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E4CD27F-4DC1-8978-9494-45666BF34190" referredColumn="99EF333C-1FB0-1FC1-D3F8-1CEAB407C922"/>
+</associations>
+</Column>
+<Column name="nr_matricula" id="B4B1F989-9890-9FDE-FEC2-33D2F7BD1B28">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>5C7E3C2A-5DCA-BAE9-7B96-C4E909FFDF9D</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74E7C4E1-2D9D-A80E-C8D0-31290C6DE389" referredColumn="B7E43D3F-6AF7-3268-6550-0332F14B0A67"/>
+</associations>
+</Column>
+<Column name="dt_entrada" id="F2564A29-1FB7-9699-21F7-EA2B72013FF8">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>5CE8F9E9-E433-60BB-7A44-C2051C32B727</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="0D0DE57F-E02A-FA3D-BA01-779741B0F8A3">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>2383646E-FB35-1AC0-BB2A-5118721B781A</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CCDBEAE-B95D-B21E-7B04-01841725B585" name="PK_SIP_IMPLANTACAO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>456E7C3A-6A26-BCFA-BD89-8EC34E42E221</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A068471-DE42-753A-1EFB-99B0690760B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C03A40D-0B2B-0856-26A2-184FFF13D01F" name="FK_SIP_IMPLANT_PROJETO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>40AF173D-3883-050B-E3B2-B264B17C93F3</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C52B001-7E3C-F0E5-BCAF-46B8A2FA85BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB2F9413-B9FA-7DF6-0DBF-F8F6AC1795AD" name="FK_SIP_IMPLANT_FUNC">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>1B8D7A35-BD2A-7B3C-5BBC-C0957116AF12</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4B1F989-9890-9FDE-FEC2-33D2F7BD1B28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_IMPLANT_DATA" directorySegmentName="seg_0" id="C8782214-951F-6018-8979-F82CE75CB4D1">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 12:43:16 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<rule>DT_SAIDA &gt; DT_ENTRADA</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

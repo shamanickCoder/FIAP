@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href = "media.css" rel = "stylesheet" type = "text/css">
+<script src="media.js"></script>
+<title>Cálculo</title>
+</head>
+<body>
+ <div>
+  <h1>Cálculo da média</h1>
+ </div>
+ <div>
+  <form method = "post" action = "calcular">
+   <div>
+    <label for = "nac1">NAC 1:</label> 
+    <input type = "text" id = "nac1" name = "nac1" onblur = "validar(this)">
+   </div>
+   <br>
+   <div>
+    <label for = "nac2">NAC 2:</label>
+    <input type = "text" id = "nac2" name = "nac2" onblur = "validar(this)">
+   </div>
+   <br>
+   <div>
+    <label for = "nac20">NAC 20:</label>
+    <input type = "text" id = "nac20" name = "nac20" onblur = "validar(this)">
+   </div>
+   <br>
+   <div>
+    <label for = "am">AM:</label>
+    <input type = "text" id = "am" name = "am" onblur = "validar(this)">
+   </div>
+   <br>
+   <div>
+    <label for = "ps">PS:</label>
+    <input type = "text" name = "ps" id = "ps" onblur = "validar(this)">
+   </div>
+   <br>
+   <div>
+    <input type = "button" name = "calcular" value = "Calcular" onclick = "calcular()">
+   </div>
+   <br>
+   <div>
+    <p>Média:<span id = "mediaf"></span></p>
+   </div>
+   <br>
+   <div>
+    <p>Status:<span id = "statusf"></span></p>
+   </div>
+  </form>
+ </div>
+</body>
+</html>

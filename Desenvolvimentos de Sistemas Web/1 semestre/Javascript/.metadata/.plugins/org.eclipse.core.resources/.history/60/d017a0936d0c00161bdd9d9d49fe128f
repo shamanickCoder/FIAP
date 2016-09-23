@@ -1,0 +1,9 @@
+function validarCliente(){
+	/*var n = document.getElementById("");
+	if(n.value==""){
+		
+	}*/
+	if(nome.value == ""){//nome é o id
+		nome.style.border = "red";
+	}
+}

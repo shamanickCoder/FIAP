@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2EF2E7D-C0E6-DAA5-C91E-A2E77F742AB8" name="T_GRAVADORA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:12:45 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gravadora" id="CAC1329C-BC45-DEDF-A48D-E6BF43BC353B">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:02 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_razao_social" id="6B7CF92C-3231-7B18-E7DF-73C369768FDD">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:09 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="AF695DB1-D0BA-1E84-D338-522C8E76F7D4">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:17 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="02DCB4AA-8CED-1118-00AC-54FF977A7205">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:22 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="4B1D5998-29FF-A303-3749-0F52F08E983C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:32 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="303EE0B2-DD43-5509-7CFE-A0AF84B6A5C4">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:44 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_url" id="683EA232-6FF0-D92A-C2A6-E5B9D024F427">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:50 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="52D39F80-AD94-DADD-62F7-FDC2BC3262B3">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:03 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F63547C-99D8-405A-A086-3352AFE9DAFB" name="T_GRAVADORA PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:13:08 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAC1329C-BC45-DEDF-A48D-E6BF43BC353B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

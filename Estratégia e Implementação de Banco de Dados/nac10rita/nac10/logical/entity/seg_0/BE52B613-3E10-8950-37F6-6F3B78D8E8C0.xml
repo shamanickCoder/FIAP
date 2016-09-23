@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE52B613-3E10-8950-37F6-6F3B78D8E8C0" name="T_AM_HORA_ADVOGADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 01:52:42 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="02F87FB2-8481-5228-2C2D-32E1B7EC8689">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:25:42 UTC</createdTime>
+<generatorID>B0C003ED-EEE5-3A63-3BDA-7A706F8719C0</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>40F31147-43E8-4D96-9265-C5C34D91A1D5</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_hist_hora" id="08468945-F97D-9D9A-3240-16500CF7CD7E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 01:52:59 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vigencia" id="C89BCDA9-2E8F-12D8-2F61-2B5BCDEA06BF">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 01:53:13 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_hora" id="FFEBAED8-5CE3-8F62-745D-D56049F511AD">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 01:53:22 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2831D581-DF1C-6847-EE9D-FED6A923023C" name="T_AM_HORA_ADVOGADO PK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 01:53:12 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08468945-F97D-9D9A-3240-16500CF7CD7E</attributeRef>
+<attributeRef>02F87FB2-8481-5228-2C2D-32E1B7EC8689</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

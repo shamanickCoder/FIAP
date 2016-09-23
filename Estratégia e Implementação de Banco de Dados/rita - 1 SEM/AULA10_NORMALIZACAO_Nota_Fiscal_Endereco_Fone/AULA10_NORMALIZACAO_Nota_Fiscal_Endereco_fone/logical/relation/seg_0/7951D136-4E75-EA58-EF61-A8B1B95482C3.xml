@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bairro_tem_endereco" directorySegmentName="seg_0" id="7951D136-4E75-EA58-EF61-A8B1B95482C3">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:36:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<sourcePk>887F132B-0817-0ADD-F045-ACCB322D54DC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4482781B-605D-BA32-D7E6-E831A06AB4DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12EB1146-1E59-F553-BC06-E3A2E4CA3705</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

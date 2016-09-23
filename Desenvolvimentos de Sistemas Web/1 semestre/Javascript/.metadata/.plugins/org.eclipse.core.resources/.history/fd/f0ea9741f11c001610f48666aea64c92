@@ -1,0 +1,8 @@
+$().ready(function(){
+	if(nao.checked == true || (nao.checked == "" && sim.checked == "")){
+		$(".email").hide();
+	}
+	$("button").click(function(){
+		$("h1").slideToggle();
+	});
+});

@@ -1,0 +1,18 @@
+body {
+	font-family: Verdana, Sans-serif;
+}
+.campo {
+	margin: 9px;
+}
+fieldset {
+	background-color: fuchsia;
+	width: 80%; /*largura*/
+	margin: auto; /*centralizar*/
+}
+label {
+	width: 93px;
+	display: inline-block; /*para a largura (width) funcionar*/
+}
+input {
+	border: 1px solid silver; /*borda*/
+}

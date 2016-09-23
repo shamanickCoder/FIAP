@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="224014E9-0AF8-59A9-2D61-E316BC7E4F72" name="T_PROJETO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:25:50 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="446D218D-CA60-B429-85C7-B46E23C3143D">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:42 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="5D10073A-6312-F4B9-4026-417DE89B5D76">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:50 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="0C4F69CC-935E-D75E-6CD0-AA79F3008287">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:58 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="0590AF36-DBA9-648E-B19B-50542D00E2BB">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:32:07 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49C8BFD4-001F-479A-CE45-B9B174E1CFBD" name="T_PROJETO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 14:31:46 UTC</createdTime>
+<ownerDesignName>aula5ex3</ownerDesignName>
+<engineerTo>
+<item key="13F3EBC7-AF02-7AAE-41FB-3566A40E3DAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>446D218D-CA60-B429-85C7-B46E23C3143D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

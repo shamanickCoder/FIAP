@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A01554B0-1CF4-3E9A-A71B-CB65BF473775" containerWithKeyObject="56DAC770-C405-E8E0-52D5-6C5D0C736958" localFKIndex="86749AF9-F962-669D-5A04-A7EEB687561A" name="FK_SIP_LOGRAD_TIPO_LOG">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>3DE19755-77FA-417A-A0E8-279DE90100C4</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB2CD912-9391-15F1-800E-21681B2D4FCD</referredTableID>
+<keyObject>7D496B70-8272-EFCE-3264-6636349BD895</keyObject>
+<referredKeyID>7D496B70-8272-EFCE-3264-6636349BD895</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

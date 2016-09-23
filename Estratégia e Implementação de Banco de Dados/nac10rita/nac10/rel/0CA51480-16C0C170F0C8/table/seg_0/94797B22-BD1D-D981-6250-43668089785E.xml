@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94797B22-BD1D-D981-6250-43668089785E" name="T_AM_LANCA_HONORARIO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>B4894A86-DE6D-8D03-BFF9-D13E534197FE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lancamento" id="612D6034-D41E-2C8F-D4D3-FDBEB97BC79E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>836DD9B0-BA12-525D-8008-CB6E39B6C3EB</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_processo" id="ACB031A1-4395-F451-609F-4068705850B0">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>7BDFF44A-E0F3-794D-9528-58C391308FB5</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20536E0D-2149-B616-8592-07BF3F44AFD6" referredColumn="A3D9F5F5-FC57-F5B2-7B83-A2CE1E05E1B7"/>
+</associations>
+</Column>
+<Column name="cd_tipo_tarefa" id="73B8DB45-907E-D995-F0DC-F789FBBB2313">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BF5E2388-AE67-CB76-7459-B9677882D612</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2639BE56-B6C6-1C41-3248-0DACCF4276DE" referredColumn="FD6F6A40-4087-418C-D9B5-7B7D3537CECF"/>
+</associations>
+</Column>
+<Column name="dt_honorario" id="5B1EB595-7D4D-FDCA-2B2D-AAB8D2195E64">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>643FEE7F-3CDA-B6D7-7537-D9CF8C43C42D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_hora" id="192F4FEF-7346-1ACB-5429-A5CAE632C504">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>20D096F6-196D-87D2-E43B-479C0DDD8C7F</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="9B6AD495-C477-445D-B903-64BD1511F2E1">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>E212FED9-30F0-1C57-812E-5B53A33DDE7D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85A4186F-681B-C23C-C6C8-C9831A8D5109" name="PK_AM_LANCA_HONORARIO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>28BFCDBB-2827-01E4-86A6-6F2F95889BBF</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="612D6034-D41E-2C8F-D4D3-FDBEB97BC79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE428B59-31F8-E7D3-3079-76D60616F2D7" name="FK_AM_PROC_HONO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>5D11BE27-48F2-C604-3D54-A485CD74047A</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACB031A1-4395-F451-609F-4068705850B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B870D1E1-0CF9-3CFA-B8C8-9F449828B2DB" name="FK_AM_TIPO_TAREFA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>73313371-BD1B-61CF-7958-3EA2078E532D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B8DB45-907E-D995-F0DC-F789FBBB2313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_LANCA_HONORARIO" directorySegmentName="seg_0" id="C62DFE04-0BA9-B3E6-0DA6-B97F1DF8ECA5">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:47:48 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>qt_hora &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

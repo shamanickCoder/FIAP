@@ -1,0 +1,14 @@
+body {
+	font-family: Verdana, Sans-serif;
+}
+.campo {
+	margin: 9px;
+}
+fieldset {
+	background-color: fuchsia;
+	width: 80%; /*largura*/
+	margin: auto; /*centralizar*/
+}
+label {
+	width: 150px;
+}

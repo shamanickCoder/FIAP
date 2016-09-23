@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Expressão Regular</title>
+</head>
+<body>
+ <h1>Expressão regular</h1>
+ <input type = "text" id = "texto">
+ <input type = "button" value = "Testar" onclick = "testarRegExp()">
+ <span id = "resposta"></span>
+ <script type = "text/javascript">
+  function testarRegExp(){
+   var padrao = /\W/;
+   if(padrao.test(texto.value)){
+    resposta.innerHTML = "OK!";
+   }   
+   else {
+    resposta.innerHTML = "Errou!";
+   }
+  }
+ </script>
+</body>
+</html>

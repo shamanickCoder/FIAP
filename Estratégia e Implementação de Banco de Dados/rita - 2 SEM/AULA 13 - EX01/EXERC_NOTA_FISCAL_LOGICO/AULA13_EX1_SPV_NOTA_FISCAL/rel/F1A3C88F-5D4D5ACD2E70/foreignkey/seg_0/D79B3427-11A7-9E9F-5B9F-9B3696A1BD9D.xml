@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D79B3427-11A7-9E9F-5B9F-9B3696A1BD9D" containerWithKeyObject="F84393F9-BC8B-BC59-AB5B-429DF670B17C" localFKIndex="5E45C7E7-F647-95A4-9604-D8D5CC25DC87" name="T_SPV_PRODUTO_T_SPV_UNIDADE_MEDIDA_FK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-08 23:19:33 UTC</createdTime>
+<generatorID>F3877700-42D8-32EC-E479-1FAB20AEEC24</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8428A75A-48D7-A7BF-D4ED-F922B2596801</referredTableID>
+<keyObject>2C78E066-4964-28FE-1152-905A23311674</keyObject>
+<referredKeyID>2C78E066-4964-28FE-1152-905A23311674</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,13 @@
+/*Selecionar o parágrafo e mudar a cor da letra*/
+p {color:#FF3030;}
+
+/*selecionar a tag pelo seu id*/
+#p1 {color: #9AC0CD;}
+
+h2 {color: #8B795E;}
+
+/*selecionar a tag pelo seu class*/
+.mesma-cor {color: #BA55D3;}
+
+/*a cor definida pelo id prevalece sobre a cor definida pelo class, 
+mesmo que tenha um id e uma class na mesma tag*/

@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B131610A-EB6C-6695-8F8F-F6D2176E2EE9" name="T_AM_PROCESSO">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:47:53 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_processo" id="F0781642-1BD7-DB79-331E-C2EE28220342">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:48:45 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="FC1A2719-C747-F201-7E40-053077F3FC23">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:48:48 UTC</createdTime>
+<generatorID>8A0BC4AC-C425-27A6-DE8B-DB38E7DF2C1B</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>28673B77-F3BB-1096-30CE-312C43B60A24</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa1" id="6AF82545-7BE1-2DAF-E85A-84BB2C0F21AC">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 11:06:47 UTC</createdTime>
+<generatorID>6509E8EC-8B38-2E09-CF16-D3C92A475B6B</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>77515CAE-497F-A070-638A-64F2E446F136</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa2" id="9389C535-1905-839D-FC25-52B262FCD044">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 11:10:06 UTC</createdTime>
+<generatorID>85652D52-DA3E-5E46-CBC0-AE02DBFF6135</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>F3939A50-670D-5184-89AF-A94D7A48C9D7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_causa" id="AC96D0B1-7BBE-BB47-7716-CC2B4ACB872A">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:26:26 UTC</createdTime>
+<generatorID>8A0BC4AC-C425-27A6-DE8B-DB38E7DF2C1B</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>BF157A0A-7167-AA28-BD6F-87AAA00A0150</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_processo" id="AFF5A00C-7613-F997-8686-A3305112401E">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:49:12 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_abertura" id="F3F7934E-76BD-27C1-CE29-3702300F4B87">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:49:31 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fechamento" id="22397A86-8952-EEC7-E521-D856C300FE09">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:49:44 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_dia_vencimento" id="DC02F269-CE6D-B14B-3F90-CE8E32F98EAD">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:49:56 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_resultado" id="0004B8F8-429E-26B1-D1E0-7C57259B488A">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:50:39 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_situacao" id="113F674F-DEE5-358A-A153-F83A93D99B65">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:51:08 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_observacao" id="21BA85D2-3D16-5AF0-FC0D-D71915EACAF4">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:50:56 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE4608C2-5F74-9AB4-F2B3-4B6A03FC4018" name="T_CPCDH_CADASTRO_PROCESSO PK">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:49:10 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0781642-1BD7-DB79-331E-C2EE28220342</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

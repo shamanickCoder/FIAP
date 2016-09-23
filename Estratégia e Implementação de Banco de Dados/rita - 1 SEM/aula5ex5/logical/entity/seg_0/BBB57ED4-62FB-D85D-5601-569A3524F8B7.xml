@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBB57ED4-62FB-D85D-5601-569A3524F8B7" name="Entity_10">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:05:38 UTC</createdTime>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="F6A4C535-F7EB-4165-2DE2-12AA6F077C75">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:07:27 UTC</createdTime>
+<generatorID>7879BC76-8B61-2729-94B9-7982B6A793CF</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>098C3EFF-2D36-F97C-F744-4DA009411B1D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_modalidade" id="81CEDA75-BEB4-8619-2B3F-E2A43A97B9C6">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 12:07:31 UTC</createdTime>
+<generatorID>E9B09E38-48B4-0A4A-843B-8BB5AB5DA20E</generatorID>
+<ownerDesignName>aula5ex5</ownerDesignName>
+<engineerTo>
+<item key="786765C3-FAAA-A758-BFE1-2E86124F7027" value="true"/>
+</engineerTo>
+<referedAttribute>51F1C0EF-0E61-E819-F1AA-360CFB703604</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

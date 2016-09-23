@@ -1,0 +1,7 @@
+package br.com.fiap.beans;
+
+public class PFisicaAcademia extends PFisica{
+ private int numeroMatricula;
+ private String dtNascimento;
+ private char sexo;
+}

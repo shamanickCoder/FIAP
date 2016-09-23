@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de times</title>
+<style>
+      div {margin : 10px;}
+      label {text-align : right; width : 150px; display : inline-block;}
+</style>
+</head>
+<body>
+       <h2>Busca de times</h2>
+       <form action = "buscar" method = "get">
+             <input type = "search" placeholder = "Pesquise pelo nome" name = "nome">
+             <input type = "submit" value = "Buscar">
+       </form>
+       <h2>Cadastro de times</h2>
+       <form action = "cadastrar" method = "post">
+            <div>
+                <label for = "fund">Data de fundação</label>
+                <input type = "date" name = "data" id = "fund">
+            </div><br>
+            <div>
+                <label for = "email">E-mail</label>
+                <input placeholder = "Digite o email" type = "email" name = email id = "email">
+            </div><br>
+            <div>
+            <label for = "site">Site</label>
+            <input placeholder = "Digite o site" type = "url" name = "site" id = "site">
+            </div>
+            <div>
+                 <label for = "hora">Hora</label>
+                 <input type = "time" name = "hora" id = "hora">
+            </div>
+            <div>
+                <label for = "pontos">Pontos</label>
+                <input type = "number" name = "po" id = "pontos">
+            </div>
+            <div>
+                <label for = "qua">Qualificação</label>
+                <input type = "range" name = "qualificacao" id ="qua">
+            </div>
+            <div>
+                <label for = "estado">Estado</label>
+                <input list = "estados" name = "estado">
+                <datalist id = "estados">
+                         <option value = "Rio de Janeiro">
+                         <option value = "Paraná">
+                         <option value = "Acre">
+                         <option value = "Santa Catarina">
+                         <option value = "São Paulo">
+                         <option value = "Rio Grande do Sul">
+                         <option value = "Ceará">
+                         <option value = "Minas Gerais">
+                         <option value = "Tocantins">
+                         <option value = "Amazonas">
+                         <option value = "Amapá">
+                </datalist>
+            </div>
+            <div>
+                <input type = "submit" value = "Enviar">
+            </div>
+       </form>
+</body>
+</html>

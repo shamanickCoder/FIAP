@@ -1,0 +1,14 @@
+INTEGRAÇÃO -> Tripla restrição (constraint)
+COMUNICAÇÃO -> reuniões, sistemas de gestão comun.
+STAKEHOLDERS -> sponsors, engajamento
+RH -> Matriz RACI
+QUALIDADE -> recall, Ishikawa (espinha de peixe)
+PRAZO -> PERT/CPM, MS-Project
+CUSTOS -> MS-Project, estimativas (analogia, paramétrica, opinião de especialistas)
+ESCOPO -> WBS
+AQUISIÇÃO (procurement) -> recursos externos. Única área de interesse presente no processo de encerramento do projeto
+
+sow -> uma parte do escopo
+
+risco -> risk breakdown structure
+

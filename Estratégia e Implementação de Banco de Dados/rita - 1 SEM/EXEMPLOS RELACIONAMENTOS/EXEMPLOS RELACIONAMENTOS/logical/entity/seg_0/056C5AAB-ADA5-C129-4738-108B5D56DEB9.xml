@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="056C5AAB-ADA5-C129-4738-108B5D56DEB9" name="T_DEPARTAMENTO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:38:27 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="54CE29DB-51BF-EEE9-8F3B-62E98C75DDAC">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:39:03 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="D911E175-94FF-7254-A71B-5C37A2FEDB6D">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:39:20 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18E644D7-329E-121C-EA3F-E53EE420477D" name="T_DEPARTAMENTO PK">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:39:10 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54CE29DB-51BF-EEE9-8F3B-62E98C75DDAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D17A5086-8C83-2C95-F5DF-8A1AAEAB8D3D" name="T_AM_PROCESSO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>7D085B87-356B-094F-47FD-47ADFE5EFE87</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_processo" id="A3D9F5F5-FC57-F5B2-7B83-A2CE1E05E1B7">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>2122AAD7-8B30-A967-B7FF-E8332118D77F</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_causa" id="B3D5116E-293B-0106-B077-76B49DF2EEEF">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>4EDDEE69-A8F7-C831-507D-16E8B382E6AE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D409DB-0711-8DEA-081F-2160DA432F3A" referredColumn="289713D5-1B05-69E2-C757-C1D8EE73A3EA"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="D34AD0AE-B12D-7B04-462B-D1B5B8105CEE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>A9B32EBF-1F9B-3384-F3A6-49164A828F2B</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D409DB-0711-8DEA-081F-2160DA432F3A" referredColumn="B4CC49E8-742D-686F-6BF4-DB020D6D37E5"/>
+</associations>
+</Column>
+<Column name="ds_processo" id="4D80ECA4-D6B0-84D9-916C-D3E0525BEC4A">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>831A551F-F226-7FF4-466B-DCB6509471F9</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_abertura" id="AAD6DF34-CD79-857C-B43A-754929F24AB3">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>DE965CB4-5FE3-10CC-3768-BF673A4E3DD1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fechamento" id="18831B1B-57BF-1DA0-A1A5-9EE0B3886A2C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>A76D693C-7078-2A36-039A-02F2384824EE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_dia_vencimento" id="1A1A5E51-B658-D4C5-4E91-FA954BEE14C9">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>A62BBCF5-EFAB-2CE6-6393-7A9ABEF0D8F0</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_resultado" id="A768F510-72F5-F2CB-2EA7-7EFCD4946FDE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>0D8F28F3-C612-F762-482E-6E5B02952B0E</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_situacao" id="F9CAD5BF-2D75-A3E8-970D-6C56B82F362B">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>5346324D-38FF-3F23-676F-3A65327D851E</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="F6FA1A44-F29B-C501-152F-DB8CA1237461">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>CF80A0A0-261C-9667-AD71-F81B4978460B</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa1" id="30CD8D14-A2F5-A95F-895D-34840C5B5AE7">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 22:10:59 UTC</createdTime>
+<generatorID>71AB4A3E-5C4F-9050-4A85-A0F5670F1B8B</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24F042A3-295F-A276-D146-491D01D937A1" referredColumn="2A839BF4-6CFF-EB76-2617-D03F3402AA61"/>
+</associations>
+</Column>
+<Column name="cd_pessoa2" id="B2803842-897D-E6F0-9371-7BC8CAA5E35B">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 22:10:59 UTC</createdTime>
+<generatorID>020F32F5-2F48-3377-7237-75C5BE7F2CB0</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59EF6DB2-7C8F-7C0F-1B3F-317E2D810B56" referredColumn="62EC1E62-4295-536B-DD93-DDA7441B741E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="917FC8B5-C4E2-C6A7-B24F-204BC2AA4744" name="PK_AM_PROCESSO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>D782E400-5B1C-E904-B68B-BC70D5E4AEA1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D9F5F5-FC57-F5B2-7B83-A2CE1E05E1B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0ED63B99-6B40-AB09-D759-2147F17BD83A" name="FK_AM_PROC_FORUM">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9C3C9500-297C-693D-B9E1-1A0F8395C6C1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30CD8D14-A2F5-A95F-895D-34840C5B5AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2B9FEC7-533D-16C6-A6E5-8426646F6E95" name="FK_AM_PROC_CLIENTE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>F852C471-1970-0494-160B-0B9473B82800</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2803842-897D-E6F0-9371-7BC8CAA5E35B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEE8A6DE-0E97-85CA-96A8-842191CA345F" name="FK_AM_PROC_ESPEC">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>CACA8DB5-B229-2C7C-AA98-0747B845DB8F</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D5116E-293B-0106-B077-76B49DF2EEEF"/>
+<colUsage columnID="D34AD0AE-B12D-7B04-462B-D1B5B8105CEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_PROCESSO_DATA" directorySegmentName="seg_0" id="9F2D78FF-BB72-AC25-E717-2FA822655E1C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 22:43:33 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>dt_fechamento &gt; dt_abertura</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_PROCESSO_DIA" directorySegmentName="seg_0" id="7B65B365-8750-FEEC-0127-09FAFBA8BE48">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 22:43:33 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>dt_dia_vencimento &gt;= 1 and dt_dia_vencimento &lt;= 30</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_PROCESSO_RESULT" directorySegmentName="seg_0" id="C6110FB4-1894-EA77-E121-F45672B62D56">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 22:43:33 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>nr_resultado = 1 or nr_resultado = 2</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_PROCESSO_SITUACAO" directorySegmentName="seg_0" id="9A5E9AB7-3F7E-CD0A-62D5-74824B427BD7">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 22:43:33 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>nr_situacao = 1 or nr_situacao = 2</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nf_possui_item" directorySegmentName="seg_0" id="EFF6FD28-F0C3-E7BC-0989-334D1B0F56AC">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:28:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<sourcePk>C777A83A-FCB7-D64C-1641-64D487D07833</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5254965-416A-568E-D40B-59314451ECD2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC35A1AA-1065-4FA6-DA7B-B358EB1023C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6203087C-7677-610A-BBAE-0D5FF5A96B87" name="T_AM_ART_TIPO_DESPESA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>97762DE4-A14F-70EB-4763-131419E49498</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_tipo_despesa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_despesa" id="ED5A7BA8-2A35-6B9A-11A4-7984A0CFE3AC">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>8E032DA5-C2FD-C7DA-D4DB-5DB4AED35E82</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_despesa" id="EE95AA38-109A-FDEB-CD0A-03B66BCDF5FA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>A70221BD-8A3E-FC73-C871-A4DE26ACAA22</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE7A12B6-FED8-93A4-C875-91CAE7169E0B" name="PK_AM_ART_TIPO_DESPESA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>CD82FB93-6981-6B1E-5E99-B7420B6928F1</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED5A7BA8-2A35-6B9A-11A4-7984A0CFE3AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2B2E31F-1F8C-E036-770B-CD4B93180804" name="UN_AM_ART_TIPO_DESPESA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:42:13 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE95AA38-109A-FDEB-CD0A-03B66BCDF5FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

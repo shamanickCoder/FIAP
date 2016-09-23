@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AE8D4B5-2CC7-CD67-BDA5-6D65271A1930" name="T_AM_LANCA_HONORARIO">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:53:47 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lancamento" id="7848D0D5-FDB0-2B2B-9F7D-699297E27EA7">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:54:01 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_processo" id="0F42F1CB-D928-6AFE-EB9A-F9B111711BDE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:34:21 UTC</createdTime>
+<generatorID>DADA1DC3-666B-01D2-F8B5-F29C2AC70B97</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>F0781642-1BD7-DB79-331E-C2EE28220342</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_tarefa" id="1D9DAEB5-41B6-3D15-EAC5-ECD498DFBC4B">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:36:31 UTC</createdTime>
+<generatorID>69815501-A978-2994-42CA-92B4AE0481E6</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>1193F758-A598-2AA6-84E4-9BC18FB0D67D</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_honorario" id="75D22F5F-928F-543A-B734-96B9D4600DEA">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:54:08 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_hora" id="EBC3F99D-24FA-4B2E-147C-F0109AFBA67E">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:54:14 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_observacao" id="EF0CB7AE-75E2-8313-3794-B6617D98BDBF">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:54:22 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03804225-8549-0F21-C8FA-0E3CFFD35489" name="T_CPCDH_LANCAR_HONORARIO PK">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 11:54:07 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7848D0D5-FDB0-2B2B-9F7D-699297E27EA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="9">
+    <list key="modules" value0="02-Exercicio::org.eclipse.jst.jee.server:02-Exercicio::jst.web::3.1" value1="03-Login::org.eclipse.jst.jee.server:03-Login::jst.web::3.1" value2="04-JSP::org.eclipse.jst.jee.server:04-JSP::jst.web::3.1" value3="05-JSP::org.eclipse.jst.jee.server:05-JSP::jst.web::3.1" value4="06-JSP-Servlet::org.eclipse.jst.jee.server:06-JSP-Servlet::jst.web::3.1" value5="07-JSP-Cadastro::org.eclipse.jst.jee.server:07-JSP-Cadastro::jst.web::3.1" value6="08-Seguradora::org.eclipse.jst.jee.server:08-Seguradora::jst.web::3.1" value7="09-Livro::org.eclipse.jst.jee.server:09-Livro::jst.web::3.1"/>
+  </server>
+</servers>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53F54D18-6244-EE41-AEF2-DF3C05CA4D9F" name="T_SIP_BAIRRO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>FA6C2BEC-A276-E89E-6B57-8D40E5C389B0</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="705B37C9-201A-B2D8-794F-B3AE0741927B">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>60891CEA-C66B-8370-BF1B-9DB3E7521BFE</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="D951DCAC-F9F2-9447-4292-EA6635F11FE5">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>56F82935-9DE4-D493-2CFA-BA37E7F20900</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cidade" id="C765DA18-8A02-CC4E-FD41-341C99E70D0A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>13BB74EA-83BC-63B6-CA1D-5AAA71770CB0</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E04CC552-7184-7D9A-7128-A95CDB3EBEC3" referredColumn="BB44D120-79FF-7339-07B7-895D8FED13BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2978D25-353F-F68F-EBBF-2AE6A709A435" name="PK_SIP_BAIRRO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>6C074A7D-2D8E-C71B-42DA-FADD146BB8DF</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="705B37C9-201A-B2D8-794F-B3AE0741927B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="246621FC-31E1-513A-8C90-E2832305DAED" name="FK_SIP_BAIRRO_CIDADE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>8E2DC380-668F-7F1B-D69F-A5E9E9C10947</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C765DA18-8A02-CC4E-FD41-341C99E70D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

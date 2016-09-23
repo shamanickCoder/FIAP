@@ -1,0 +1,45 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Funcionario;
+
+public class Teste {
+
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+        Funcionario objFuncionario[] = new Funcionario[Integer.parseInt(JOptionPane.showInputDialog("Digite o tamanho do vetor: "))];
+        int totalFuncionario = 0;
+        double mediaGeral = 0, somaSalario = 0;
+        int i = 0;
+        
+        while(JOptionPane.showConfirmDialog(null, "Desejar cadastrar mais funcionários?", "Pergunta", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == 0){
+        
+        objFuncionario[i] = new Funcionario();
+        
+        objFuncionario[i].setCargo(JOptionPane.showInputDialog("Digite o cargo"));
+        objFuncionario[i].setFalta(Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de faltas: ")));
+        objFuncionario[i].setNome(JOptionPane.showInputDialog("Digite o nome: "));
+        objFuncionario[i].setSalario(Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: ")));
+        
+        totalFuncionario++;
+        somaSalario = somaSalario + objFuncionario[i].getSalario();
+        
+        mediaGeral = somaSalario/totalFuncionario;
+       
+        i++;
+        
+        //JOptionPane.showMessageDialog(null, "Total de funcionários: " + totalFuncionario);
+        //JOptionPane.showMessageDialog(null, objFuncionario.getTudo());
+        //JOptionPane.showMessageDialog(null, "A média dos salários é: " + mediaGeral);
+        
+        }
+        
+       
+	}
+
+}

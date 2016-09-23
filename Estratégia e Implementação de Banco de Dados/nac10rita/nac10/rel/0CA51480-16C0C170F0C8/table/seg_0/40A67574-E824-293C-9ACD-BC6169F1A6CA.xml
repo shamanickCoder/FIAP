@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40A67574-E824-293C-9ACD-BC6169F1A6CA" name="T_AM_FONE_PESSOA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BC4E896E-5D51-7B70-0282-B84DCF14747B</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_fone" id="6DD39731-D706-68C5-55CC-B9706A9F731A">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>EBD37BD0-65CA-329C-A339-AF25C91934D5</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE015362-0BDD-5E20-4AA7-A0C86A20CC74" referredColumn="6E3F337C-2BE5-EA11-AF00-7AD8CE844252"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="8685DFDB-7A67-BE3B-73F4-961D341088E2">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>4915E2BF-C9CE-67E1-F2CD-44B18A8C8B61</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="374E01CB-41E5-9376-24E1-0E67A2CF072B" referredColumn="4B862BD8-876D-D01E-B52D-6F87DCDC0247"/>
+</associations>
+</Column>
+<Column name="nr_ramal" id="1182CB62-2CCE-CB7A-57B1-03BFB31A0F1C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>A29AE369-835E-995E-26D1-814BFCA0142A</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F2AB682-E494-94C9-4706-9116BF9C5D0A" name="PK_AM_FONE_PESSOA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>5E18227F-A7F8-1E6D-332C-D8A65451546B</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD39731-D706-68C5-55CC-B9706A9F731A"/>
+<colUsage columnID="8685DFDB-7A67-BE3B-73F4-961D341088E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B693CA3-F862-6700-AD08-A0184B8015BE" name="FM_AM_FONE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>788B6ED0-B406-4A3A-397C-A135CE4F8466</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD39731-D706-68C5-55CC-B9706A9F731A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F473DBED-D5C1-0DD6-2E30-DFAE66B8A52E" name="FK_AM_PESSOA_FONE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>C227809A-A02F-DDE6-3F5A-362C4231B9A1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8685DFDB-7A67-BE3B-73F4-961D341088E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

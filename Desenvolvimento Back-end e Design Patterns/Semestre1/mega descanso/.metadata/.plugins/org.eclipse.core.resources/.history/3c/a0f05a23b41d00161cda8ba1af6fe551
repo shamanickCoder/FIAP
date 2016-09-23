@@ -1,0 +1,10 @@
+package br.com.fiap.beans;
+
+public class PJuridica {
+ private String cnpj;
+ private String url;
+ private String contato;
+ private int qtdeFuncionario;
+ private double percentualDesconto;
+ private int codigo;
+}

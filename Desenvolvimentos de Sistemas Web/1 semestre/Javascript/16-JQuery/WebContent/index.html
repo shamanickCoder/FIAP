@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JQuery - Introdução</title>
+
+.cabelo(
+	color="pink"
+)
+
+</head>
+<body>
+
+<h1>Olá Mundo JQuery</h1>
+<button id="botao">Clique em mim!</button>
+
+<img src="goku.png" alt="Goku" width="300">
+
+
+<script src="jquery-1.12.3.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#botao").click(function(){
+			$("h1").html("São Paulo está frio");
+			$("h1").addClass("cabelo");
+		});
+		//Muda a Imagem
+	$("img").hover(function(){
+		$("img").attr("src","goku2.png");
+	},function(){
+		$("img").attr("src","goku.png");
+		});	
+	});
+</script>
+
+</body>
+</html>

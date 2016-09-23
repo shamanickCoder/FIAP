@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94E17687-9AF8-339C-B99E-325A12B93B9E" name="T_AM_ART_ESTADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>2EC1ED34-8CC8-DE2D-2089-607C0111B8E5</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_estado</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="006EF0FB-C26E-528B-C455-6CED9DF97A1A">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>FDC9FC11-0CD5-A4D8-F647-40DFD09D4347</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="D697DD02-9164-B7D0-9E62-61171A4F5269">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>CB5CA319-9836-7187-36EB-28608EE2B42E</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="7A24C9B7-B94C-C3C5-E144-228A977542CF">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>22295527-EB30-2D19-2F36-E64775C91896</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ADD10D2-FE2F-03CE-803F-61DDB03C42A7" name="PK_AM_ART_ESTADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>2DECAAA5-88EF-B415-EAA0-9BE104B05DC8</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="006EF0FB-C26E-528B-C455-6CED9DF97A1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="753576B8-50A0-0D1E-49C1-C9BB92F55A4C" name="UN_AM_ART_ESTADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 11:04:12 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D697DD02-9164-B7D0-9E62-61171A4F5269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCAC9F99-B87B-F1E2-647D-520FBA821157" name="UN_AM_ART_SIGLA_ESTADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 11:04:12 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A24C9B7-B94C-C3C5-E144-228A977542CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

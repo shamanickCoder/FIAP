@@ -1,0 +1,12 @@
+INDEX VERSION 1.3+H:\FIAP\1 ANO\Desenvolvimentos de Sistemas Web\2 semestre\SegundoSemestre\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2365844254.index
+977173830.index
+2775670569.index
+2029014943.index
+2370114284.index
+2524165944.index
+2636857123.index
+1776521503.index
+3238677616.index
+4234831296.index
+3541961330.index

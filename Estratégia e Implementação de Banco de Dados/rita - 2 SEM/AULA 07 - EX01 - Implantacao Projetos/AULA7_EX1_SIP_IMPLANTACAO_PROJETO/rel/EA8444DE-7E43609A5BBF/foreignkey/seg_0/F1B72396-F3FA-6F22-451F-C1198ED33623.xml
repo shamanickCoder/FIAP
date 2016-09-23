@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1B72396-F3FA-6F22-451F-C1198ED33623" containerWithKeyObject="44E07CA2-28E8-CDDD-04B1-9EAB2F47CE73" localFKIndex="056C50E4-FC98-3453-471C-E972AF5C9B31" name="FK_SIP_FUNC_ENDE_FUNCIONARIO">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-05-19 11:39:01 UTC</createdTime>
+<generatorID>8DED4D0C-9156-025D-3229-28A7CFC694A9</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B807CBB6-8675-2B03-D95F-6E93F9B04402</referredTableID>
+<keyObject>E65917FF-9A4A-33CB-C3DD-3B2E96EDD923</keyObject>
+<referredKeyID>E65917FF-9A4A-33CB-C3DD-3B2E96EDD923</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C5B6646-BD6C-9794-1B6F-D29730F49CA0" name="T_SIP_LOGRADOURO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>F6655E15-BB40-8CCD-E1A1-136E3222451E</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_logradouro" id="C7766EC3-916D-9E1B-119B-8861BC9C6BCB">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>F05E80F7-CBAC-7F70-0FDF-B331BFA496A5</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_logradouro" id="A4431DC7-AF30-CE7C-EE64-8C1CD98FB23E">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>337CCD88-60AE-A0CB-DA0F-BD0AF9BBC721</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B66931F9-A315-0D9E-DDC6-9F8FC2446839" name="PK_SIP_LOGRADOURO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>87027FEB-081C-D7FE-6E4F-A565C5A35A74</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7766EC3-916D-9E1B-119B-8861BC9C6BCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

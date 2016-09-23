@@ -1,0 +1,19 @@
+package br.com.fiap.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/buscar")
+public class AlunoServlet extends HttpServlet{
+ public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	 String nome = req.getParameter("nome");
+	 String busca1 = req.getParameter("nome1");
+	 String busca2 = req.getParameter("nome2");
+	 String buscar3 = req.getParameter("nome3");
+ }
+}

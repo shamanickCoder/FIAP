@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cobrar" directorySegmentName="seg_0" id="CE505CAA-D526-23E4-6617-3DE0D7F83F7C">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:18:08 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<sourcePk>B993CA01-065D-3167-9BDF-428B1E86537B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3715BE1-F62F-A1D2-FBA5-EDB136DAA78E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63DBF7E1-664B-45C3-44BB-DAC057AA081E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

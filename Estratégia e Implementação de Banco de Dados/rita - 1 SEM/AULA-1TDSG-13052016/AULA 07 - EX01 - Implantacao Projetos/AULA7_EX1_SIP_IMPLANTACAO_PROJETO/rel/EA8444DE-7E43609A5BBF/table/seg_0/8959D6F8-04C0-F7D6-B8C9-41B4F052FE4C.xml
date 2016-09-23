@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8959D6F8-04C0-F7D6-B8C9-41B4F052FE4C" name="T_SIP_DEPENDENTE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>A219E812-6320-21C8-DDC0-D94463096579</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="6922DE1B-9169-7B50-45F6-2B0073DFC896">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>9B32E87A-D72B-33A3-FCC1-1F8032FDE8EE</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="B2254878-6906-06D4-1F57-0E5E4A2E76C9">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>E9526031-8CDE-EE47-DD2A-2711AA39FCAA</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33C5FF6F-FF15-869E-2CE8-C631C3A44805" referredColumn="0E8D3169-67AE-13CB-2A2F-B9B359A46FD2"/>
+</associations>
+</Column>
+<Column name="nm_dependente" id="D0A556C7-736B-8C98-98A5-A9C368390496">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>5B847668-85BE-AE66-AF74-431AF806B2E0</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="139CA4E6-47C4-86B1-5381-307D42D78050">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>39FF57C3-8AE9-242A-1569-A6268471C8C9</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89791A5B-A094-4ED9-2F7E-AC05BF86357C" name="PK_SIP_DEPENDENTE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>20CF2FC2-ED38-23FE-4EE9-3784BE17A224</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6922DE1B-9169-7B50-45F6-2B0073DFC896"/>
+<colUsage columnID="B2254878-6906-06D4-1F57-0E5E4A2E76C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFBD9B1B-09BC-139F-90D4-C458CBA582BB" name="FK_SIP_DEPENDENTE_FUNC">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-05-13 11:55:54 UTC</createdTime>
+<generatorID>8FFD06B0-E4EC-8F22-384D-25F4AEA1F383</generatorID>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2254878-6906-06D4-1F57-0E5E4A2E76C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45533D80-797E-D76B-937D-1804F49C5EA4" name="T_AM_ESPECIALIDADE">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 13:15:58 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="28673B77-F3BB-1096-30CE-312C43B60A24">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:48:48 UTC</createdTime>
+<generatorID>F94DE3F2-A384-FFB9-9BF1-FE25BEC335A5</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>1BEF0218-7797-8F7C-76D1-538EF0671789</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_causa" id="BF157A0A-7167-AA28-BD6F-87AAA00A0150">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-08-19 10:20:04 UTC</createdTime>
+<generatorID>DB7B73D4-D447-B0B5-D4AC-1BF7C3F865C3</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<referedAttribute>FCE0C66B-B65B-20DF-67DF-4A0E52061BCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51040E07-B18B-1EF9-A4C0-60A5DA186BCE" name="T_CPCDH_ADVOGADO_AREA PK">
+<createdBy>rm76983</createdBy>
+<createdTime>2016-05-03 13:25:54 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<engineerTo>
+<item key="2BA00AA8-3B4C-8EB7-7CF1-E615AAA199F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF157A0A-7167-AA28-BD6F-87AAA00A0150</attributeRef>
+<attributeRef>28673B77-F3BB-1096-30CE-312C43B60A24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

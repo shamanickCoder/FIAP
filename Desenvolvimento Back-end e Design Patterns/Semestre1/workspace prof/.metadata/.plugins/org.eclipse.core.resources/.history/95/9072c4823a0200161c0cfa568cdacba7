@@ -1,0 +1,17 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Aluno;
+
+public class TesteAluno {
+
+	public static void main(String[] args) {
+		Aluno objAluno = new Aluno();
+		objAluno.setSexo
+		(JOptionPane.showInputDialog
+		("Digite o sexo").charAt(0));
+		System.out.println(objAluno.getSexo());
+	}
+
+}

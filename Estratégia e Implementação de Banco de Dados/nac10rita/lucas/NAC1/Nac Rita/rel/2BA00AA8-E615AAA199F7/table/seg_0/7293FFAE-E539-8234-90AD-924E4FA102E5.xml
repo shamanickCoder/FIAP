@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7293FFAE-E539-8234-90AD-924E4FA102E5" name="T_AM_ART_FORUM">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>B8806648-9476-B0F6-970E-49366ECFAE6A</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_forum</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_forum" id="1C332761-7435-E0EA-65DC-3BC5AF3102E2">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>F3939A50-670D-5184-89AF-A94D7A48C9D7</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15C5F085-CF95-3134-F047-B8C441ABB0C2" referredColumn="BB484AFE-805D-66C6-ECE4-53FD46ACD001"/>
+</associations>
+</Column>
+<Column name="ds_forum" id="6450BFA5-4F53-ADE5-6EF2-ACB6FC7F5112">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>965AB519-73ED-7DA2-B8EB-E0EFF09EB9C6</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5252CC6D-1798-5678-265E-805CB4329DBC" name="PK_AM_ART_FORUM">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>061D0A7D-7E86-3E55-F841-21AD50200CF7</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C332761-7435-E0EA-65DC-3BC5AF3102E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77134AC5-33ED-4F8A-3037-9BF575D66D2D" name="FK_AM_ART_PESSOA_FORUM">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>2F520FCF-ADAE-9A7C-41BD-D5301005F0BB</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C332761-7435-E0EA-65DC-3BC5AF3102E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

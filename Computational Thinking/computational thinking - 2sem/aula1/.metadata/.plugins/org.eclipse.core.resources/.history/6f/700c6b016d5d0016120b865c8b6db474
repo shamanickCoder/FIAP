@@ -1,0 +1,11 @@
+package br.com.fiap.testes;
+
+public class Execicio5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      
+		String gabarito[] = new String[8];
+	}
+
+}

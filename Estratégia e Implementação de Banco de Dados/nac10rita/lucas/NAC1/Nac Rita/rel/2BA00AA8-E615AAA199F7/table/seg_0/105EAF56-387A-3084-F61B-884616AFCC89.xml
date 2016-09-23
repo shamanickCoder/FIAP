@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="105EAF56-387A-3084-F61B-884616AFCC89" name="T_AM_ART_LOGRADOURO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>ED455EF4-014B-8453-7F76-EC432D669865</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_logadouro</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="A9C7EEE7-7C0B-9157-98AB-4C39B9BE82DC">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>7C7BA36B-2059-1885-5B4D-3A77FA756DAF</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_bairro" id="DE641ED6-F388-51A9-731B-1F35F1847FD0">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>4649F348-4FFC-5B7B-9B69-CDDE038FA71A</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4542B7E6-1583-74A9-E972-32AB2BDF4914" referredColumn="0EFD0191-8DBA-F58B-6024-843E8EA8711D"/>
+</associations>
+</Column>
+<Column name="cd_tipo_log" id="8CA18BF3-10B4-DBC0-1D79-7F728964C5A7">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>55084DF7-9F18-803E-9ED3-2A750FAC6968</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D129A823-FB74-2C2F-FEC9-BF0D17596B7B" referredColumn="476802CC-F898-CA4D-3677-0A8643F1028B"/>
+</associations>
+</Column>
+<Column name="ds_logradouro" id="0B34D376-94DF-484E-5194-3BC5AF8F1913">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>37FBDDD4-1B68-6917-4B1E-1CC14CA70EAC</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E9BB213-8426-1732-3CA4-754DBEDB6FA8" name="PK_AM_ART_LOGRADOURO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>CCF8611D-60C6-324E-8B26-2D6FDD1C6BA8</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9C7EEE7-7C0B-9157-98AB-4C39B9BE82DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4241D2AD-9A77-F470-DA9C-90136298B456" name="FK_AM_ART_TIPO_LOG">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>EDA9A4CB-8378-C233-9C49-C8D5D84EEC82</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CA18BF3-10B4-DBC0-1D79-7F728964C5A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AF5DF72-FBAD-7D54-F677-7110F6D44968" name="FK_AM_ART_BAIRRO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>2DDEB6B6-C41C-DDD9-ED0B-5B39707C2AA6</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE641ED6-F388-51A9-731B-1F35F1847FD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

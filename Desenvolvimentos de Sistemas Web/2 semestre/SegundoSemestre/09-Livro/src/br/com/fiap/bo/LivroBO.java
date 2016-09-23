@@ -1,0 +1,20 @@
+package br.com.fiap.bo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.beans.Livro;
+
+public class LivroBO {
+
+	private static List<Livro> lista = new ArrayList<Livro>();
+	
+	public void cadastrar(Livro livro){
+		lista.add(livro);
+	}
+	
+	public List<Livro> listar(){
+		return lista;
+	}
+	
+}

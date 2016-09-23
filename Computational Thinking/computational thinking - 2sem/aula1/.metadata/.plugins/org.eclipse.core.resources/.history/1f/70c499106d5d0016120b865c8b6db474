@@ -1,0 +1,20 @@
+package br.com.fiap.testes;
+
+import java.util.Scanner;
+
+public class Execicio5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      
+		String gabarito[] = new String[8];
+		Scanner leitura = new Scanner (System.in);
+		int i;
+		
+		for(i = 0; i < 8; i++){
+			System.out.println("Digite a resposta da questão " + (i+1));
+			gabarito[i] =
+		}
+	}
+
+}

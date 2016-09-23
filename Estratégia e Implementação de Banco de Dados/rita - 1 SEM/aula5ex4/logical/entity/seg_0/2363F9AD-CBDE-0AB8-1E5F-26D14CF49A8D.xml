@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2363F9AD-CBDE-0AB8-1E5F-26D14CF49A8D" name="T_NOTA_FISCAL">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-23 13:36:16 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota" id="38CAE539-FBAE-2F1E-4CAE-EBB8B6DB35CD">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-23 13:36:38 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_codigo" id="1FBE3E85-74FA-98FA-F718-F78A763B1EF5">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:33:04 UTC</createdTime>
+<generatorID>71ADA701-F6A9-9739-2CA5-C8C4D82C259F</generatorID>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DB7B4DA4-8804-7A99-83AB-C0C0B4031DF7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_classificacao_fiscal" id="963E8F21-5D75-3E0A-5777-8A3ADB22482C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:33:49 UTC</createdTime>
+<generatorID>6004FD7B-1540-C6D2-9649-33766D85A309</generatorID>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2DDB704E-2129-E23A-CAA3-A974AD20BADD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_op" id="38B5226F-C6B6-92F9-BC9E-C7C4C21F5C24">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-23 13:36:44 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cfop" id="F8EDE837-5614-D8CA-4DEE-68C64B5F678E">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-23 13:37:02 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="C74EDAB5-BBBB-A94C-4A84-A6DA02D880D2">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-23 13:37:13 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64EC2EBF-C418-D826-72A4-7DB849F836EB" name="T_NOTA_FISCAL PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-23 13:36:42 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38CAE539-FBAE-2F1E-4CAE-EBB8B6DB35CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

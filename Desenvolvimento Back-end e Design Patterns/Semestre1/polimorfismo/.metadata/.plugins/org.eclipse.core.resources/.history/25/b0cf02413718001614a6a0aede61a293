@@ -1,0 +1,15 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Formacao;
+import br.com.fiap.beans.Tecnologo;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Formacao objFormacao = new Formacao();
+		
+	}
+
+}

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAF5FD2A-8D75-4C6D-641E-51578198BCF1" name="T_AM_PESSOA_ENDE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>734C936C-3399-76B1-08F2-6926AA62A991</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa_ende" id="77F38248-BB2A-2E2E-09BA-8133B09834AD">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>895AF00D-5C4C-BFE2-6F16-2F7599B3E853</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="0C299574-6EC1-0C28-797E-42A744ACC6D9">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>F964A662-0A81-54FE-A831-586DF1B3DB5E</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C94C4EC-283A-A65B-BF9C-24D4BEBC701C" referredColumn="4B862BD8-876D-D01E-B52D-6F87DCDC0247"/>
+</associations>
+</Column>
+<Column name="nr_cep" id="A6308B3E-124F-70C3-5E62-3EA84F512A1E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8D8D822F-7815-EED8-5DB4-5C9BA861F628</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3221B616-E873-64AF-C7A2-3B3ECDEEC33C" referredColumn="19876130-8575-798A-3175-0B2F2421A9A5"/>
+</associations>
+</Column>
+<Column name="nr_endereco" id="A9B4CA60-E2E0-EED6-B9FF-16F12892E334">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>1ED4390C-5675-BEAB-4F68-152A5FC9559E</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="CEFAF968-8DC9-9245-3E28-E0957B611D9A">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8AC46BF3-5C07-C19C-D50E-3BB7FDB897AE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF67B5F-297A-0028-4604-3509E49E320B" name="PK_AM_PESSOA_ENDE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>7110D484-4A5E-116D-81A1-8A14D5628F6C</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F38248-BB2A-2E2E-09BA-8133B09834AD"/>
+<colUsage columnID="A6308B3E-124F-70C3-5E62-3EA84F512A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B0D3D9B-6108-597C-2ADB-2807DDE0AE8B" name="FK_AM_LOGRADOURO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8C77E50D-2AA3-8664-4BB5-BBFB96BE8DBE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6308B3E-124F-70C3-5E62-3EA84F512A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D832CA90-9C02-CE0A-58AC-87DEE838139B" name="FK_AM_PESSOA_ENDE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9A0AEE9E-CE8B-CC0F-B24B-129A8486DC37</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C299574-6EC1-0C28-797E-42A744ACC6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

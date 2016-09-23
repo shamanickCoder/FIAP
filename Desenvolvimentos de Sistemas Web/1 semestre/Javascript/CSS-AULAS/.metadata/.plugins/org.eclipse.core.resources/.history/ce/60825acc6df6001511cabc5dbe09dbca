@@ -1,0 +1,9 @@
+body {
+	font-family: Verdana, Sans-serif;
+}
+.campo {
+	margin: 9px;
+}
+fieldset {
+	background-color: fuchsia;
+}

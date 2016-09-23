@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora JS</title>
+<style type = "text/css">
+ span{
+  color: red;
+ }
+</style>
+</head>
+<body>
+
+	<h1>Calculadora</h1>
+		<span id = "erro"></span>
+	<form>
+		<input placeholder="Número 1" type="text" 
+		name="n1" id="n1" onblur = validar(this)>
+		<select name="op" id="operacao">
+			<option value="0">+</option>
+			<option value="1">-</option>
+			<option value="2">/</option>
+			<option value="3">*</option>
+		</select>
+		<input placeholder="Número 2" type="text" 
+		name="n2" id="n2" onblur = validar(this)>
+		<input type="button" value="="
+			onclick="calcular();">
+		<input placeholder="Resposta" type="text" 
+		name="resut" id="resposta">
+	</form>
+	
+	<script src="calculadora.js"></script>
+
+</body>
+</html>

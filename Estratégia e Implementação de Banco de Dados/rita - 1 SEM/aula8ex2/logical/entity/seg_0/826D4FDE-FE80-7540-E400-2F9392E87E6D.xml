@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="826D4FDE-FE80-7540-E400-2F9392E87E6D" name="T_DESKTOP">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:32:38 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_monitor" id="E2E5E557-E669-469D-CD2A-78812AAC2A31">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:34:14 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_teclado" id="7F16282A-9C59-91CB-B0A7-0FD1A35BD9AF">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:34:22 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_mouse" id="A5BBBCDE-12A7-D17F-763F-20E7B03044B4">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:34:29 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_identificacao" id="6D2C02A6-39BF-A653-4FCF-A936454873D9">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:50:14 UTC</createdTime>
+<generatorID>8972FD56-B45A-D1F2-B044-495FA4610EEE</generatorID>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<referedAttribute>6270A96D-55BD-5B03-C038-B3D89E9563CB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D93215E6-8EAA-EE38-8891-917D7AAB50B1" name="T_PRODUTO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-18 12:10:32 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="3FA41AC4-6800-CF9B-CAD1-BAD2FC000863">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-18 12:10:49 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto1" id="00283DD8-CF42-D608-97F4-84B83AA32735">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:34:50 UTC</createdTime>
+<generatorID>31CF7DC6-DEFC-8A3F-6D33-AD72C5F1CE00</generatorID>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<referedAttribute>854BCBD3-A039-4F75-3C49-ED81FC2E3243</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="BCA07085-136D-1F91-91F9-3790E629E8D6">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-18 12:10:56 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_estoque" id="C7EA52F2-3EF5-A51E-3C0D-D74AC589838E">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-18 12:11:48 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_preco" id="314B9147-9E9D-913B-C25C-368E9732309E">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-18 12:12:19 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43E7EA15-E0BF-6931-71EE-F2CFD9071CDB" name="T_PRODUTO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-18 12:10:54 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FA41AC4-6800-CF9B-CAD1-BAD2FC000863</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

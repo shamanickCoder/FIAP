@@ -1,0 +1,6 @@
+package br.com.fiap.beans;
+
+public class Medico extends PFisica{
+ private int crm;
+ private int codigo;
+}

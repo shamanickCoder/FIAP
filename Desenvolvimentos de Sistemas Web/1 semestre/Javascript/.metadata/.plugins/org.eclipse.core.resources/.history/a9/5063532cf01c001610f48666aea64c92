@@ -1,0 +1,9 @@
+$().ready(function(){
+	if(email.checked == "nao" || email.checked == ""){
+		$(".email").hide();
+	}
+	
+	$("button").click(function(){
+		$("h1").slideToggle();
+	});
+});

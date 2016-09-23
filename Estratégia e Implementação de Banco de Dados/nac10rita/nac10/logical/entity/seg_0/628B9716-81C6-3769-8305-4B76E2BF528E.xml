@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="628B9716-81C6-3769-8305-4B76E2BF528E" name="T_AM_LOGRADOURO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:11:21 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="8E4EE412-462E-9540-127B-26E241DAF7D9">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:11:34 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="BD0B684B-B580-3283-B034-9219A16D29BE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:04:49 UTC</createdTime>
+<generatorID>8B52C8D2-92C6-BAA0-324A-B143C0F39632</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>71FBD51F-D528-4826-20C6-06CA814F99F0</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_log" id="F0758E84-CD48-3DE6-3953-D4D9307040D5">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:05:02 UTC</createdTime>
+<generatorID>B794A19D-0333-64D5-9A39-877C018F7243</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>636427F2-717E-575E-E8A2-7784EFDEC807</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="7D64E3AB-49BB-E479-F92A-84678D09872C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:11:48 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAEBDBB1-EBB4-069C-EB47-B24C1B2305EA" name="T_AM_LOGRADOURO PK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:11:38 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E4EE412-462E-9540-127B-26E241DAF7D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

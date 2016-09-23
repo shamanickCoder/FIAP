@@ -1,0 +1,12 @@
+
+public class Teste2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] nome = new String[3];
+		float[] temperatura = new float[3];
+		
+	}
+
+}

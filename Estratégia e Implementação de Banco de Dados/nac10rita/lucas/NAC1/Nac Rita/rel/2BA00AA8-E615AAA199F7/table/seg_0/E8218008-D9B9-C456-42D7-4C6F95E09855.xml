@@ -1,0 +1,248 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8218008-D9B9-C456-42D7-4C6F95E09855" name="T_AM_ART_PROCESSO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>B131610A-EB6C-6695-8F8F-F6D2176E2EE9</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_processo</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_processo" id="AE35F44B-F9EB-58E3-F72B-1559FF0EF9DA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>F0781642-1BD7-DB79-331E-C2EE28220342</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="A5EAE553-EFCE-B54D-CD45-ACD3C4B1066E">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>FC1A2719-C747-F201-7E40-053077F3FC23</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ABC6EB3-91DA-A46A-13C2-894B70F5BA10" referredColumn="F548E0AA-37A5-C306-FCC9-A67D86386A56"/>
+</associations>
+</Column>
+<Column name="cd_pessoa1" id="9EF44CDD-4065-D138-0EB8-8E71519B8F6D">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>6AF82545-7BE1-2DAF-E85A-84BB2C0F21AC</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEB9470C-06F3-1D6B-C476-446E92C4B39E" referredColumn="B8FF1630-CB04-D1DF-B03E-247427908589"/>
+</associations>
+</Column>
+<Column name="cd_causa" id="CE8DDAD6-6F55-F97A-79FA-F8BB343974B7">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>AC96D0B1-7BBE-BB47-7716-CC2B4ACB872A</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ABC6EB3-91DA-A46A-13C2-894B70F5BA10" referredColumn="48EA2AA6-96A4-2463-651B-0923C9B4949F"/>
+</associations>
+</Column>
+<Column name="cd_pessoa2" id="1FB7898F-28E2-D64C-96BC-048F0B3C9E1D">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>9389C535-1905-839D-FC25-52B262FCD044</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="957D0333-AFAA-6CE0-3E3B-033FBC28C188" referredColumn="1C332761-7435-E0EA-65DC-3BC5AF3102E2"/>
+</associations>
+</Column>
+<Column name="ds_processo" id="53AEBCEE-5487-19D7-C174-E11AA092A3DD">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>AFF5A00C-7613-F997-8686-A3305112401E</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_abertura" id="0B12243A-9A7F-3D21-8C99-5F9329EE4D9D">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>F3F7934E-76BD-27C1-CE29-3702300F4B87</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fechamento" id="FC895494-97C4-2932-797D-C8D47D673C04">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>22397A86-8952-EEC7-E521-D856C300FE09</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_dia_vencimento" id="C33249D7-99CC-000E-F745-1D251A1FECFD">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>DC02F269-CE6D-B14B-3F90-CE8E32F98EAD</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_resultado" id="E94252AE-CE35-FBFD-7D1C-7167DC9FAF28">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>0004B8F8-429E-26B1-D1E0-7C57259B488A</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_situacao" id="69555A31-D583-66B7-801F-B387DEEDDD9E">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>113F674F-DEE5-358A-A153-F83A93D99B65</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="A7EB14F7-252A-6AF3-9813-B1481C2CC344">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>21BA85D2-3D16-5AF0-FC0D-D71915EACAF4</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EE7AB11-EEC4-0CA0-461E-16A05019F2AB" name="PK_AM_ART_PROCESSO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>CE4608C2-5F74-9AB4-F2B3-4B6A03FC4018</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE35F44B-F9EB-58E3-F72B-1559FF0EF9DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C2B5A56-6397-4FFC-6ACA-7CC59270ED4D" name="FK_AM_ART_PROC_ESPEC">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>8A0BC4AC-C425-27A6-DE8B-DB38E7DF2C1B</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE8DDAD6-6F55-F97A-79FA-F8BB343974B7"/>
+<colUsage columnID="A5EAE553-EFCE-B54D-CD45-ACD3C4B1066E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C498BC40-7A58-2BB3-61C7-6CD67A45EA39" name="FK_AM_ART_PROC_FORUM">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>85652D52-DA3E-5E46-CBC0-AE02DBFF6135</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB7898F-28E2-D64C-96BC-048F0B3C9E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E9BB1CD-1886-B699-E5D4-4A5DFAA764B4" name="FK_AM_ART_PROC_CLIENTE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>6509E8EC-8B38-2E09-CF16-D3C92A475B6B</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EF44CDD-4065-D138-0EB8-8E71519B8F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_ART_PROCESSO_DATA" directorySegmentName="seg_0" id="389C3339-8DBA-B733-49B2-201169A0B6E7">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:36:58 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>DT_FECHAMENTO&gt;DT_ABERTURA</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_ART_PROCESSO_DIA" directorySegmentName="seg_0" id="1C6E58A3-643A-A2B7-4151-8A27267E9AC9">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:37:23 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>DT_DIA_VENCIMENTO&gt;=1 AND DT_DIA_VENCIMENTO &lt;= 30</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_ART_PROCESSO_RESULT" directorySegmentName="seg_0" id="E7D07B0C-49C1-411D-0D83-4B1A76EAD150">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:37:45 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>NR_RESULTADO=1 OR NR_RESULTADO=2</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AM_ART_PROCESSO_SITUACAO" directorySegmentName="seg_0" id="9AD0548E-FD02-0928-B894-E40F23065410">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:38:15 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>NR_SITUACAO=1 OR NR_SITUACAO=2</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Buscar</title>
+</head>
+<body>
+<h1>Busca</h1>
+<form action = "buscar" method = "get">
+ <label>Nome</label>
+ <input type = "text" id = "idNome" name = "nome">
+ <input type = "submit" value = "Buscar">
+ 
+ <table>
+ <tr>
+  <th>Nome</th>
+  <th>Turma</th>
+  <th>Ano</th>
+ </tr>
+ <tr>
+  <th>Carlos</th>
+  <th>3</th>
+  <th>1 ano</th>
+ </tr>
+ <tr>
+  <th>Roger</th>
+  <th>3</th>
+  <th>2 ano</th>
+ </tr>
+ <tr>
+  <th>Juju</th>
+  <th>2</th>
+  <th>1</th>
+ </tr>
+ </table>
+</form>
+</body>
+</html>

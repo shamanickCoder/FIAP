@@ -1,0 +1,28 @@
+package br.com.fiap.beans;
+
+public class Tecnologo extends Formacao{
+ private boolean planoEstendido;
+
+ public Tecnologo() {
+	 super();
+ }
+
+ public Tecnologo(boolean planoEstendido, String descricao, int periodo, double mensalidade, int duracao) {
+	 super(descricao, periodo, mensalidade, duracao);
+	 this.planoEstendido = planoEstendido;
+ }
+
+ public boolean isPlanoEstendido() {
+	 return planoEstendido;
+ }
+ public String getTudo(){
+	 return planoEstendido + "\n" + super.getTudo();
+ }
+ public void setPlanoEstendido(boolean planoEstendido) {
+	 this.planoEstendido = planoEstendido;
+ }
+ 
+ public void calcularMensalidade (double fator){
+	super.setMensalidade(super.getDuracao()*fator*500;); 
+ }
+}

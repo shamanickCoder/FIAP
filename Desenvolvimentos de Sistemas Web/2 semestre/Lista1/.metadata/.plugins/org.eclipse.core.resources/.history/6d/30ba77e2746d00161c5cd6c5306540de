@@ -1,0 +1,32 @@
+package br.com.fiap.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MediaServlet extends HttpServlet{
+ public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	 double notaPs = Double.parseDouble(req.getParameter("ps"));
+	 double notaAm = Double.parseDouble(req.getParameter("am"));
+	 double notaNac = Double.parseDouble(req.getParameter("nac"));
+	 double media = 0;
+	 
+	 media = (notaPs*0.5) + (notaNac*0.2) + (notaAm*0.3);
+	 PrintWriter saida = resp.getWriter();
+	 resp.setContentType("text/html");
+	 
+	 if(media >= 6) {
+		 System.out.println("Média: " + media + "\nAprovado!");
+		 saida.print("<html><body> Média: " + media + "\nAprovado!" + "</body></html>");;
+	 }
+	 else if (media > 3 && media < 6) {
+		 System.out.println("Média: " + media + "\nExame");
+		 saida.print("<html><body> Média:" + media + "\nExame!</body></html>");
+	 }
+	 else System.out.println("Média: " + media + "\nReprovado");
+ }
+}

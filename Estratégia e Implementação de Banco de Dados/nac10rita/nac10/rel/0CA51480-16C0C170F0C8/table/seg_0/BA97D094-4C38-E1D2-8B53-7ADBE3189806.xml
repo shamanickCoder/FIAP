@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA97D094-4C38-E1D2-8B53-7ADBE3189806" name="T_AM_TIPO_LOG">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9A2B281A-46F8-4574-8E0A-5DA854DEA377</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_log" id="0DB58204-E630-B470-B066-4DCEA2D56C61">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>636427F2-717E-575E-E8A2-7784EFDEC807</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_log" id="D73942C5-143C-1C5F-BF65-7929E6A9F943">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>02078981-221E-0F4C-4736-8CBC83673D80</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C61795E9-6B33-3691-3ACB-DBFD9A7D0C0E" name="PK_AM_TIPO_LOG">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8823244E-00FC-9F12-7297-D4843CF7328C</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DB58204-E630-B470-B066-4DCEA2D56C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="975EF765-0695-C223-9659-F25CF35F0DF9" name="UN_AM_TIPO_LOG">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:21:07 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D73942C5-143C-1C5F-BF65-7929E6A9F943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

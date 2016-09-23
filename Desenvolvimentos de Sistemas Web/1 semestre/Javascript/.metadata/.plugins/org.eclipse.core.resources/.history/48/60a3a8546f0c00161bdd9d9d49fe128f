@@ -1,0 +1,34 @@
+function validarCliente(){
+	/*var n = document.getElementById("");
+	if(n.value==""){
+		
+	}*/
+	if(nome.value == ""){//nome é o id
+		nome.style.border = "1px solid red";
+		return false;
+	}
+	else {
+		nome.style.border = "1px solid black";
+		return true;
+	}
+	
+	if(email.value == ""){
+		emial.style.border = "1px solid red";
+		return false;
+	}
+	else return true;
+	
+	if(data.value == ""){
+		data.style.border = "1px solid red";
+		return false;
+	}
+	else return true;
+	
+	if(estado.value == ""){
+		estado.style.border = "1px solid red";
+		return false;
+	}
+	else return true;
+	
+	
+}

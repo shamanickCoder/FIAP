@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72482280-2638-6FE8-30DE-09A3ABE324A6" name="T_AM_ART_LANCA_DESPESA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>24F06595-ACD8-246B-BBEE-3425E56D4F46</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_lanca_despesa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lancamento" id="D3DA56DE-E5D6-3563-D4A6-B377ACA7AA55">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>59325D1F-8EF5-8BE3-B97C-04D86CBFE838</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_despesa" id="04A38274-C19D-77C6-9F70-B583D38535D2">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>DEDF6FC4-B082-7293-C6A0-1625A5F1C0FA</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E81BE3B-C86A-D241-14DF-174AC413FEE5" referredColumn="ED5A7BA8-2A35-6B9A-11A4-7984A0CFE3AC"/>
+</associations>
+</Column>
+<Column name="nr_processo" id="98219EE9-A2DB-364C-E62F-7B38DEDFAE6D">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>D2D8EE4A-ACC2-E4C3-E225-033B7B64E235</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="755A0D2F-A232-4E6E-5F17-A6161074AB09" referredColumn="AE35F44B-F9EB-58E3-F72B-1559FF0EF9DA"/>
+</associations>
+</Column>
+<Column name="dt_despesa" id="4DC505E6-C066-F654-5E3A-9EEED1C602A1">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>23BFB9C3-4091-02E9-0F66-C403C2B2933D</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_despesa" id="C2A257F2-313F-E090-A9C6-B72327B70038">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>69FE40DC-0C9C-167F-A83A-5CD94A11AC86</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="70A4DD6F-1A43-366C-CCC7-8B47AA37FD50">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>AFC8F496-B0EF-7BA1-7201-28F55581A073</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEDF4320-223D-385C-58CF-FF4FD6A28800" name="PK_AM_ART_LANCA_DESPESA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>DB0C6837-1B7E-79C5-325D-061D92FB3FB1</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3DA56DE-E5D6-3563-D4A6-B377ACA7AA55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6134C7B6-93F4-F18F-BE64-982C0DB28542" name="FK_AM_ART_TIPO_DESP">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>182F9C9D-DA5B-8FB6-CE45-58FBE986B728</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04A38274-C19D-77C6-9F70-B583D38535D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8E586CE-6CEC-7C59-CF61-16167301C179" name="FK_AM_ART_PROC_DESP">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>6621A739-4E52-1939-1A0C-4E5E2F851134</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98219EE9-A2DB-364C-E62F-7B38DEDFAE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_ART_LANCA_DESPESA" directorySegmentName="seg_0" id="2817965B-63FD-7B96-D8F3-E690917A9165">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:29:59 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>VL_DESPESA&gt;0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

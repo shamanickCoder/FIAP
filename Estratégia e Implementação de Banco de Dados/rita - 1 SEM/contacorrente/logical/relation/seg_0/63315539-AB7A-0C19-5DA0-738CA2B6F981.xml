@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="conceder" directorySegmentName="seg_0" id="63315539-AB7A-0C19-5DA0-738CA2B6F981">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:44:03 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<sourcePk>215038D8-E088-4E8A-FD2E-A419CB2F4A91</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCF81995-DCD3-732A-1A0B-114C3E6DEA26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AFCEB9FF-88AE-6545-FA44-EFF72291E192</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,95 @@
+package br.com.fiap.beans;
+
+public class Aluno {
+	private String rm;
+	private String nome;
+	private String email;
+	private String cpf;
+	private char sexo;
+	private double mensalidade;
+	
+	public void validaSexo(char s){
+		if (s=='M'||s=='m'){
+			sexo='M';
+		}else{
+			sexo='F';
+		}
+	}
+	
+	public void validaMensalidade(double m){
+		if (m>=0){
+			mensalidade=m;
+		}
+	}
+	public String validaEmail(String e){
+		if(e.indexOf('@')>0){
+			return e;
+		}else{
+			return "E-mail inválido";
+		}
+	}
+
+	public Aluno(String rm, String nome, String email, String cpf, char sexo, double mensalidade) {
+		super();
+		this.rm = rm;
+		this.nome = validaNome(nome);
+		this.email = validaEmail(email);
+		this.cpf = validaCpf(cpf);
+		valida
+		validaMensalidade(mensalidade);
+	}
+	public Aluno() {
+		super();
+	}
+	public String validaNome(String n){
+		if(n.length()>2){
+			return n;
+		}else{
+			return "Sem nome";
+		}
+	}
+	public String getRm() {
+		return rm;
+	}
+	public void setRm(String rm) {
+		this.rm = rm;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = validaNome(nome);
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = validaEmail(email);
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public String validaCpf(String c){
+		if(c.length()==14){
+			return c;
+		}else{
+			return "CPF inválido";
+		}
+	}
+	public void setCpf(String cpf) {
+		this.cpf = validaCpf(cpf);
+	}
+	public char getSexo() {
+		return sexo;
+	}
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+	public double getMensalidade() {
+		return mensalidade;
+	}
+	public void setMensalidade(double mensalidade) {
+		this.mensalidade = mensalidade;
+	}
+
+}

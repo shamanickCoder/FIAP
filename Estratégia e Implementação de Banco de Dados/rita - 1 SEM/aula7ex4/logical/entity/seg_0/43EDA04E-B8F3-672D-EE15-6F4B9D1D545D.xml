@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43EDA04E-B8F3-672D-EE15-6F4B9D1D545D" name="T_CD">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:13 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cd" id="AAE60F01-583B-E2AB-FF03-1F4EBC996551">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:20 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_titulo" id="BF49C50A-3A62-DDFB-387E-89E438E69059">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:24 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_lancamento" id="EBC06C99-9967-6D3B-7E65-A48D1AE3C6C7">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:32 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_venda" id="10827569-A58B-B25D-0878-74F9E030ADC9">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:38 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_faixa" id="BBB5CA74-6F80-AF13-1DA9-55B838B35F1C">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:50 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_gravadora" id="6F2C6758-C8B0-6EE5-6045-F6F024DD11CA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:16:35 UTC</createdTime>
+<generatorID>3D727BF9-227A-D248-597B-C03C6435C19A</generatorID>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<referedAttribute>CAC1329C-BC45-DEDF-A48D-E6BF43BC353B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A872519D-1660-9FCF-A77B-EA4E3B23E391" name="T_CD PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-15 11:14:23 UTC</createdTime>
+<ownerDesignName>aula7ex4</ownerDesignName>
+<engineerTo>
+<item key="7B5DAC7C-0B7F-7852-6112-32058EDBEA63" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAE60F01-583B-E2AB-FF03-1F4EBC996551</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

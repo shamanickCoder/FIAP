@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0316F32-2A59-E1DD-CC70-77412A9F4730" name="T_AULA19_AUTOR">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>6E5D58AF-366C-9000-F605-4C6F3E2ED383</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_autor" id="6CD7E759-851C-6F17-2247-936AB9F55EE0">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>F69E85C7-3D5B-FD1F-EF70-C73B93EEBE51</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_primeiro_nome_autor" id="38D24C21-FD6C-54EE-01B3-D1586260B89B">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>A49237D5-CF46-2F2C-D5C2-1DCD78ACA00A</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_segundo_nome_autor" id="8CE1332C-0CA3-2776-EE66-B0FC47B86865">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>645E0DF0-CF42-DEA9-0426-F0BBE0902F0C</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome_completo" id="B96C48B7-0266-17F9-3D15-52DCD7334550">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>EAE38567-B0CE-2820-0450-269BF6B38D8D</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>410</dataTypeSize>
+<ownDataTypeParameters>410,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B29E26F-4EFF-6FB2-567E-3F3E1C967865" name="PK_AULA19_AUTOR">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-12 13:31:31 UTC</createdTime>
+<generatorID>B5900377-7851-FABD-1CEC-930C0961C89C</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CD7E759-851C-6F17-2247-936AB9F55EE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+package br.com.fiap.testes;
+
+import br.com.fiap.beans.Bacharelado;
+import br.com.fiap.beans.Formacao;
+import br.com.fiap.beans.Medio;
+import br.com.fiap.beans.Tecnologo;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Formacao objFormacao = new Formacao();
+		Formacao objTecnologo = new Tecnologo();
+		Formacao objBacharelado = new Bacharelado();
+		Formacao objMedio = new Medio();
+		
+		
+	}
+
+}

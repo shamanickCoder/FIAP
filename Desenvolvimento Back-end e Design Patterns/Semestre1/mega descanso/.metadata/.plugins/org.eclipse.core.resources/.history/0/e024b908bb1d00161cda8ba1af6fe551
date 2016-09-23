@@ -1,0 +1,8 @@
+package br.com.fiap.beans;
+
+public class Modalidade {
+ private int codMod;
+ private String descMod;
+ private int dtInicio;
+ private int dtTermino;
+}

@@ -1,0 +1,15 @@
+127.0.0.1 - - [24/Aug/2016:11:10:03 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:10:14 -0300] "GET /08-Seguradora/cadastro-veiculo.jsp HTTP/1.1" 200 953
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:10:29 -0300] "POST /08-Seguradora/cadastrar HTTP/1.1" 500 1581
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:10:45 -0300] "POST /08-Seguradora/cadastrar HTTP/1.1" 500 1581
+127.0.0.1 - - [24/Aug/2016:11:17:47 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:17:52 -0300] "GET /08-Seguradora/cadastro-veiculo.jsp HTTP/1.1" 200 953
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:17:54 -0300] "POST /08-Seguradora/cadastrar HTTP/1.1" 500 1581
+127.0.0.1 - - [24/Aug/2016:11:22:25 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:22:25 -0300] "GET /08-Seguradora/cadastro-veiculo.jsp HTTP/1.1" 200 953
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:22:31 -0300] "POST /08-Seguradora/cadastrar HTTP/1.1" 200 987
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:35:32 -0300] "GET /08-Seguradora/cadastro-veiculo.jsp HTTP/1.1" 200 1166
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:35:32 -0300] "GET /08-Seguradora/css/bootstrap.min.css HTTP/1.1" 200 121200
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:35:41 -0300] "GET /08-Seguradora/cadastro-veiculo.jsp HTTP/1.1" 200 1166
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:35:41 -0300] "GET /08-Seguradora/css/bootstrap.min.css HTTP/1.1" 200 121200
+0:0:0:0:0:0:0:1 - - [24/Aug/2016:11:35:41 -0300] "GET /favicon.ico HTTP/1.1" 404 1016

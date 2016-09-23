@@ -1,0 +1,69 @@
+body {
+	font-family: Tahoma, Verdana, Sans-serif;
+	background-color: #6C7B8B;
+	color: white;
+}
+.italico {
+	font-style: italic;
+}
+h1 {
+	text-align: center;
+	color: #473C8B;
+}
+h1:hover{ /*aplica essas propriedades quando o mouse é passado em cima*/
+	background-color: #551A8B;
+	color: blue;
+}
+.negrito {
+	font-weight: bold;
+	text-transform: uppercase; /*deixa tudo maiusculo*/
+	text-decoration: underline;
+}
+table {
+	width: 500px; /*largura*/
+	margin: auto; /*centralizar*/
+	border-collapse: collapse; /*juntar as bordas*/
+}
+th, td {
+	border: 1px solid black;
+}
+#bodytabela {
+	background-color: green;
+	color: black;
+}
+#classif {
+	background-color: #8B0000;
+	font-style: italic;
+}
+.amarelo {
+	background-color: #FFFF00;
+	font-style: italic;
+	font-weight: bold;
+}
+.lista-destinos {
+	list-style-type: armenian;
+}
+h2 {
+	text-align: center;
+	color: #CD2626;
+}
+li {
+	color: #CD2626;
+	font-style: italic;
+}
+li:hover {
+	color:white;
+}
+#fotinho {
+	list-style-image: url("charmander.jpg");
+	list-style-position: inside;
+}
+/*seleciona os <a> que estão dentro de uma tag com o id menu*/
+#menu a {
+	color: white;
+	text-decoration: none;
+}
+#menu li {
+	list-style-type: none;
+	display: inline;
+}

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B74478D-B1EA-B986-98EE-2A47D037FD76" name="T_AULA19_AUTOR_LIVRO">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 21:48:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<engineerTo>
+<item key="13EEC4D1-CCDB-8439-6BE6-CB0A9BBD9C51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_autor" id="975269B0-5B3B-9FC2-C3C5-009D6B201434">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 21:48:59 UTC</createdTime>
+<generatorID>3A049C41-7288-FA76-83B1-DD5CE51873F5</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<engineerTo>
+<item key="13EEC4D1-CCDB-8439-6BE6-CB0A9BBD9C51" value="true"/>
+</engineerTo>
+<referedAttribute>F69E85C7-3D5B-FD1F-EF70-C73B93EEBE51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_isbn" id="A034E7EA-2AE1-F745-357E-2A133E9AFAC5">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 21:49:21 UTC</createdTime>
+<generatorID>E9F147AB-2EE0-4B7F-556B-0F853E8D9F33</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<engineerTo>
+<item key="13EEC4D1-CCDB-8439-6BE6-CB0A9BBD9C51" value="true"/>
+</engineerTo>
+<referedAttribute>556EAE93-2AD1-9E9D-B3BF-79D581DC6F73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_autor_principal" id="BB998A6B-52F1-CD24-89DC-B930BE7FABC7">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 21:53:53 UTC</createdTime>
+<comment>1-SIM&lt;br/&gt;2-NÃO</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<engineerTo>
+<item key="13EEC4D1-CCDB-8439-6BE6-CB0A9BBD9C51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="826E41FF-3999-F74E-1A69-006E4030E59F" name="PK_AULA19_AUTOR_LIVRO">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 21:49:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<engineerTo>
+<item key="13EEC4D1-CCDB-8439-6BE6-CB0A9BBD9C51" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E9F147AB-2EE0-4B7F-556B-0F853E8D9F33,3A049C41-7288-FA76-83B1-DD5CE51873F5</newElementsIDs>
+<usedAttributes>
+<attributeRef>A034E7EA-2AE1-F745-357E-2A133E9AFAC5</attributeRef>
+<attributeRef>975269B0-5B3B-9FC2-C3C5-009D6B201434</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

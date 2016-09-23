@@ -1,0 +1,47 @@
+function validarCliente(){
+	/*var n = document.getElementById("");
+	if(n.value==""){
+		
+	}*/
+	var ok = true;
+	
+	if(nome.value == ""){//nome é o id
+		nome.style.border = "1px solid red";
+		ok = false;
+	}
+	else {
+		nome.style.border = "1px solid silver";
+	}
+	
+	if(email.value == ""){
+		email.style.border = "1px solid red";
+		ok = false;
+	}
+	else {
+		email.style.border = "1px solid silver";
+	}
+	
+	if(data.value == ""){
+		data.style.border = "1px solid red";
+		ok = false;
+	}
+	else {
+		data.style.border = "1px solid silver";
+	}
+	
+	if(estado.value == ""){
+		estado.style.border = "1px solid red";
+		ok = false;
+	}
+	else {
+		estado.style.border = "1px solid silver";
+	}
+	
+	if(masc.checked == false && fem.checked == false){
+		ok = false;
+		labelMasc.style.color = "red";
+		labelFem.style.color = "red";
+	}
+	
+	return ok;
+}

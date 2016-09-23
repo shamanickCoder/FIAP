@@ -1,0 +1,17 @@
+package br.com.fiap.testes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.beans.Cliente;
+import br.com.fiap.beans.Telefone;
+
+public class TesteTelefoneDAO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Telefone> listaTel = new ArrayList<Telefone>();
+        Cliente objCliente = new Cliente("AAA", (byte)4, (long)1, listaTel);
+	}
+
+}

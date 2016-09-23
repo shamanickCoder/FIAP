@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CF4FB8A-A69A-0EA9-2DA3-536EC7BCED90" name="T_AM_ART_PESSOA_ENDE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>30A39D32-35D4-8D2E-1835-9598E311C4C5</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_pessoa_ende</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa_ende" id="7F6F0EDB-9F2D-B186-9B1E-977C75459D48">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>ADB143B7-29E0-9E8E-0A0D-CB2CE5434AA7</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cep" id="FC93BEE2-3033-141B-A5EC-024540DA460A">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>7442235A-BB00-8366-C0E5-F4B846317345</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1FCBC53-29CD-E30B-A9E9-503D8D440129" referredColumn="A9C7EEE7-7C0B-9157-98AB-4C39B9BE82DC"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="15767A4E-C896-BA0A-8200-A432FA807A4C">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>42ABE3F9-B95D-D796-0324-A64710975670</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E1707C1-2BA2-D265-2023-1E7673CB0F8A" referredColumn="BB484AFE-805D-66C6-ECE4-53FD46ACD001"/>
+</associations>
+</Column>
+<Column name="nr_endereco" id="A4E9EFCB-8DF1-0425-4645-4C1BD1BD3260">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>3E6D9290-5252-0DD1-CE27-A6269E2D1754</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="EDA75BE7-F97B-0609-0866-8ED2B6578962">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>2C178820-D000-7F08-B645-6C3F62E20E8F</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A92747B8-74EE-6F1A-6F90-F5300DA3568D" name="PK_AM_ART_FUNC_ENDE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>B3528764-9A2F-67AA-128B-B608FA35D316</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F6F0EDB-9F2D-B186-9B1E-977C75459D48"/>
+<colUsage columnID="FC93BEE2-3033-141B-A5EC-024540DA460A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42737159-9781-6AB0-65F4-0416F03E4D4D" name="FK_AM_ART_LOGRADOURO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>1F3E7309-C550-90EC-3FED-7C1A0B68D36E</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC93BEE2-3033-141B-A5EC-024540DA460A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BCD813B-A593-080B-26B7-8852F3D619F1" name="FK_AM_ART_PESSOA_ENDE">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>8039FB5F-AC38-069B-C33F-4685DF2738FF</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15767A4E-C896-BA0A-8200-A432FA807A4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

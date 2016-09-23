@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB02BFB8-43FA-0C45-062A-701870461288" name="T_AM_ESTADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>718BF019-78D2-8650-EEA6-867AC04AC13F</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="57D75B84-F8DF-0EFF-91FC-B1BB1C7C5585">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>B95DDB5B-40D9-8D6C-4B5F-B21D1B3B1638</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="3132EB2B-0B4C-C11F-2ABB-B438BBA5D08E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BD21DB3A-7FA5-1A1E-48C3-A5882B211E4A</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="FF229135-E2A5-ADCD-F51A-2ED834771F13">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>A1BF7313-E395-B0A6-201E-35DD165F0EA1</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F09E2982-AAE2-6901-4CE0-13EA2CFBFFBA" name="PK_AM_ESTADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BA36120D-89A4-CC45-61E5-0A2860AD7739</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D75B84-F8DF-0EFF-91FC-B1BB1C7C5585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6343A8DA-E51C-2C15-DCA8-A5290FDDA9CB" name="UN_AM_ESTADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:23:54 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3132EB2B-0B4C-C11F-2ABB-B438BBA5D08E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAF3B506-FACA-42E5-7C72-7DA5EAFFEC46" name="UN_AM_SIGLA_ESTADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:23:54 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF229135-E2A5-ADCD-F51A-2ED834771F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

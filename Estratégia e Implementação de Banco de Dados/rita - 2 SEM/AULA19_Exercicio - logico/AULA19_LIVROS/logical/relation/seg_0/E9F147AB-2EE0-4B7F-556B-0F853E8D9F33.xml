@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_AULA15_LIVRO_AUTOR" directorySegmentName="seg_0" id="E9F147AB-2EE0-4B7F-556B-0F853E8D9F33">
+<createdBy>Rita</createdBy>
+<createdTime>2013-08-10 21:49:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA19_LIVROS</ownerDesignName>
+<engineerTo>
+<item key="13EEC4D1-CCDB-8439-6BE6-CB0A9BBD9C51" value="true"/>
+</engineerTo>
+<sourcePk>3FCC919E-A2C3-0710-8B43-6FF40C8BDB31</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3418C4F7-9102-19F7-DF83-4F319BB2B91B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B74478D-B1EA-B986-98EE-2A47D037FD76</targetEntity>
+<transferable>true</transferable>
+</Relation>

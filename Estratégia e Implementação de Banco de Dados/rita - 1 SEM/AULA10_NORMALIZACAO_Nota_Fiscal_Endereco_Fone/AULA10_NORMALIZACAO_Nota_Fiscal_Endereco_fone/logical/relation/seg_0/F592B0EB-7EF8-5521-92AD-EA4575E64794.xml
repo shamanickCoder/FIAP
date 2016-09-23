@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fone_tem_tipo" directorySegmentName="seg_0" id="F592B0EB-7EF8-5521-92AD-EA4575E64794">
+<createdBy>Rita</createdBy>
+<createdTime>2013-04-28 19:32:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>AULA10_NORMALIZACAO_Nota_Fiscal_Endereco_fone</ownerDesignName>
+<engineerTo>
+<item key="894A1B73-C1D1-4D0D-C22F-96571E7AC73F" value="true"/>
+</engineerTo>
+<sourcePk>1CC9415E-BB1C-73D1-8D85-F15AB2476C38</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F5ED344-CCCD-C934-4F6B-7BD849DADD63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66166633-32C5-DD02-6854-B1FFD4AA1C11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

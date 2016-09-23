@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="734C936C-3399-76B1-08F2-6926AA62A991" name="T_AM_PESSOA_ENDE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:13:58 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa_ende" id="895AF00D-5C4C-BFE2-6F16-2F7599B3E853">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:14:07 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="F964A662-0A81-54FE-A831-586DF1B3DB5E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:03:54 UTC</createdTime>
+<generatorID>9A0AEE9E-CE8B-CC0F-B24B-129A8486DC37</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>05D27583-85CF-4D96-7807-6933F5986519</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="8D8D822F-7815-EED8-5DB4-5C9BA861F628">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 03:05:22 UTC</createdTime>
+<generatorID>8C77E50D-2AA3-8664-4BB5-BBFB96BE8DBE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<referedAttribute>8E4EE412-462E-9540-127B-26E241DAF7D9</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_endereco" id="1ED4390C-5675-BEAB-4F68-152A5FC9559E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:14:14 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="8AC46BF3-5C07-C19C-D50E-3BB7FDB897AE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:14:21 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7110D484-4A5E-116D-81A1-8A14D5628F6C" name="T_AM_PESSOA_ENDE PK">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 02:14:13 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<engineerTo>
+<item key="0CA51480-66FB-B0FC-9D13-16C0C170F0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>895AF00D-5C4C-BFE2-6F16-2F7599B3E853</attributeRef>
+<attributeRef>8D8D822F-7815-EED8-5DB4-5C9BA861F628</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

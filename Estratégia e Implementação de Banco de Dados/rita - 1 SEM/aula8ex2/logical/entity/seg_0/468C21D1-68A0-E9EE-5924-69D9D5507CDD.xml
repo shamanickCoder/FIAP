@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="468C21D1-68A0-E9EE-5924-69D9D5507CDD" name="T_COMPUTADOR">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:32:24 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_identificacao" id="6270A96D-55BD-5B03-C038-B3D89E9563CB">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:33:10 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_serie" id="8AB8DADF-057D-153C-11C3-2A0ED98B1DDB">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:33:17 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fabricante" id="CAA437D6-628A-D136-C4DD-F2C60B269C94">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:33:31 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_modelo" id="FC2A7EB9-A89F-C7FF-555E-207F12A7546E">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:33:36 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_processador" id="5660D9B1-594D-6D40-3F5C-FDEA7E33FFFD">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:34:50 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_disco_rigido" id="55C36601-C06C-C06D-D936-A3569E526562">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:33:52 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A11088BC-1481-4A55-CB48-B10C843FB22B" name="T_COMPUTADOR PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:33:15 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6270A96D-55BD-5B03-C038-B3D89E9563CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

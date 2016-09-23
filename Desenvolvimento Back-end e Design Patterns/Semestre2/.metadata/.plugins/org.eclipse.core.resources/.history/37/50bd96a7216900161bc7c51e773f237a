@@ -1,0 +1,39 @@
+package br.com.fiap.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Acessorio;
+import br.com.fiap.beans.Veiculo;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Veiculo objVeiculo[] = new Veiculo[5];
+        Acessorio objAcessorio[] = new Acessorio[3];
+        int i = 0, k = 0;
+        
+        for(i = 0; i < 2; i++){
+        	
+        	
+        	objVeiculo[i] = new Veiculo();
+        	
+        	objVeiculo[i].setAno(Integer.parseInt(JOptionPane.showInputDialog("Digite o ano: ")));
+        	objVeiculo[i].setModelo(JOptionPane.showInputDialog("Digite o modelo: "));
+        	objVeiculo[i].setValor(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor: ")));
+        	objVeiculo[i].setMontadora(JOptionPane.showInputDialog("Digite o nome da montadora: "));
+        	
+           for(k = 0; k < 3; k++){
+        	   objAcessorio[k] = new Acessorio();
+        	   objAcessorio[k].setDescricao(JOptionPane.showInputDialog("Digite a descrição: "));
+        	   objAcessorio[k].setValor(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor:")));
+        	   
+           }
+        	
+            objVeiculo[i].setAcessorio(objAcessorio);
+        }
+        for(Veiculo veiculo: objVeiculo)
+        JOptionPane.showMessageDialog(null, veiculo);
+	}
+
+}

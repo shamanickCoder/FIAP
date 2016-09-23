@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="aloca" directorySegmentName="seg_0" id="E689F0DE-D230-6162-4F4C-CD9304DBB4F1">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:25:32 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<sourcePk>3906FE38-54B0-E39D-E469-79247C340CB7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D25B0DAA-DE7B-D0D8-C271-2BC999789A87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F6F7EABA-2A06-09CB-A85A-F62FD0A72444</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

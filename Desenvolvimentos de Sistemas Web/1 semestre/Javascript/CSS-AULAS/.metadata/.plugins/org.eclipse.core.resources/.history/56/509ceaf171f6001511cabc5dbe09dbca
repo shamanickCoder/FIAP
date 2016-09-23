@@ -1,0 +1,25 @@
+body {
+	font-family: Verdana, Sans-serif;
+}
+.campo {
+	margin: 9px;
+}
+fieldset {
+	background-color: #ffceff;
+	width: 40%; /*largura*/
+	margin: auto; /*centralizar*/
+	background-image: url("pokemon.jpg");
+}
+label {
+	width: 93px;
+	display: inline-block; /*para a largura (width) funcionar*/
+}
+input, select, textarea {
+	border: 1px solid silver; /*borda*/
+	border-radius: 5px; /*borda arredondada*/
+	padding: 5px;
+}
+.botao {
+	background-color: #a95658;
+	cursor: pointer;
+}

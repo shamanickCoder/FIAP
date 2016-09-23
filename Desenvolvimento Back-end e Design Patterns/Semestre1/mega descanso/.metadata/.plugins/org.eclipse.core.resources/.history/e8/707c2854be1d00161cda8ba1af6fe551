@@ -1,0 +1,64 @@
+package br.com.fiap.beans;
+
+public class Frequencia {
+ private int numSeqAula;
+ private Aula seqAula;
+ private Aluno numeroMatricula;
+ private Modalidade codMod;
+ private PFisicaAcademia numMatricula;
+ private int dtAula;
+ 
+ 
+ 
+public Frequencia() {
+	super();
+}
+public Frequencia(int numSeqAula, Aula seqAula, Aluno numeroMatricula, Modalidade codMod, PFisicaAcademia numMatricula,
+		int dtAula) {
+	super();
+	this.numSeqAula = numSeqAula;
+	this.seqAula = seqAula;
+	this.numeroMatricula = numeroMatricula;
+	this.codMod = codMod;
+	this.numMatricula = numMatricula;
+	this.dtAula = dtAula;
+}
+public int getNumSeqAula() {
+	return numSeqAula;
+}
+public void setNumSeqAula(int numSeqAula) {
+	this.numSeqAula = numSeqAula;
+}
+public Aula getSeqAula() {
+	return seqAula;
+}
+public void setSeqAula(Aula seqAula) {
+	this.seqAula = seqAula;
+}
+public Aluno getNumeroMatricula() {
+	return numeroMatricula;
+}
+public void setNumeroMatricula(Aluno numeroMatricula) {
+	this.numeroMatricula = numeroMatricula;
+}
+public Modalidade getCodMod() {
+	return codMod;
+}
+public void setCodMod(Modalidade codMod) {
+	this.codMod = codMod;
+}
+public PFisicaAcademia getNumMatricula() {
+	return numMatricula;
+}
+public void setNumMatricula(PFisicaAcademia numMatricula) {
+	this.numMatricula = numMatricula;
+}
+public int getDtAula() {
+	return dtAula;
+}
+public void setDtAula(int dtAula) {
+	this.dtAula = dtAula;
+}
+ 
+ 
+}

@@ -1,0 +1,12 @@
+SQL - Linguagem estruturada para consulta
+  *DDL -> Linguagem de definição de dados => Criar estrutura da BD
+
+Comandos: Create table
+          Alter table
+          Drop table
+
+Boa prática:
+ 1) Create table: criar tabela e os campos
+ 2) Alter table: Inserir na estrutura: PK
+                                       UN + CK+ DF (se houver)
+ 3) Alter table: Inserir na estrutura as FK's

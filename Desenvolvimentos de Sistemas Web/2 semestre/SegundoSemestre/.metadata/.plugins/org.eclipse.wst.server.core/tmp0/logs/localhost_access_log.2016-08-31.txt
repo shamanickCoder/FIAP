@@ -1,0 +1,14 @@
+127.0.0.1 - - [31/Aug/2016:11:18:42 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:18:58 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:19:05 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 200 1096
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:19:05 -0300] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [31/Aug/2016:11:50:48 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:50:53 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 200 1171
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:50:53 -0300] "GET /09-Livro/css/bootstrap.min.css HTTP/1.1" 200 121200
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:50:53 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 200 1171
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:50:53 -0300] "GET /09-Livro/css/bootstrap.min.css HTTP/1.1" 200 121200
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:54:25 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 500 3721
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:54:28 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 500 3721
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:54:29 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 200 1171
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:54:29 -0300] "GET /09-Livro/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [31/Aug/2016:11:54:31 -0300] "GET /09-Livro/cadastro-livro.jsp HTTP/1.1" 500 3721

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7B81E69-4483-DC68-D541-313E887FF553" name="T_CLASSIFICACAO_FISCAL">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:31:43 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_classificacao_fiscal" id="2DDB704E-2129-E23A-CAA3-A974AD20BADD">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:31:52 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cfop" id="AE9144E0-6D28-46F2-DA94-EBD9979F7275">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:32:06 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_natureza_operacao" id="5EF4A7BE-A3F9-6393-6C65-79210BD001D7">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:32:11 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E73550B8-8F89-40E3-35D7-BACFFAFE88D6" name="T_CLASSIFICACAO_FISCAL PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-30 13:32:05 UTC</createdTime>
+<ownerDesignName>aula5ex4</ownerDesignName>
+<engineerTo>
+<item key="7F50BA74-0AB0-9474-F4B2-D54F32FD71F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DDB704E-2129-E23A-CAA3-A974AD20BADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

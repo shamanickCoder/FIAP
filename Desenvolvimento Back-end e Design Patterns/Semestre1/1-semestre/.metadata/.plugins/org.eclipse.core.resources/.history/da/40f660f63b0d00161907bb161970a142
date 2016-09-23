@@ -1,0 +1,49 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.CD;
+import br.com.fiap.beans.Livro;
+
+public class TesteProduto {
+	
+	/*
+	 static String texto(String msg){
+	   return JOptionPane.showInputDialog(msg);
+	  }
+	  static int inteiro (String msg){
+	   return Integer.parseInt(JOptionPane.showInputDialog(msg));
+	  }
+	  objLivro.setAutor(texto("Digite o autor"));
+	  objLivro.setCodigo(inteiro("Digite o codigo"));
+	  
+	 
+	 */
+	
+	
+	public static void main(String[] args) {
+		String resposta = new String();
+		resposta = JOptionPane.showInputDialog("Deseja preencer livro ? (sim/nao)").toLowerCase();
+		if(resposta.equals("sim")){
+			Livro objLivro = new Livro();
+			objLivro.setTotalPaginas(Integer.parseInt(JOptionPane.showInputDialog("Digite o total de páginas: ")));
+			objLivro.setAutor(JOptionPane.showInputDialog("Digite o nome do autor: "));
+			objLivro.setEditora(JOptionPane.showInputDialog("Digite o nome da editora: "));
+			objLivro.setDescricao(JOptionPane.showInputDialog("Digite a descrição: "));
+			objLivro.setValor(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor: ")));
+			objLivro.setCodigo(Integer.parseInt(JOptionPane.showInputDialog("Digite o código: ")));
+			JOptionPane.showMessageDialog(null, objLivro.getTudo());
+		}
+		else{
+			CD objCD = new CD();
+			objCD.setTotalFaixas(Integer.parseInt(JOptionPane.showInputDialog("Digite o total de faixas: ")));
+			objCD.setLancamento(Boolean.parseBoolean(JOptionPane.showInputDialog("Será lançado?")));
+			objCD.setArtista(JOptionPane.showInputDialog("Digite o nome do artista: "));
+			objCD.setDescricao(JOptionPane.showInputDialog("Digite a descrição: "));
+			objCD.setValor(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor: ")));
+			objCD.setCodigo(Integer.parseInt(JOptionPane.showInputDialog("Digite o código: ")));
+			JOptionPane.showMessageDialog(null, objCD.getTudo());
+		}
+		
+	}
+}

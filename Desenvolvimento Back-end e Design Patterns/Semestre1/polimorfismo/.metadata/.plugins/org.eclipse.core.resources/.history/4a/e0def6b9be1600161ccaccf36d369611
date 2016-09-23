@@ -1,0 +1,24 @@
+package br.com.fiap.beans;
+
+public class Medio extends Formacao{
+ private String tipo;
+
+public String getTipo() {
+	return tipo;
+}
+
+public void setTipo(String tipo) {
+	this.tipo = tipo;
+}
+
+public Medio(String tipo) {
+	super();
+	this.tipo = tipo;
+}
+
+public Medio() {
+	super();
+}
+ 
+ 
+}

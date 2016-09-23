@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E454689-D3AB-4566-A080-7C5E038C579B" name="T_MEMORIA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:38:02 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tp_memoria" id="63B052EC-BDC3-92DC-2854-9E8F9B461158">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:40:37 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tamanho" id="FEE20FA2-67FF-E55C-1B47-BD37467416E0">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:40:43 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_identificacao" id="056DC545-891C-436B-F2FA-1B5FC05808B7">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:52:13 UTC</createdTime>
+<generatorID>BF031BE6-D7B2-96D5-37A3-B1FA547FCA2E</generatorID>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<referedAttribute>58CC2519-7938-12FF-2FBE-03044AF7E9B7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2766A354-D1CB-764B-0AEE-B9285859460F" name="T_MEMORIA PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-04-27 14:40:42 UTC</createdTime>
+<ownerDesignName>aula8ex2</ownerDesignName>
+<engineerTo>
+<item key="8336B813-D74F-ECF6-8EEE-666C5E83673D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63B052EC-BDC3-92DC-2854-9E8F9B461158</attributeRef>
+<attributeRef>056DC545-891C-436B-F2FA-1B5FC05808B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

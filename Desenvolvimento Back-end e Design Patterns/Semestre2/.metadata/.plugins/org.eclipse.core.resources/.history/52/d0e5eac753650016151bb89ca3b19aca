@@ -1,0 +1,12 @@
+package br.com.fiap.beans;
+
+public class Veiculo {
+ private int ano;
+ private String modelo;
+ private double valor;
+ private String montadora;
+ private Acessorio acessorio[] = new Acessorio[3];
+ 
+
+ 
+}

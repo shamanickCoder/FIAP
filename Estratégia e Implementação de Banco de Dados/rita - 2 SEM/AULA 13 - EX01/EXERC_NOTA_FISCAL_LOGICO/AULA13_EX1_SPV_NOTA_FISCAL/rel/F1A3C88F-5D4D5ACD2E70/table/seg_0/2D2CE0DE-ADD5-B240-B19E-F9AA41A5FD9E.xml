@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D2CE0DE-ADD5-B240-B19E-F9AA41A5FD9E" name="T_SPV_CLIENTEv1">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>692F186D-2A23-21E3-FA1C-8455A1004542</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="2693B1B5-D042-CEBE-7706-9F90DA3CF19F">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>6AF03064-7D53-1BC6-08B4-16B19D59A809</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="E35CD39E-1108-3CB1-FBC4-E8F4EFA472B2">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>EC637CFD-53BE-12AC-40C6-781E997DBA98</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="7571F6D6-D475-873D-0FEE-F1C0FCD76943">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>04457055-6719-C6EB-94E9-481692AB188D</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="3D73F6E4-1A41-680E-FBA2-7DE7655C4FCA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>1D5D2907-5493-6BD8-3ECD-DA24606B5511</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="0BEF8896-9528-B85A-562E-1728C924F63F">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>540E0585-6B93-CB31-70F5-4810D17576C3</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf_dig" id="860095C9-BF34-16CD-792D-61E673E006AA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>7E2F822F-957B-27CC-036D-0A11283BEE33</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="9E50215B-308C-BD2D-B7F1-698584D69846">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>AB9DCBE7-BCBE-8B20-BAB9-01BBE7B27778</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg_dig" id="6D2B83A3-0355-1DEA-ED16-6364C7F145C1">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>91AB3356-A64A-20D4-5F1A-0FEDF3A33D64</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="750418C0-9239-319E-ADD3-5BDFCC553FDE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>3ED7E61E-C622-285D-722C-F762677FAA6D</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="E7332E32-0D78-7026-E464-DA6DC14A04CF">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>6D9D0E28-71B6-18E0-145B-337735FA3FA7</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="B693E9CC-D2FD-571B-E275-BC138BF44543">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>529DBF8E-936A-2657-47A0-E91097897EB6</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19B89BF6-93CE-95B5-64E4-03E52BE42825" name="PK_SPV_CLIENTEv1">
+<createdBy>Christian</createdBy>
+<createdTime>2016-08-09 22:29:43 UTC</createdTime>
+<generatorID>E7FB23E0-38EC-EBE2-6365-9E639B8833A5</generatorID>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2693B1B5-D042-CEBE-7706-9F90DA3CF19F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SPV_CLIENTE_SEXO" directorySegmentName="seg_0" id="63EBBEDD-F142-DEE8-2F94-6DB9C9F3A420">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-08-10 11:17:49 UTC</createdTime>
+<ownerDesignName>AULA13_EX1_SPV_NOTA_FISCAL</ownerDesignName>
+<rule>Upper(ds_sexo) = &apos;M&apos; OR Upper(ds_sexo) = &apos;F&apos;</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

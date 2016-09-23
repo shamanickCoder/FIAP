@@ -1,0 +1,23 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.ContaCorrente;
+import br.com.fiap.excecoes.Excecoes;
+
+public class TesteContaCorrente{
+
+	public static void main(String[] args) throws Excecoes{
+		// TODO Auto-generated method stub
+		ContaCorrente objContaCorrente = new ContaCorrente();
+		
+		try {
+			objContaCorrente.setLimiteCredito(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do limite de crédito: ")));
+		}
+		catch(Exception e) {
+			throw new Excecoes("Ocorreu uma falha.", e);
+		}
+		
+	}
+
+}

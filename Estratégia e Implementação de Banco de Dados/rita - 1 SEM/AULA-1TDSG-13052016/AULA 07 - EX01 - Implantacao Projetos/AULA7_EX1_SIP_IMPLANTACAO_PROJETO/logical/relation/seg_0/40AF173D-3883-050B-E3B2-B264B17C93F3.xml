@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="e_implantado" directorySegmentName="seg_0" id="40AF173D-3883-050B-E3B2-B264B17C93F3">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:26:18 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<sourcePk>CA80AC57-0916-B29F-3AEA-23A98983D206</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B10E252E-F684-58F4-9B13-6D6C4C0789CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68D19030-2C81-6B00-CA31-F78EB6827556</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

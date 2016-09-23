@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C73CB6B-7EBD-61E0-A7C7-B58E1B31F1A3" name="T_AM_LOGRADOURO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>628B9716-81C6-3769-8305-4B76E2BF528E</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="19876130-8575-798A-3175-0B2F2421A9A5">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8E4EE412-462E-9540-127B-26E241DAF7D9</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_bairro" id="EBACD809-1BC0-6730-C875-9CB20FA0C364">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>BD0B684B-B580-3283-B034-9219A16D29BE</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C493CC70-A210-05BD-20E9-C85338AE39BC" referredColumn="E04048B0-B6DA-53CC-BC96-D4A6ADF0F2AF"/>
+</associations>
+</Column>
+<Column name="cd_tipo_log" id="2F2CF351-4933-E362-1A9D-9700FB25908E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>F0758E84-CD48-3DE6-3953-D4D9307040D5</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="763D1F45-BFB5-0ACD-DD26-11624E7D4216" referredColumn="0DB58204-E630-B470-B066-4DCEA2D56C61"/>
+</associations>
+</Column>
+<Column name="ds_logradouro" id="90968E18-22DB-014F-31B9-38549DFEFB53">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>7D64E3AB-49BB-E479-F92A-84678D09872C</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CB940F1-7ACB-5922-D6B7-0D2E4F4A0FA6" name="PK_AM_LOGRADOURO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>EAEBDBB1-EBB4-069C-EB47-B24C1B2305EA</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19876130-8575-798A-3175-0B2F2421A9A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01E0838C-A0DE-2B04-C70C-C415D225CABB" name="FK_AM_BAIRRO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8B52C8D2-92C6-BAA0-324A-B143C0F39632</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBACD809-1BC0-6730-C875-9CB20FA0C364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="278AF009-6226-9BBA-DE02-CC1D85333B40" name="FK_AM_TIPO_LOG">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>B794A19D-0333-64D5-9A39-877C018F7243</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F2CF351-4933-E362-1A9D-9700FB25908E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

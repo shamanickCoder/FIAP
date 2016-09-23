@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nac10" id="9E19491D-5785-BD22-388C-FDEDF9179138" version="3.5">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 01:28:22 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9E19491D-5785-BD22-388C-FDEDF9179138</designId>
+</OSDM_Design>

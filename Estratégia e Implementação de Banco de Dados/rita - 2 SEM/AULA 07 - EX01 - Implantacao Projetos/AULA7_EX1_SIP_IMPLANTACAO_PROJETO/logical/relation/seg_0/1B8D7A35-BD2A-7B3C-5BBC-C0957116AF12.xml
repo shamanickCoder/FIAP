@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="participa" directorySegmentName="seg_0" id="1B8D7A35-BD2A-7B3C-5BBC-C0957116AF12">
+<createdBy>Rita</createdBy>
+<createdTime>2014-03-09 20:25:52 UTC</createdTime>
+<ownerDesignName>AULA7_EX1_SIP_IMPLANTACAO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA8444DE-84F1-555F-336C-7E43609A5BBF" value="true"/>
+</engineerTo>
+<sourcePk>E473EA3A-3016-9913-7E26-704BC693EC22</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6F7EABA-2A06-09CB-A85A-F62FD0A72444</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68D19030-2C81-6B00-CA31-F78EB6827556</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

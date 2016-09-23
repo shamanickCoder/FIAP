@@ -1,0 +1,21 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Formacao;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Formacao objFormacao = new Formacao();
+		Tecnologo objTecnologo = new Tecnologo();
+
+		objFormacao.setDescricao(JOptionPane.showInputDialog("Digite a descrição: ").toUpperCase());
+		objFormacao.setDuracao(Integer.parseInt(JOptionPane.showInputDialog("Digite a duração: ")));
+		objFormacao.setMensalidade(Double.parseDouble(JOptionPane.showInputDialog("Digite a mensalidade: ")));
+		objFormacao.setPeriodo(Integer.parseInt(JOptionPane.showInputDialog("Digite o período: ")));
+		
+		
+	}
+
+}

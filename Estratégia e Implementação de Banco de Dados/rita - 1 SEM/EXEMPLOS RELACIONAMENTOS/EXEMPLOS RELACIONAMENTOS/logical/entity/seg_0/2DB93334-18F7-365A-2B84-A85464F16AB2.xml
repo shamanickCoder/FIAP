@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DB93334-18F7-365A-2B84-A85464F16AB2" name="T_GERENTE">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:39:29 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gerente" id="5FAA32A8-6FA8-F0FD-F67E-B893828D38AE">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:40:16 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="F31619D8-FB70-FB08-768C-954F6156DFF0">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:42:45 UTC</createdTime>
+<generatorID>84ABDEF9-B277-6323-5FE1-ED6031B0C588</generatorID>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<referedAttribute>54CE29DB-51BF-EEE9-8F3B-62E98C75DDAC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_gerente" id="4F04B0E2-BAEF-D85A-FAA3-12F431A118F2">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:40:26 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="36A9A2BB-29DF-068B-FF3F-022C1B4172B4">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:42:05 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A31AB6FF-8A3A-C551-9574-DEC497578830" name="T_GERENTE PK">
+<createdBy>pf0102</createdBy>
+<createdTime>2016-03-09 14:40:25 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FAA32A8-6FA8-F0FD-F67E-B893828D38AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

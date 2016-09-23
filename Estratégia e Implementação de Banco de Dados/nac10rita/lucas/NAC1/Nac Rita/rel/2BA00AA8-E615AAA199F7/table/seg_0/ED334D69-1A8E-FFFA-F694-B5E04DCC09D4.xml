@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED334D69-1A8E-FFFA-F694-B5E04DCC09D4" name="T_AM_ART_TIPO_CAUSA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>D2B96EE0-5932-DE91-1C9A-28520092BF7E</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_tipo_causa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_causa" id="492171E7-52D7-92CC-1AB5-38F00B09AD08">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>FCE0C66B-B65B-20DF-67DF-4A0E52061BCE</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_causa" id="2433DCCA-5D97-36E4-9222-FF2854A7E711">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>54304A6B-9046-E56B-52C6-BB615878A432</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="008AFBBA-BC37-F4E7-2142-94FB647F59FF" name="PK_AM_ART_TIPO_CAUSA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>BC9C7BA1-9CB3-FE19-A304-1A66DD7BAB19</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492171E7-52D7-92CC-1AB5-38F00B09AD08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EAFDBF0-E690-F98F-B405-3B3F3E931D53" name="UN_AM_ART_TIPO_CAUSA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:21:51 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2433DCCA-5D97-36E4-9222-FF2854A7E711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

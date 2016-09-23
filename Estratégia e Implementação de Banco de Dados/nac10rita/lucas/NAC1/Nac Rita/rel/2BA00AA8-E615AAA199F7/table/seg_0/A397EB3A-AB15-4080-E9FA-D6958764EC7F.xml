@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A397EB3A-AB15-4080-E9FA-D6958764EC7F" name="T_AM_ART_LANCA_HONORARIO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>1AE8D4B5-2CC7-CD67-BDA5-6D65271A1930</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_lanca_honorario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lancamento" id="A5FB61BE-FABD-23DF-3617-F034ABBD351E">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>7848D0D5-FDB0-2B2B-9F7D-699297E27EA7</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_tarefa" id="B9C407DF-2896-EF75-768A-1880E5F92929">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>1D9DAEB5-41B6-3D15-EAC5-ECD498DFBC4B</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E36964EC-E15C-BBC1-6EC1-8AC3369237AB" referredColumn="A5548F06-6EC4-E6FC-5ED2-1DE5D63B1CC5"/>
+</associations>
+</Column>
+<Column name="nr_processo" id="6723A26B-1D21-09BD-2548-E4A00DDB0320">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>0F42F1CB-D928-6AFE-EB9A-F9B111711BDE</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6080FCA2-A936-4BAF-FB45-A2A91B2565AF" referredColumn="AE35F44B-F9EB-58E3-F72B-1559FF0EF9DA"/>
+</associations>
+</Column>
+<Column name="dt_honorario" id="9BC46FB7-EE61-5341-DB1E-B160A1163482">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>75D22F5F-928F-543A-B734-96B9D4600DEA</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_hora" id="8B1E867F-2A95-BF4E-5587-34EDBF368558">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>EBC3F99D-24FA-4B2E-147C-F0109AFBA67E</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="5A37A189-D174-4335-2AFD-DC866FD3149A">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>EF0CB7AE-75E2-8313-3794-B6617D98BDBF</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBBD38AD-7DAE-DCF9-F8D8-0D337314DAE2" name="PK_AM_ART_LANCA_HONORARIO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>03804225-8549-0F21-C8FA-0E3CFFD35489</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5FB61BE-FABD-23DF-3617-F034ABBD351E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66301771-F280-9917-5470-1E852033FBBE" name="FK_AM_ART_TIPO_TAREFA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>69815501-A978-2994-42CA-92B4AE0481E6</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9C407DF-2896-EF75-768A-1880E5F92929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16ACD398-B34E-F724-033F-8854D1726231" name="FK_AM_ART_PROC_HONO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:43 UTC</createdTime>
+<generatorID>DADA1DC3-666B-01D2-F8B5-F29C2AC70B97</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6723A26B-1D21-09BD-2548-E4A00DDB0320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_ART_LANCA_HONORARIO" directorySegmentName="seg_0" id="F4AB61D1-1235-D7EB-B3C5-F12D19665FB6">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:31:55 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>QT_HORA&gt;0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

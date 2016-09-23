@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Buscar</title>
+</head>
+<body>
+<h1>Busca</h1>
+<form action = "buscar" method = "get">
+ <label>Nome</label>
+ <input type = "text" id = "idNome" name = "nome">
+ <input type = "submit" value = "Buscar">
+</form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+package br.com.fiap.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.CD;
+import br.com.fiap.beans.ItemPedido;
+import br.com.fiap.beans.Livro;
+import br.com.fiap.beans.Pedido;
+import br.com.fiap.beans.Produto;
+
+public class TesteProduto {
+
+	static String texto(String m){
+		return JOptionPane.showInputDialog(m);
+	}
+	
+	static int inteiro(String m){
+		return Integer.parseInt
+				(JOptionPane.showInputDialog(m));
+	}
+	static double decimal(String m){
+		return Double.parseDouble
+				(JOptionPane.showInputDialog(m));
+	}
+	static boolean logico(String m){
+		return Boolean.parseBoolean
+				(JOptionPane.showInputDialog(m));
+	}
+	public static void main(String[] args) {
+		Produto objProduto;
+
+		if(JOptionPane.showInputDialog
+				("Deseja cadastrar Livros")
+				.toUpperCase().equals("SIM")){
+			
+			objProduto = new Livro(
+					inteiro("Total de páginas"),
+					texto("Autor"),
+					texto("Editora"),
+					texto("Descrição"),
+					decimal("Valor"),
+					inteiro("Codigo")
+					);
+		}else{
+			
+			objProduto = new CD(
+					texto("Descrição"),
+					decimal("Valor"),
+					inteiro("Codigo"),
+					inteiro("Total de Faixas"),
+					logico("Lançamento"),
+					texto("Artista")
+					);
+		}
+		Pedido objPedido = new Pedido(
+				inteiro("Número do pedido"),
+				texto("Data"),
+				decimal("Total")
+				);
+		ItemPedido objItem = new ItemPedido(
+				objPedido,
+				objProduto,
+				decimal("Valor Unitário"),
+				inteiro("Quantidade")
+				);
+		System.out.println(objProduto.getTudo());
+		Produto p = new Livro();
+	}
+
+}

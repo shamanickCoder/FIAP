@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B888305-21B1-C898-C2D5-6E0F703885F8" name="T_AM_ART_HORA_ADVOGADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>63DBF7E1-664B-45C3-44BB-DAC057AA081E</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<ordsAlias>t_am_hora_advogado</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="34ED2362-46D4-76C5-DADB-B017AE57E3A6">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>292D9286-A9CE-AF24-A486-3FA7AAC708AE</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7875DE2-5834-B7FD-80A8-CABC738CDB31" referredColumn="74DE8992-303E-4D31-FD8E-F96835CF540C"/>
+</associations>
+</Column>
+<Column name="cd_hist_hora" id="A6B05D2D-3AD6-2F76-83AB-9026F58FABA6">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>14EFAC9F-55E7-15E2-8449-19E482792916</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vigencia" id="F6CE0AD8-D4EB-95DF-20C8-D874FDDA283F">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>5F148A1A-F815-6A22-FD39-AAA4D1D645CD</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_hora" id="21120653-1EA2-1341-1865-A8ADA8DF7C3E">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>165AE42E-4BD9-505C-B48B-E93235490AEF</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F181944-5238-86F9-D0E0-C6D809897915" name="PK_AM_ART_HORA_ADVOGADO">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>71924924-0346-54B6-689D-AD584570F285</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6B05D2D-3AD6-2F76-83AB-9026F58FABA6"/>
+<colUsage columnID="34ED2362-46D4-76C5-DADB-B017AE57E3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B206ACF-D059-55AE-BE5D-FDE6B6EC7C49" name="FK_AM_ART_ADV_HORA">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-01 10:03:42 UTC</createdTime>
+<generatorID>CE505CAA-D526-23E4-6617-3DE0D7F83F7C</generatorID>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34ED2362-46D4-76C5-DADB-B017AE57E3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_ART_HORA_ADVOGADO" directorySegmentName="seg_0" id="25439203-5401-11B5-0646-6D10E467D1D8">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-09-02 10:28:37 UTC</createdTime>
+<ownerDesignName>Nac Rita</ownerDesignName>
+<rule>VL_HORA&gt;0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

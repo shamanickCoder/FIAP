@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de séries</title>
+</head>
+<body>
+<div>
+ <fieldset>
+  <legend>Cadastro de séries</legend>
+ </fieldset>
+</div>
+</body>
+</html>

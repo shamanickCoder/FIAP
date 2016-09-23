@@ -1,0 +1,56 @@
+package br.com.fiap.beans;
+
+public class Formacao {
+ private String descricao;
+ private int periodo;
+ private double mensalidade;
+ private int duracao;
+ 
+ 
+public Formacao() {
+	super();
+}
+public Formacao(String descricao, int periodo, double mensalidade, int duracao) {
+	super();
+	this.descricao = descricao;
+	this.periodo = periodo;
+	this.mensalidade = mensalidade;
+	this.duracao = duracao;
+}
+public String getDescricao() {
+	return descricao;
+}
+public void setDescricao(String descricao) {
+	this.descricao = descricao;
+}
+public int getPeriodo() {
+	return periodo;
+}
+public void setPeriodo(int periodo) {
+	this.periodo = periodo;
+}
+public double getMensalidade() {
+	return mensalidade;
+}
+public void setMensalidade(double mensalidade) {
+	this.mensalidade = mensalidade;
+}
+public int getDuracao() {
+	return duracao;
+}
+public void setDuracao(int duracao) {
+	this.duracao = duracao;
+}
+public void definirDuracao (Formacao obj){
+	
+}
+public double exibirMedia(double ps1, double ps2){
+	return 1;
+}
+public double exibirMedia(double ps1, double ps2, double nac1, double nac2){
+	return 1;
+}
+public double exibirMedia(double ps1, double ps2, double nac1, double nac2, double am1, double am2){
+	return 1;
+}
+}

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7D6D505-B578-270A-3531-79408580D8EC" name="T_CONTA_CORRENTE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:36:05 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_conta" id="1AC12DCA-1161-EF89-353F-9C36719A2357">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:38:58 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_agencia" id="304208F1-56B5-8F40-BC7B-02CFE4978923">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:46:43 UTC</createdTime>
+<generatorID>B77F251F-9660-049C-0928-3E22DFE0343B</generatorID>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<referedAttribute>26426470-E7D0-2ADC-D43C-2AA492546F6B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="6533240B-9147-F992-38ED-FE064C492FEE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:44:59 UTC</createdTime>
+<generatorID>D3F791BE-F5FD-04EA-CA8B-3603DEE72F7A</generatorID>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<referedAttribute>5D6E120E-E728-18F8-454D-29619366701B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_saldo" id="A2688FD6-76EF-9CE1-E2E3-5A4FFD9A5356">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:39:03 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C4A51D6-4218-8DF9-E955-5DD6DE55E43F" name="T_CONTA_CORRENTE PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-16 13:39:02 UTC</createdTime>
+<ownerDesignName>contacorrente</ownerDesignName>
+<engineerTo>
+<item key="86A8925C-E163-DBED-347A-6BE2189555FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AC12DCA-1161-EF89-353F-9C36719A2357</attributeRef>
+<attributeRef>304208F1-56B5-8F40-BC7B-02CFE4978923</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+package br.com.fiap.testes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.beans.Cliente;
+import br.com.fiap.beans.Telefone;
+import br.com.fiap.excecoes.Excecoes;
+
+public class TesteTelefoneDAO {
+
+	public static void main(String[] args) throws Excecoes{
+		List<Telefone> listaTel = new ArrayList<Telefone>();
+        Cliente objCliente = new Cliente("AAA", (byte)4, (long)1, listaTel);
+        
+        
+	}
+
+}

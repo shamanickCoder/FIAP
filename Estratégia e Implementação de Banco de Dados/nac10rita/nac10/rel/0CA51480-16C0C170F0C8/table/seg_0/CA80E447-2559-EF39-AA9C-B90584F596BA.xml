@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA80E447-2559-EF39-AA9C-B90584F596BA" name="T_AM_ESPECIALIDADE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>82A2D3A5-11B7-6046-C9AA-F93FBE3F54FC</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_causa" id="289713D5-1B05-69E2-C757-C1D8EE73A3EA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>EEB7A412-87B7-598A-D1AF-C6C3802E2FB6</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF501537-7D8C-8E98-D2F0-1BB01D34D525" referredColumn="76E41DD6-61BC-B9B1-934A-985022969E1E"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="B4CC49E8-742D-686F-6BF4-DB020D6D37E5">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>CFD15D74-F68D-D15E-FACC-ABB55AB1B5DA</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B713A861-F2C0-1EB3-E950-E429991062C1" referredColumn="D33D800F-9991-23C0-327D-88B7150A89D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ED73013-E891-27AF-62C5-BF7ECDDCCFC3" name="PK_AM_ESPECIALIDADE">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>3C4D77DE-D90B-AAD5-B375-8078E2E0E089</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="289713D5-1B05-69E2-C757-C1D8EE73A3EA"/>
+<colUsage columnID="B4CC49E8-742D-686F-6BF4-DB020D6D37E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B394DD17-386F-4333-CF5B-4E2F96B6CDFA" name="FK_AM_ESPEC_CAUSA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>AA9CB47A-C7BA-5F63-3717-37A3CE862C86</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="289713D5-1B05-69E2-C757-C1D8EE73A3EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D96085C8-0A13-3FDE-37F0-0207268924F2" name="FK_AM_ESPEC_ADVOGADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>03A84168-4330-F619-2E04-250959402BE3</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4CC49E8-742D-686F-6BF4-DB020D6D37E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,25 @@
+1-
+ •RF01: Cadastrar os livros
+ •RF02: Cadastrar os funcionários
+ •RF03: Registrar empréstimos dos livros
+ •RF04: Emitir comprovante de empréstimo
+ •RF05: Registrar a devolução dos livros
+ •RF06: Pesquisar os livros
+ •RF07: Reservar os livros
+ •RF08: Editar cadastro dos livros
+ •RF09: Consultar empréstimos
+ •RF10: Emitir relatórios
+ •RF11: Solicitar a criação de um módulo
+
+2-
+
+ •RNF05: Exibir as informações do relatório em até 5 segundos
+ •RNF06: Criar o sistema utilizando PHP 5.3 ou superior e MySQL 5.x
+
+3-
+ a)Registrar o empréstimo do livro:
+   • Verificar se o livro está disponível
+    - reservar caso já tenha sido emprestado
+   • Verificar a qualidade do livro
+   • Registrar no sistema
+   •                                                      

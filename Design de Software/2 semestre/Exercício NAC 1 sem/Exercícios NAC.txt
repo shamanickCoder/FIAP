@@ -1,0 +1,34 @@
+Prova A:
+
+1 - 
+ RF01 - Realizar o cadastro do porto
+ RF02 - Cadastrar tipo de carga
+ RF03 - Cadastrar tipo de contêiner
+ RF04 - Consultar tipo de carga
+ RF05 - Consultar tipo de contêiner
+ RF06 - Cadastrar cliente
+ RF07 - Realizar login
+ RF08 - Alterar senha
+ RF09 - Contratar entrega
+ RF10 - Realizar pagamento
+ RF11 - Contratar seguro
+ RF12 - Gerar senha
+ RF13 - Calcular valor total
+ RF14 - Enviar e-mail
+
+Prova B: 
+
+1-
+
+ RF01 - Cadastrar aluno
+ RF02 - Cadastrar professor
+ RF03 - Executar upload
+ RF04 - Cadastrar turmas
+ RF05 - Realizar pedido de impressão
+ RF06 - Calcular valor do serviço
+ RF07 - Solicitar entrega do pedido
+ RF08 - Efetuar pagamento (crédito ou débito: 2 heranças)
+ RF09 - Gerar protocolo
+ RF10 - Cadastrar tipo de serviço
+
+ 

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5B5618B-A7DB-F874-5072-B6826877653F" name="T_PEDIDO">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:06:59 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_pedido" id="E514E5DB-BFA3-0DA2-3AF3-DE724558196A">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:07:58 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="5F744B95-5E13-4FD7-BF6B-B10D7EE9FD9D">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:08:51 UTC</createdTime>
+<generatorID>EDEEFF65-4BBC-D483-B09C-64D59BF914D6</generatorID>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<referedAttribute>B1ADF5E4-6222-156D-A64C-BE838B1963E7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pedido" id="ED5FA72D-C417-FB65-3693-EC6883D7BCBE">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:08:14 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pedido" id="A73B8F9F-0E12-FAE7-6DB6-9E90B6E205FA">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:08:22 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="443C690F-B192-235F-78BB-208B8672EAE2" name="T_PEDIDO PK">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:08:13 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E514E5DB-BFA3-0DA2-3AF3-DE724558196A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

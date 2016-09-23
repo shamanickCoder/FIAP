@@ -1,0 +1,8 @@
+package br.com.fiap.beans;
+
+public class ContaBancaria {
+ private double saldo;
+ private Titular titular;
+ private int agencia;
+ private String numeroConta;
+}

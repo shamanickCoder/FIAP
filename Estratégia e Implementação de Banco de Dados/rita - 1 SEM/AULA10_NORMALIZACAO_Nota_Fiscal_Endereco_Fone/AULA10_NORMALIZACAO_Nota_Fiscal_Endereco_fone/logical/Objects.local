@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="07E63422-A678-F237-D682-5770EB96ED48" name="T_AULA10_CIDADE" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="12EB1146-1E59-F553-BC06-E3A2E4CA3705" name="T_AULA10_ENDERECO" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4482781B-605D-BA32-D7E6-E831A06AB4DC" name="T_AULA10_BAIRRO" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5A56FB1E-F936-EA0B-62DE-0668471F83B9" name="T_AULA10_ESTADO" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5F5ED344-CCCD-C934-4F6B-7BD849DADD63" name="T_AULA10_TIPO_FONE" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="66166633-32C5-DD02-6854-B1FFD4AA1C11" name="T_AULA10_TELEFONE" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="80A8CAC7-A9A2-71BF-5D9D-C4538B2E388E" name="T_AULA10_CLIENTE_FONE" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9FC85DF3-5018-4A30-C21A-64FE624C88C7" name="T_AULA10_PRODUTO" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A5254965-416A-568E-D40B-59314451ECD2" name="T_AULA10_NOTA_FISCAL" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="AC35A1AA-1065-4FA6-DA7B-B358EB1023C4" name="T_AULA10_ITEM_NF" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C4D12921-6A42-EFD3-11E3-E557A03A2C0A" name="T_AULA10_TRANSPORTADORA" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EA29EACC-1848-910A-89C8-9635024FB47E" name="T_AULA10_TIPO_LOGRADOURO" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="ECCDA9D4-9ACD-BFDF-F9AD-01B184392816" name="T_AULA10_CLIENTE" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EDF0988B-DDC5-4815-CF86-FCBF23C1641B" name="T_AULA10_CLIENTE_ENDERECO" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="07CF7E8F-409C-9F98-11DE-1A6944C33766" name="item_e_produto" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="349F92FA-669E-BD0F-42D1-9AB5D43016D1" name="cli_tem_endereco" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="38081841-CEF9-5659-1744-DCA7041C3878" name="endereco_tem_tipo_log" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="579CFFCC-59A4-B42B-7C10-9DABF28EB6EB" name="cli_compra_nf" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="77F4A8C3-4F7F-958B-85E8-EA999AF3A2F9" name="transp_entrega_nf" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="78B0BC22-5177-DEAD-3BAE-BC46E2152271" name="fone_pertence_pessoa" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="7951D136-4E75-EA58-EF61-A8B1B95482C3" name="bairro_tem_endereco" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="9F4A5058-AFAD-51EA-0BCA-578DFD5AC36B" name="cidade_tem_bairro" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="AEB51732-6A62-A91F-E05B-0F0F65995EC7" name="cli_tem_fone" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="D55ABD7F-9A08-AF01-8965-83E69F1EB236" name="endereco_pertence_cliente" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="EFF6FD28-F0C3-E7BC-0989-334D1B0F56AC" name="nf_possui_item" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="F592B0EB-7EF8-5521-92AD-EA4575E64794" name="fone_tem_tipo" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="FC94068B-66E0-6DC0-6E76-E81DA81D9388" name="estado_tem_cidade" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Note" objectID="0F344B57-230E-7943-4AAF-51B3D34946E2" name="Note_1" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

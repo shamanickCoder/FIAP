@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class ProfModalidade {
+ private PFisicaAcademia numMatricula;
+ private Modalidade codModalidade;
+ private int dtModalidade;
+ 
+ 
+}

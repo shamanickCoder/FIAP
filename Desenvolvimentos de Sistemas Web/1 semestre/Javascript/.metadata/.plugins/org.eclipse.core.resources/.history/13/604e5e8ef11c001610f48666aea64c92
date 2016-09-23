@@ -1,0 +1,11 @@
+$().ready(function(){
+	if(nao.checked == true && sim.checked == false){
+		$(".email").hide();
+	}
+	else {
+		$(".email").show();
+	}
+	$("button").click(function(){
+		$("h1").slideToggle();
+	});
+});

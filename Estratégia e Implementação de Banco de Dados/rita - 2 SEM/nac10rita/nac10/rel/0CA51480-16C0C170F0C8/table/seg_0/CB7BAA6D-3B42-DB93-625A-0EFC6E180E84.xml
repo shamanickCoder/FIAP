@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB7BAA6D-3B42-DB93-625A-0EFC6E180E84" name="T_AM_LANCA_DESPESA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>29B87B20-998B-142A-ACE2-AAAC98F8FB1D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lancamento" id="4E4C3D77-9B06-2506-0706-DBC88BCD0AC7">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>25CC38B6-F403-4435-B158-36805EE8E64A</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_despesa" id="99FB1218-983A-9772-45FC-CF91EA461568">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>457BA291-5ED7-02C1-F2B0-93275E99837C</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08103321-1479-03A3-E265-ED076F247CA3" referredColumn="6767E726-E1A3-197D-0740-B3E263775D20"/>
+</associations>
+</Column>
+<Column name="nr_processo" id="FCFEC28C-66FF-B0FC-BB07-C1C81DC96367">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8538121A-6F54-D320-07E9-12CDB6522E80</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBDD9B78-F78E-1A0B-457D-8F24E49701B5" referredColumn="A3D9F5F5-FC57-F5B2-7B83-A2CE1E05E1B7"/>
+</associations>
+</Column>
+<Column name="dt_despesa" id="51E8EFBF-782A-3DFF-08ED-2626CCC9FC05">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9FF25E4C-A626-5F61-9DF8-A26C86C04459</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_despesa" id="A7D20B59-A5D9-2C78-B383-D8E0A9FF901C">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>7F949E0D-F0E6-6562-740D-AB59DAD3EEE4</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="3FFA658F-063F-BD5D-B235-87393DB8E273">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8C308BCC-58EB-59C8-A7A9-22F75B5D7EDC</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5377998-0314-B9DB-D8E0-3661DF48EBD6" name="PK_AM_LANCA_DESPESA">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9B07878A-1AF4-B02A-165A-5704D338E83D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E4C3D77-9B06-2506-0706-DBC88BCD0AC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="489B1045-F9A7-667A-BAD0-5CC882902BF5" name="FK_AM_TIPO_DESP">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>80FBAC4C-CFB1-A385-1381-C25B7DA6A929</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99FB1218-983A-9772-45FC-CF91EA461568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A86202B2-B194-E6DE-CE51-EE29FB0AE5C4" name="FK_AM_PROC_DESP">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9A6591DD-1441-C304-A25F-A5E50753391D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCFEC28C-66FF-B0FC-BB07-C1C81DC96367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AM_LANCA_DESPESA" directorySegmentName="seg_0" id="658782B9-281B-A4BA-C6BD-721283CD2F60">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:46:03 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<rule>vl_despesa &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

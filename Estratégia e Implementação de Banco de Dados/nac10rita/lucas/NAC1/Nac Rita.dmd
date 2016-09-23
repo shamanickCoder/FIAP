@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Nac Rita" id="6BB6A6E7-BD8F-A50D-8E48-8F25AD1EAD44" version="3.5">
+<createdBy>rm76989</createdBy>
+<createdTime>2016-05-03 11:00:17 UTC</createdTime>
+<ownerDesignName>nac</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6BB6A6E7-BD8F-A50D-8E48-8F25AD1EAD44</designId>
+</OSDM_Design>

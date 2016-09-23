@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="279D08D2-E5E1-7F4A-00B6-DE288FDA3D2D" name="T_AM_ADVOGADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>EAFBE669-3C63-37E8-578A-523FA9908876</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="D33D800F-9991-23C0-327D-88B7150A89D6">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>40F31147-43E8-4D96-9265-C5C34D91A1D5</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCA64506-5FEF-57D7-6ABD-CC2C0647A24F" referredColumn="4B862BD8-876D-D01E-B52D-6F87DCDC0247"/>
+</associations>
+</Column>
+<Column name="nr_oab" id="E16A9DCC-6457-A26B-EE49-4890381C63F0">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>8538517C-3203-E703-2BDD-080DA9555C1D</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="F0FB6616-6766-F917-4052-E32F5F21FD8E">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>4F8F8687-6156-7BFC-7255-40A4BC95A87C</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="51EF3BCC-9F43-0332-EDF1-0118622C7A0F">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>E4EB4028-ADC6-1C3F-406C-AADE82EF6C90</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="0FB38D2F-07F1-601B-7349-88F007DCFF04">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>21FEC5DF-8CD8-3537-6897-9F7AAFBCA94B</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_password" id="E9F92267-BC6C-2DC8-7213-5A155DE6227A">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>E0B6B625-E13E-5A78-B5FF-6CA25BAD1A90</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB333F4B-875F-8409-2DB1-177B465FBAA8" name="PK_AM_ADVOGADO">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>9FF080F6-1FFF-F2EB-4A18-9A8109313C39</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D33D800F-9991-23C0-327D-88B7150A89D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0AB2B82-ADCE-8D13-91CE-C25F6ED37397" name="UN_AM_ADVOGADO_CPF">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:06:56 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0FB6616-6766-F917-4052-E32F5F21FD8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B735640D-8A31-913C-7F3F-58E671C23EE7" name="UN_AM_ADVOGADO_RG">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:06:56 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51EF3BCC-9F43-0332-EDF1-0118622C7A0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79F31DB2-3EBF-46F8-8CBE-9F0D00BB76A9" name="UN_AM_ADVOGADO_OAB">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:06:56 UTC</createdTime>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E16A9DCC-6457-A26B-EE49-4890381C63F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FE4F16B-2202-279A-018A-E6557EFC3284" name="FK_AM_PESSOA_ADV">
+<createdBy>Christian</createdBy>
+<createdTime>2016-09-04 04:02:52 UTC</createdTime>
+<generatorID>A2D14316-9A6B-2FF8-B81A-30C0043F4E87</generatorID>
+<ownerDesignName>nac10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D33D800F-9991-23C0-327D-88B7150A89D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

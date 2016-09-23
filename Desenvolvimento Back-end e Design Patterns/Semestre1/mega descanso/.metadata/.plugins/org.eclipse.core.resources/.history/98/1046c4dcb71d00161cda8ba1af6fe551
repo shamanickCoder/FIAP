@@ -1,0 +1,8 @@
+package br.com.fiap.beans;
+
+public class Aluno extends PFisicaAcademia{
+ private PJuridica instituicao;
+ private String dtMatricula;
+ 
+ 
+}

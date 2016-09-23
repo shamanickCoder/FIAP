@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="matricular" directorySegmentName="seg_0" id="68427AB5-CDC3-1EA4-6A14-B8BE2AF9186F">
+<createdBy>rm75949</createdBy>
+<createdTime>2016-03-11 12:32:29 UTC</createdTime>
+<ownerDesignName>EXEMPLOS RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="ED189074-E149-45CC-CB07-79CEACA40F8A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>84BF9156-FE8B-D340-7C87-642D3B2F4148</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DAAB4331-1384-43C7-4F03-66641AC9E598</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

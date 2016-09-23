@@ -1,0 +1,14 @@
+package br.com.fiap.bo;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.dao.CargoDAO;
+
+public class CargoBO {
+	CargoDAO dao = new CargoDAO();
+	
+	public void validarGravar(Cargo cargo){
+		if(cargo.getCargo().length() > 2 && cargo.getNivel().length() > 2 && cargo.getSalario() >= 800){
+			dao.gravar(cargo);
+		}
+	}
+}

@@ -1,0 +1,17 @@
+$().ready(function(){
+	$(".email").hide();
+    
+	$("#data").click(function(){
+		$("#data").datepicker();
+	});
+	
+	$("#nao").click(function(){
+		$(".email").slideUp();
+	});
+	$("#sim").click(function(){
+		$(".email").slideDown();
+	});
+	$("button").click(function(){
+		$("h1").slideToggle();
+	});
+});

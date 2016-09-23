@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Teste3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float[] numero = new float[10];
+		Scanner leitura = new Scanner(System.in);
+		float media;
+	}
+
+}
