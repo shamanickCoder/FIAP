@@ -1,0 +1,42 @@
+package br.com.fiap.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+
+	public static char validarSexo(){
+		Scanner entrada = new Scanner(System.in);
+		char sexo[] = new char[5];
+		int i = 0;
+
+		for (i = 0; i > 5; i++){
+			System.out.println("sexo: ");
+			sexo[i] = entrada.next().charAt(0);
+
+			while(sexo[i] != 'M' || sexo[i] != 'F'){
+				System.out.println("sexo: ");
+				sexo[i] = entrada.next().charAt(0);
+			}
+		}
+		
+		entrada.close();
+		
+		return sexo;
+	}
+	public static void validarCorOlho(){
+
+	}
+	public static void validarCorCabelo(){
+
+	}
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String sexo[] = new String[5];
+		String corOlhos[] = new String[5];
+		String corCabelos[] = new String[5];
+
+		entrada.close();
+	}
+
+}
