@@ -1,0 +1,47 @@
+package br.com.fiap.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	
+	public static double calculoImposto(double cargaCaminhao){
+		
+	}
+	
+	public static double conversaoPeso(double cargaCaminhao){
+		Scanner entrada = new Scanner(System.in);
+		int codigoCarga = 0;
+		
+		System.out.println("Codigo da carga: ");
+		codigoCarga = entrada.nextInt();
+		
+		if(codigoCarga >= 1 && codigoCarga <= 10){
+			cargaCaminhao = cargaCaminhao*1000*120;
+		}
+		else if(codigoCarga >= 11 && codigoCarga <= 20){
+			cargaCaminhao = cargaCaminhao*1000*200;
+		}
+		else {
+			cargaCaminhao = cargaCaminhao*1000*280;
+		}
+		
+		entrada.close();
+		
+		return calculoImposto(cargaCaminhao);
+	}
+
+	public static void main(String[] args) {
+		int codigoCaminhao = 0;
+		double cargaCaminhao = 0;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Codigo caminhao: ");
+		codigoCaminhao = entrada.nextInt();
+		
+		System.out.println("Peso carga: ");
+		cargaCaminhao = entrada.nextDouble();
+		
+		entrada.close();
+	}
+
+}

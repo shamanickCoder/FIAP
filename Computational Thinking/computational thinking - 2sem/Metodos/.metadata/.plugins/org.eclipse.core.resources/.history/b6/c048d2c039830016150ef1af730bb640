@@ -1,0 +1,21 @@
+package br.com.fiap.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		int codigoCaminhao = 0;
+		double cargaCaminhao = 0;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Codigo caminhao: ");
+		codigoCaminhao = entrada.nextInt();
+		
+		System.out.println("Peso carga: ");
+		cargaCaminhao = entrada.nextDouble();
+		
+		entrada.close();
+	}
+
+}
