@@ -1,0 +1,16 @@
+package br.com.fiap.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		int codigo = 0;
+		int quantidade = 0;
+		double preco = 0;
+		Scanner entrada = new Scanner(System.in);
+		
+		entrada.close();
+	}
+
+}
