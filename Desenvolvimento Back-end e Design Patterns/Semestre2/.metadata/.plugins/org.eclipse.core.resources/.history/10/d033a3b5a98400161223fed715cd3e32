@@ -26,4 +26,6 @@ public class TelefoneDAO {
 		System.out.println("Gravado");
 		estrutura.close();
 	}
+	
+	teste teste
 }

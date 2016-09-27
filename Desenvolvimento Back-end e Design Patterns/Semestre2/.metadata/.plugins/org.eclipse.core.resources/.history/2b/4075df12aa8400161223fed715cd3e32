@@ -65,7 +65,7 @@ public class CargoDAO {
 		estrutura.close();
 	}
 	
-	public int atualiza(double aumento) throws Exception {
+	public void atualiza(double aumento) throws Exception {
 		PreparedStatement estrutura = conexao.prepareStatement("update TB_CARGO set VL_SALARIO = VL_SALARIO*(1 + ?)");
 		estrutura.setDouble(1, aumento/100);
 		int saida = estrutura.executeUpdate();
