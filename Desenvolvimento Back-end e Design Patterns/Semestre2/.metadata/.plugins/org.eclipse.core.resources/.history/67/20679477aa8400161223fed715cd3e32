@@ -1,0 +1,24 @@
+package br.com.fiap.bo;
+
+import br.com.fiap.beans.Cliente;
+import br.com.fiap.beans.Telefone;
+import br.com.fiap.excecoes.Excecoes;
+
+public class ClienteBO {
+	public void verificarPositivo(Telefone telefone) throws Excecoes{
+		if(telefone.getDdd() < 0 || telefone.getNumero() < 0){
+			throw new Excecoes("Valor menos que 0");
+		}
+	}
+	public void verificarNome(Cliente cliente) throws Excecoes{
+		if(cliente.getNome().length() < 2 || cliente.getNome().indexOf(" ") < 0){
+			throw new Excecoes("Caracteres inválidos");
+		}
+	}
+	public void verificarQuantEstrelas(Cliente cliente) throws Excecoes{
+		if(cliente.getQtdeEstrelas()< 1 && cliente.getQtdeEstrelas() > 5){
+			throw new Excecoes("Quantida inválida de estrelas.");
+		}
+	}
+}
+

@@ -36,7 +36,4 @@ public class CargoBO {
 		}
 		new CargoDAO().deletar(cargo);
 	}
-	public int validarAtualizarSalario(double aumento) throws Exception {
-		return new CargoDAO().atualizar(aumento);
-	}
 }
