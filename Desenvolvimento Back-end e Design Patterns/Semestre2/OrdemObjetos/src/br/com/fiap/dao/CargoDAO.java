@@ -10,6 +10,18 @@ import br.com.fiap.beans.Cargo;
 import br.com.fiap.conexao.ConexaoFactory;
 import br.com.fiap.excecoes.Excecao;
 
+/**
+ * Na documentacao,. voce inicia desenvolvendo uma aplicacao sucinto 
+ * do seu projeto. Neste espcao onde voce pode utilizar as tags 
+ * de HTML, como por exemplo, a <code> tag </code> ou ainda deixar um
+ * <i> italico </i> e etc
+ * @since 1.0
+ * @author rm75949 - Christian
+ * @see Cargo
+ * @see CargoBO
+ *
+ */
+
 public class CargoDAO {
 
 	private Connection conexao;
@@ -17,7 +29,15 @@ public class CargoDAO {
 	public CargoDAO() throws Exception {
 		this.conexao = new ConexaoFactory().getConnection();
 	}
-
+	
+	/**
+	 * Metodo que <b>adiciona</b> uma tupla na tabela TB_CARGO
+	 * @param c Objeto da classe Cargo
+	 * @throws Exception
+	 * @author rm75949 - Christian
+	 * @see Cargo
+	 * 
+	 */
 	public void gravar(Cargo c) throws Exception{
 		String sql = "insert into TB_CARGO " + " (NM_CARGO, DS_NIVEL, VL_SALARIO) values (?,?,?)";
 		PreparedStatement estrutura = conexao.prepareStatement(sql);
@@ -28,6 +48,12 @@ public class CargoDAO {
 		estrutura.close();
 	}
 
+	/**
+	 * Metodo que exibe o conteudo gravado na tabela TB_CARGO depois de 
+	 * salvar tudo em uma lista
+	 * @return lista com o conteudo salvo
+	 * @throws Exception
+	 */
 	public List<Cargo> getLista() throws Exception{
 		List<Cargo> lstCargos = new ArrayList<Cargo>();
 		PreparedStatement estrutura = this.conexao.prepareStatement("select * from TB_CARGO");

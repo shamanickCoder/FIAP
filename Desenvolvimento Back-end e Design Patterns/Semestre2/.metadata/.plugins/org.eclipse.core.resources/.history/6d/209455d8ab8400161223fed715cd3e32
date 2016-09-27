@@ -1,0 +1,111 @@
+package br.com.fiap.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.conexao.ConexaoFactory;
+import br.com.fiap.excecoes.Excecao;
+
+/**
+ * Na documentacao,. voce inicia desenvolvendo uma aplicacao sucinto 
+ * do seu projeto. Neste espcao onde voce pode utilizar as tags 
+ * de HTML, como por exemplo, a <code> tag </code> ou ainda deixar um
+ * <i> italico </i> e etc
+ * @since 1.0
+ * @author rm75949 - Christian
+ * @see Cargo
+ * @see CargoBO
+ *
+ */
+
+public class CargoDAO {
+
+	private Connection conexao;
+
+	public CargoDAO() throws Exception {
+		this.conexao = new ConexaoFactory().getConnection();
+	}
+	
+	/**
+	 * Metodo que <b>adiciona</b> uma tupla na tabela TB_CARGO
+	 * @param c
+	 * @throws Exception
+	 * @author rm75949 - Christian
+	 * 
+	 */
+	public void gravar(Cargo c) throws Exception{
+		String sql = "insert into TB_CARGO " + " (NM_CARGO, DS_NIVEL, VL_SALARIO) values (?,?,?)";
+		PreparedStatement estrutura = conexao.prepareStatement(sql);
+		estrutura.setString(1, c.getCargo());
+		estrutura.setString(2, c.getNivel());
+		estrutura.setDouble(3, c.getSalario());
+		estrutura.execute();
+		estrutura.close();
+	}
+
+	public List<Cargo> getLista() throws Exception{
+		List<Cargo> lstCargos = new ArrayList<Cargo>();
+		PreparedStatement estrutura = this.conexao.prepareStatement("select * from TB_CARGO");
+		ResultSet resultadoDados = estrutura.executeQuery();
+
+		while(resultadoDados.next()){
+			Cargo cargo = new Cargo();
+			cargo.setCargo(resultadoDados.getString("NM_CARGO"));
+			cargo.setNivel(resultadoDados.getString("DS_NIVEL"));
+			cargo.setSalario(resultadoDados.getDouble("VL_SALARIO"));
+			lstCargos.add(cargo);
+		}
+		resultadoDados.close();
+		estrutura.close();
+		return lstCargos;
+	}
+
+	public List<Cargo> consultar(String pCargo)throws Exception{
+		List<Cargo> lista = new ArrayList<Cargo>();
+		PreparedStatement estrutura = this.conexao.prepareStatement("SELECT * FROM TB_CARGO WHERE NM_CARGO = ?");
+		estrutura.setString(1, pCargo);
+		ResultSet resultado = estrutura.executeQuery();
+		while(resultado.next()){
+			lista.add(new Cargo(resultado.getString("NM_CARGO"), resultado.getString("DS_NIVEL"), resultado.getDouble("VL_SALARIO")));
+		}
+		resultado.close();
+		estrutura.close();
+		return lista;
+	}
+	
+	public void deletar(String cargoDigitado) throws Exception{
+		PreparedStatement estrutura = conexao.prepareStatement("delete TB_CARGO where NM_CARGO = ?");
+		estrutura.setString(1, cargoDigitado);
+		estrutura.execute();
+		estrutura.close();
+	}
+	
+	public int atualizar(double aumento) throws Exception {
+		PreparedStatement estrutura = conexao.prepareStatement("update TB_CARGO set VL_SALARIO = VL_SALARIO*(1 + ?)");
+		estrutura.setDouble(1, aumento/100);
+		int saida = estrutura.executeUpdate();
+		estrutura.close();
+		return saida;
+	}
+}
+/*
+  preparedstatement -> parametros
+  statement -> concatenacao
+  execute() -> insert,delete, update
+  executeQuery()->select*/ //só ele gera o ResultSet
+
+/*
+ DriverManager = gera a conexao atras do .getConnection(url)
+ Connection = armazena a conexao e gera uma estrutura
+  prepareStatement(sql) ou createStatement()
+ PreparedStatement = permite parametrizar
+ Statement = utiliza concatenacao (sqliNJECTION)
+  execute() -> insert,delete,update
+  executeQuery() - select
+
+
+ */
