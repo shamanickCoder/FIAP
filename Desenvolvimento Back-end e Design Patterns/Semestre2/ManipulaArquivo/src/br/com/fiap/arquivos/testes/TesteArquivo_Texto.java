@@ -1,0 +1,26 @@
+package br.com.fiap.arquivos.testes;
+
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
+import br.com.fiap.arquivos.modelo.Produto;
+
+public class TesteArquivo_Texto {
+	
+	static String gravarArquivo(Produto produto) throws Exception {
+		FileWriter arquivo = new FileWriter("c:/temp/exemplo1.txt");
+		PrintWriter dados = new PrintWriter(arquivo);
+		
+		dados.println(produto.getTudo());
+		
+		dados.close();
+		arquivo.close();
+		
+		return "Gravado com sucesso.";
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

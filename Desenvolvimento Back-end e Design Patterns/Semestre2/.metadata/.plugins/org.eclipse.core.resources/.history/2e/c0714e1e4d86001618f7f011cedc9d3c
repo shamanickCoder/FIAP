@@ -40,10 +40,6 @@ public class TesteArquivo_Stream {
 		produto.setVelocidade("2 GHz");
 		
 		System.out.println(gravarArquivo(produto));
-		
-		Produto resultado = lerArquivo();
-		
-		System.out.println(resultado.getTudo());
 	}
 
 }

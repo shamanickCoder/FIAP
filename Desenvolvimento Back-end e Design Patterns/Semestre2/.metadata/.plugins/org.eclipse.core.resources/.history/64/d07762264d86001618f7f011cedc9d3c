@@ -47,7 +47,7 @@ public class Produto implements Serializable{
 		this.revendedor = revendedor;
 	}
 	public String getTudo() {
-		return "Nome: " + nome + "\nVelocidade: " + velocidade + "\nMemória: "
+		return "Nome: " + nome + "\nVelocidade: " + velocidade + "Memória: "
 				+ memoria + "\nRevendedor: " + revendedor;
 	}
 }
