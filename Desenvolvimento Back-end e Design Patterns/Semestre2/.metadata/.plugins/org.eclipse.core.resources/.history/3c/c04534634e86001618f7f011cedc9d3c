@@ -1,7 +1,5 @@
 package br.com.fiap.arquivos.testes;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
@@ -20,28 +18,10 @@ public class TesteArquivo_Texto {
 		
 		return "Gravado com sucesso.";
 	}
-	
-	static String lerArquivo() throws Exception {
-		FileReader arquivo = new FileReader("c:/temp/exemplo1.txt");
-		BufferedReader dados = new BufferedReader(arquivo);
-		String resultado = "";
-		
-		while(dados.ready()) {
-			resultado += dados.readLine() + "\n";
-		}
-		
-		dados.close();
-		arquivo.close();
-		
-		return resultado;
-	}
 
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) {
 		Produto produto = new Produto("Nome 1", "Velocidade 1", "Memória 1", "Revendedor 1");
 		
-		System.out.println(gravarArquivo(produto));
-		
-		System.out.println(lerArquivo());
 	}
 
 }
