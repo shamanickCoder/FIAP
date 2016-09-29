@@ -1,8 +1,6 @@
 package br.com.fiap.arquivos.testes;
 
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import br.com.fiap.arquivos.modelo.Produto;
@@ -18,17 +16,6 @@ public class TesteArquivo_Stream {
 		stream.close();
 		
 		return "Objeto armazenado";
-	}
-	
-	static Produto lerArquivo() throws Exception {
-		FileInputStream file = new FileInputStream("c:\\temp\\computador.arq");
-		ObjectInputStream stream = new ObjectInputStream(file);
-		
-		Produto objeto = (Produto) stream.readObject();
-		
-		stream.close();
-		
-		return objeto;
 	}
 	
 	public static void main(String[] args) throws Exception{
