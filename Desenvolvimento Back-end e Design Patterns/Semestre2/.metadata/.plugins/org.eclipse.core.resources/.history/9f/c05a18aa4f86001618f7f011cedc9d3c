@@ -37,8 +37,7 @@ public class TesteArquivo_Texto {
 	}
 
 	public static void main(String[] args) throws Exception{
-		Produto produto = new Produto("Positivo Dual Core XPTO", 
-				"2ghz", "1GB", "CASAS X");
+		Produto produto = new Produto("Nome 1", "Velocidade 1", "Memória 1", "Revendedor 1");
 		
 		System.out.println(gravarArquivo(produto));
 		
