@@ -40,7 +40,7 @@ public class CargoBO {
 		return new CargoDAO(user, senha).atualizar(aumento);
 	}
 	
-	public void fechar() throws Exception {
-		new CargoDAO().fecharConexao();
+	public void fechar(String usuario, String senha) throws Exception {
+		new CargoDAO(usuario, senha).fecharConexao();
 	}
 }
