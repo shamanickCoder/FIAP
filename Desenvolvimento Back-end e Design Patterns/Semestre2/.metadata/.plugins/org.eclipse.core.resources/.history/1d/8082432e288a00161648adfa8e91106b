@@ -26,8 +26,8 @@ public class CargoDAO {
 
 	private Connection conexao;
 
-	public CargoDAO(String usuario, String senha) throws Exception {
-		this.conexao = new ConexaoFactory().getConnection(usuario, senha);
+	public CargoDAO() throws Exception {
+		this.conexao = new ConexaoFactory().getConnection();
 	}
 	
 	/**

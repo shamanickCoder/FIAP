@@ -22,21 +22,21 @@ public class CargoBO {
 		new CargoDAO(user, senha).gravar(cargo);
 	}
 	
-	public List<Cargo> validarGetLista(String user, String senha) throws Exception{
-		return new CargoDAO(user, senha).getLista();
+	public List<Cargo> validarGetLista() throws Exception{
+		return new CargoDAO().getLista();
 	}
 	
-	public List<Cargo> validarConsultar(String pCargo, String user, String senha) throws Exception {
-		return new CargoDAO(user, senha).consultar(pCargo.toUpperCase());
+	public List<Cargo> validarConsultar(String pCargo) throws Exception {
+		return new CargoDAO().consultar(pCargo.toUpperCase());
 	}
 	
-	public void validarDeletar(String cargo, String user, String senha) throws Exception{
+	public void validarDeletar(String cargo) throws Exception{
 		if(cargo.length() < 2) {
 			throw new Excecao("Caracteres insuficientes.");
 		}
-		new CargoDAO(user, senha).deletar(cargo);
+		new CargoDAO().deletar(cargo);
 	}
-	public int validarAtualizarSalario(double aumento, String user, String senha) throws Exception {
-		return new CargoDAO(user, senha).atualizar(aumento);
+	public int validarAtualizarSalario(double aumento) throws Exception {
+		return new CargoDAO().atualizar(aumento);
 	}
 }
