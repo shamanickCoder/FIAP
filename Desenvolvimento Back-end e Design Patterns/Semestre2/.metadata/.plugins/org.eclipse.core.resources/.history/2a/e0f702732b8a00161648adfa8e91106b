@@ -41,6 +41,6 @@ public class CargoBO {
 	}
 	
 	public void fechar(String usuario, String senha) throws Exception {
-		new CargoDAO(usuario, senha).fecharConexao();
+		new CargoDAO(user, senha).fecharConexao();
 	}
 }

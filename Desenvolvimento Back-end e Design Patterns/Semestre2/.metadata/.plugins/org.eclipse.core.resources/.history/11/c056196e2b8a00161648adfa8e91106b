@@ -39,8 +39,4 @@ public class CargoBO {
 	public int validarAtualizarSalario(double aumento, String user, String senha) throws Exception {
 		return new CargoDAO(user, senha).atualizar(aumento);
 	}
-	
-	public void fechar(String usuario, String senha) throws Exception {
-		new CargoDAO(usuario, senha).fecharConexao();
-	}
 }

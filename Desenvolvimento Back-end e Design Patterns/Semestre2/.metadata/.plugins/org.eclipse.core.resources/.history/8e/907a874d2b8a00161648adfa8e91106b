@@ -98,10 +98,6 @@ public class CargoDAO {
 		estrutura.close();
 		return saida;
 	}
-	
-	public void fecharConexao() throws Exception {
-		this.conexao.close();
-	}
 }
 /*
   preparedstatement -> parametros
