@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="br.com.fiap.conexao.ConexaoFactory"/>
 <fullyQualifiedTypeName name="br.com.fiap.beans.Cliente"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>
