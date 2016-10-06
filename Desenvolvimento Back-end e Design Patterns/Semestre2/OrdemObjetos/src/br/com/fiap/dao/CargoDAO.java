@@ -24,11 +24,11 @@ import br.com.fiap.excecoes.Excecao;
 
 public class CargoDAO {
 
-	private Connection conexao;
+	//private Connection conexao;
 
-	public CargoDAO(String usuario, String senha) throws Exception {
+	/*public CargoDAO(String usuario, String senha) throws Exception {
 		this.conexao = new ConexaoFactory().getConnection(usuario, senha);
-	}
+	}*/
 	
 	/**
 	 * Metodo que <b>adiciona</b> uma tupla na tabela TB_CARGO
@@ -38,7 +38,7 @@ public class CargoDAO {
 	 * @see Cargo
 	 * 
 	 */
-	public void gravar(Cargo c) throws Exception{
+	public void gravar(Cargo c, Connection conexao) throws Exception{
 		String sql = "insert into TB_CARGO " + " (NM_CARGO, DS_NIVEL, VL_SALARIO) values (?,?,?)";
 		PreparedStatement estrutura = conexao.prepareStatement(sql);
 		estrutura.setString(1, c.getCargo());
@@ -54,9 +54,9 @@ public class CargoDAO {
 	 * @return lista com o conteudo salvo
 	 * @throws Exception
 	 */
-	public List<Cargo> getLista() throws Exception{
+	public List<Cargo> getLista(Connection conexao) throws Exception{
 		List<Cargo> lstCargos = new ArrayList<Cargo>();
-		PreparedStatement estrutura = this.conexao.prepareStatement("select * from TB_CARGO");
+		PreparedStatement estrutura = conexao.prepareStatement("select * from TB_CARGO");
 		ResultSet resultadoDados = estrutura.executeQuery();
 
 		while(resultadoDados.next()){
@@ -71,9 +71,9 @@ public class CargoDAO {
 		return lstCargos;
 	}
 
-	public List<Cargo> consultar(String pCargo)throws Exception{
+	public List<Cargo> consultar(String pCargo, Connection conexao)throws Exception{
 		List<Cargo> lista = new ArrayList<Cargo>();
-		PreparedStatement estrutura = this.conexao.prepareStatement("SELECT * FROM TB_CARGO WHERE NM_CARGO = ?");
+		PreparedStatement estrutura = conexao.prepareStatement("SELECT * FROM TB_CARGO WHERE NM_CARGO = ?");
 		estrutura.setString(1, pCargo);
 		ResultSet resultado = estrutura.executeQuery();
 		while(resultado.next()){
@@ -84,14 +84,14 @@ public class CargoDAO {
 		return lista;
 	}
 	
-	public void deletar(String cargoDigitado) throws Exception{
+	public void deletar(String cargoDigitado, Connection conexao) throws Exception{
 		PreparedStatement estrutura = conexao.prepareStatement("delete TB_CARGO where NM_CARGO = ?");
 		estrutura.setString(1, cargoDigitado);
 		estrutura.execute();
 		estrutura.close();
 	}
 	
-	public int atualizar(double aumento) throws Exception {
+	public int atualizar(double aumento, Connection conexao) throws Exception {
 		PreparedStatement estrutura = conexao.prepareStatement("update TB_CARGO set VL_SALARIO = VL_SALARIO*(1 + ?)");
 		estrutura.setDouble(1, aumento/100);
 		int saida = estrutura.executeUpdate();
@@ -99,9 +99,9 @@ public class CargoDAO {
 		return saida;
 	}
 	
-	public void fecharConexao() throws Exception {
+	/*public void fecharConexao() throws Exception {
 		this.conexao.close();
-	}
+	}*/
 }
 /*
   preparedstatement -> parametros
