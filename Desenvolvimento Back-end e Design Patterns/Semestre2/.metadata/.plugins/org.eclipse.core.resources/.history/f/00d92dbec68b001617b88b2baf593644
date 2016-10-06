@@ -5,17 +5,7 @@ import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public final class ConexaoFactory {
-	
-	private static ConexaoFactory conexao = null;
-	
-	public static ConexaoFactory controlarInstancia() {
-		if(conexao == null) {
-			conexao = new ConexaoFactory();
-		}
-		return conexao;
-	}
-	
+public class ConexaoFactory {
 	public Connection getConnection(String usuario, String senha) throws Exception{
 		//FileReader arquivo = new FileReader("c:/temp/banco.txt");
 		FileReader arquivo = new FileReader(System.getProperty("user.dir") + 
