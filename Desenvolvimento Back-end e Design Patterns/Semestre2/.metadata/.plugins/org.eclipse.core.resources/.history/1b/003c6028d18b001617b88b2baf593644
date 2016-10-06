@@ -13,11 +13,8 @@ import br.com.fiap.excecoes.Excecao;
 public class TesteCargoBO {
 
 	public static void main(String[] args) throws Exception{
-		
-		Connection conexao = null;
-		
+		Connection conexao = ConexaoFactory.controlarInstancia().getConnection("", "");
 		try {
-			conexao = ConexaoFactory.controlarInstancia().getConnection("", "");
 			conexao.setAutoCommit(false);
 			Cargo cargo = new Cargo();
 

@@ -12,12 +12,9 @@ import br.com.fiap.excecoes.Excecao;
 
 public class TesteCargoBO {
 
-	public static void main(String[] args) throws Exception{
-		
-		Connection conexao = null;
-		
+	public static void main(String[] args) throws Excecao{
 		try {
-			conexao = ConexaoFactory.controlarInstancia().getConnection("", "");
+			Connection conexao = ConexaoFactory.controlarInstancia().getConnection("", "");
 			conexao.setAutoCommit(false);
 			Cargo cargo = new Cargo();
 
@@ -41,22 +38,9 @@ public class TesteCargoBO {
 			for(Cargo objeto: lista) {
 				System.out.println(objeto.getTudo());
 			}
-			//int teste = 10/0
-			conexao.commit();
-			conexao.setAutoCommit(true);
 		}
 		catch(Exception e ){
-			conexao.rollback();
-			System.out.println(e);
 			throw new Excecao("Falha.");
-		}
-		finally {
-			try {
-				conexao.close();
-			}
-			catch(Exception e) {
-				throw new Excecao("Falha");
-			}
 		}
 
 	}
