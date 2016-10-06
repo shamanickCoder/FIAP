@@ -728,3 +728,4 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 2016-10-06 09:02:27,148 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@d7c9a7b{/help,null,AVAILABLE}
 2016-10-06 09:02:27,163 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4b062540{HTTP/1.1}{127.0.0.1:49490}
 2016-10-06 09:02:27,163 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @41118ms
+2016-10-06 10:24:31,797 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.

@@ -1,15 +1,16 @@
 package br.com.fiap.bo;
 
+import java.sql.Connection;
 import java.util.List;
 
 import br.com.fiap.beans.Cargo;
 import br.com.fiap.dao.CargoDAO;
 import br.com.fiap.excecoes.Excecao;
 
-public class CargoBO {
+public abstract class CargoBO {
 
 
-	public void validarGravar(Cargo cargo, String user, String senha) throws Exception{
+	public static void validarGravar(Cargo cargo, Connection conexao) throws Exception{
 		if(cargo.getCargo().length() < 2) {
 			throw new Excecao("Caracteres insuficientes em cargo");
 		}
@@ -19,28 +20,24 @@ public class CargoBO {
 		if(cargo.getSalario() < 700) {
 			throw new Excecao("Salário insuficiente");
 		}
-		new CargoDAO(user, senha).gravar(cargo);
+		new CargoDAO().gravar(cargo, conexao);
 	}
 	
-	public List<Cargo> validarGetLista(String user, String senha) throws Exception{
-		return new CargoDAO(user, senha).getLista();
+	public static List<Cargo> validarGetLista(Connection conexao) throws Exception{
+		return new CargoDAO().getLista(conexao);
 	}
 	
-	public List<Cargo> validarConsultar(String pCargo, String user, String senha) throws Exception {
-		return new CargoDAO(user, senha).consultar(pCargo.toUpperCase());
+	public static List<Cargo> validarConsultar(String pCargo, Connection conexao) throws Exception {
+		return new CargoDAO().consultar(pCargo.toUpperCase(), conexao);
 	}
 	
-	public void validarDeletar(String cargo, String user, String senha) throws Exception{
+	public static void validarDeletar(String cargo, Connection conexao) throws Exception{
 		if(cargo.length() < 2) {
 			throw new Excecao("Caracteres insuficientes.");
 		}
-		new CargoDAO(user, senha).deletar(cargo);
+		new CargoDAO().deletar(cargo, conexao);
 	}
-	public int validarAtualizarSalario(double aumento, String user, String senha) throws Exception {
-		return new CargoDAO(user, senha).atualizar(aumento);
-	}
-	
-	public void fechar() throws Exception {
-		new CargoDAO().fecharConexao();
+	public static int validarAtualizarSalario(double aumento, Connection conexao) throws Exception {
+		return new CargoDAO().atualizar(aumento, conexao);
 	}
 }

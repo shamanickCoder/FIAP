@@ -12,7 +12,7 @@ public class TesteConexao6 {
 		Connection c = null;
 		
 		try {
-			c = new ConexaoFactory().controlarInstancia().getConnection(JOptionPane.showInputDialog("Usuário: "),
+			c = new ConexaoFactory().getConnection(JOptionPane.showInputDialog("Usuário: "),
 					JOptionPane.showInputDialog("Senha: "));
 			System.out.println("Conexão aberta!");
 		}
