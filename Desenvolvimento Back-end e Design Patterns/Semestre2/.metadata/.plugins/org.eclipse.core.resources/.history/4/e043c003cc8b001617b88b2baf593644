@@ -1,0 +1,41 @@
+package br.com.fiap.testes;
+
+import java.sql.Connection;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.bo.CargoBO;
+import br.com.fiap.conexao.ConexaoFactory;
+import br.com.fiap.dao.CargoDAO;
+import br.com.fiap.excecoes.Excecao;
+
+public class TesteCargoBO {
+
+	public static void main(String[] args) throws Excecao{
+		try {
+			Connection conexao = ConexaoFactory.controlarInstancia().getConnection("", "");
+			Cargo cargo = new Cargo();
+			CargoBO bo = new CargoBO();
+
+			do {
+				cargo = new Cargo();
+				cargo.setCargo(JOptionPane.showInputDialog("Cargo: "));
+				cargo.setNivel(JOptionPane.showInputDialog("Nível: "));
+				cargo.setSalario(Double.parseDouble(JOptionPane.showInputDialog("Salário: ")));
+				
+				bo.validarGravar(cargo, conexao);
+			} while (JOptionPane.showConfirmDialog(null, "Deseja continuar?", "Teste BO", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == 0 );
+			
+			List<Cargo> lista = bo.validarGetLista(conexao);
+			
+			for(Cargo objeto: lista) {
+				System.out.println(objeto.getTudo());
+			}
+		}
+		catch(Exception e ){
+			
+		}
+
+	}

@@ -37,7 +37,6 @@ public abstract class CargoBO {
 		}
 		new CargoDAO().deletar(cargo, conexao);
 	}
-	
 	public static int validarAtualizarSalario(double aumento, Connection conexao) throws Exception {
 		return new CargoDAO().atualizar(aumento, conexao);
 	}
