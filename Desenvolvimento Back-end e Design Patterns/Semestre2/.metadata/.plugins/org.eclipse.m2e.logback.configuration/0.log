@@ -737,3 +737,11 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 2016-10-25 09:08:27,941 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not available. Remote download required.
 2016-10-25 09:47:50,543 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1dabd415{HTTP/1.1}{127.0.0.1:0}
 2016-10-25 09:47:50,564 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@225edb3{/help,null,UNAVAILABLE}
+2016-10-25 09:53:30,176 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @25687ms
+2016-10-25 09:53:30,328 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-10-25 09:53:30,373 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5ad8dbff{/help,null,AVAILABLE}
+2016-10-25 09:53:30,387 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1ec1f9c6{HTTP/1.1}{127.0.0.1:50424}
+2016-10-25 09:53:30,388 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @25901ms
+2016-10-25 09:53:36,741 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-10-25 10:06:42,949 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1ec1f9c6{HTTP/1.1}{127.0.0.1:0}
+2016-10-25 10:06:42,971 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5ad8dbff{/help,null,UNAVAILABLE}

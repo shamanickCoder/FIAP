@@ -30,7 +30,7 @@ public class FuncionarioDAO {
 		Funcionario func = null;
 		Calendar cal = null;
 		Cargo cargo = null;
-		String comando = "SELECT * FROM T_LTP_FUNCIONARIO INNER JOIN TB_CARGO ON (TB_CARGO.CD_CARGO = T_LTP_FUNCIONARIO.CD_CARGO)";
+		String comando = "SELECT * FROM T_LTP_FUNCIONARIO INNER JOIN T_LTP_CARGO ON (T_LTP_CARGO.CD_CARGO = T_LTP_FUNCIONARIO.CD_CARGO)";
 		stmt =c.prepareStatement(comando);
 		rs = stmt.executeQuery();
 		

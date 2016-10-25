@@ -91,7 +91,6 @@ public class CargoDAO {
 		ResultSet resultado = estrutura.executeQuery();
 		if(resultado.next()){
 			c = new Cargo(resultado.getInt("CD_CARGO"),resultado.getString("NM_CARGO"), resultado.getString("DS_NIVEL"), resultado.getDouble("VL_SALARIO"));
-			System.out.println("passei por aqui");
 		}
 		resultado.close();
 		estrutura.close();
