@@ -1,0 +1,9 @@
+package br.com.fiap.bo;
+
+public class FuncionarioBO {
+
+	public FuncionarioBO() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -27,7 +27,7 @@ public abstract class CargoBO {
 		return new CargoDAO().getLista(conexao);
 	}
 	
-	public static List<Cargo> validarConsultar(String pCargo, Connection conexao) throws Exception {
+	public static Cargo validarConsultar(String pCargo, Connection conexao) throws Exception {
 		return new CargoDAO().consultar(pCargo.toUpperCase(), conexao);
 	}
 	

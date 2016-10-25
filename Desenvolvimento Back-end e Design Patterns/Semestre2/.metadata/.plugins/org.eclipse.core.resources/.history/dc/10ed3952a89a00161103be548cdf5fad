@@ -1,0 +1,13 @@
+package br.com.fiap.bo;
+
+import java.sql.Connection;
+
+import br.com.fiap.beans.Funcionario;
+import br.com.fiap.dao.FuncionarioDAO;
+
+public abstract class FuncionarioBO {
+
+	public static void gravar(Connection c, Funcionario f) throws Exception {
+		new FuncionarioDAO().add(c, f);
+	}
+}

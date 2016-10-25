@@ -1,0 +1,13 @@
+package br.com.fiap.testes;
+
+import java.sql.Connection;
+
+import br.com.fiap.conexao.ConexaoFactory;
+
+public class TesteFuncionarioDAO {
+
+	public static void main(String[] args) {
+		Connection conn = ConexaoFactory.controlarInstancia().getConnection("", "");
+	}
+
+}

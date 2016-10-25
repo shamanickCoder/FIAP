@@ -1,0 +1,26 @@
+package br.com.fiap.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Date;
+
+import br.com.fiap.beans.Funcionario;
+
+public class FuncionarioDAO {
+
+	private PreparedStatement stmt = null;
+	private ResultSet rs = null;
+	public void add(Connection c, Funcionario f) throws Exception{
+		String comando = "INSERT INTO T_LTP_FUNCIONARIO (CD_FUNCIONARIO, NM_FUNCIONARIO, CD_CARGO, DT_ADMISSAO) VALUES (SEQ.FUNCIONARIO.NEXTVAL, ?, ?, ?)";
+		stmt = c.prepareStatement(comando);
+		stmt.setString(1, f.getNome());
+		stmt.setInt(2, f.getCargo().getCodigo());
+		stmt.setDate(3, new Date(f.getDtAdmissao().getTimeInMillis()));
+		stmt.execute();
+		
+	}
+	public FuncionarioDAO() {
+	}
+
+}

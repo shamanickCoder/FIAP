@@ -1,0 +1,60 @@
+package br.com.fiap.dao;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.beans.Funcionario;
+
+public class FuncionarioDAO {
+
+	private PreparedStatement stmt = null;
+	private ResultSet rs = null;
+	public void add(Connection c, Funcionario f) throws Exception{
+		String comando = "INSERT INTO T_LTP_FUNCIONARIO (CD_FUNCIONARIO, NM_FUNCIONARIO, CD_CARGO, DT_ADMISSAO) VALUES (SEQ_FUNCIONARIO.NEXTVAL, ?, ?, ?)";
+		stmt = c.prepareStatement(comando);
+		stmt.setString(1, f.getNome());
+		stmt.setInt(2, f.getCargo().getCodigo());
+		stmt.setDate(3, new Date(f.getDtAdmissao().getTimeInMillis()));
+		stmt.execute();
+		
+	}
+	
+	public List<Funcionario> getAll(Connection c) throws Exception {
+		List<Funcionario> lista = new ArrayList<Funcionario>();
+		Funcionario func = null;
+		Calendar cal = null;
+		Cargo cargo = null;
+		String comando = "SELECT * FROM T_LTP_FUNCIONARIO INNER JOIN T_LTP_CARGO ON (T_LTP_CARGO.CD_CARGO = T_LTP_FUNCIONARIO.CD_CARGO)";
+		stmt =c.prepareStatement(comando);
+		rs = stmt.executeQuery();
+		
+		while(rs.next()) {
+			func = new Funcionario();
+			func.setNome(rs.getString("NM_FUNCIONARIO"));
+			func.setCodigo(rs.getInt("CD_FUNCIONARIO"));
+			cal = Calendar.getInstance();
+			cal.setTime(rs.getDate("DT_ADMISSAO"));
+			func.setDtAdmissao(cal);
+			
+			cargo = new Cargo();
+			cargo.setCargo(rs.getString("NM_CARGO"));
+			cargo.setNivel(rs.getString("DS_NIVEL"));
+			cargo.setSalario(rs.getDouble("VL_SALARIO"));
+			cargo.setCodigo(rs.getInt("CD_CARGO"));
+			func.setCargo(cargo);
+			
+			lista.add(func);
+		}
+		return lista;
+	}
+	
+	public FuncionarioDAO() {
+	}
+
+}

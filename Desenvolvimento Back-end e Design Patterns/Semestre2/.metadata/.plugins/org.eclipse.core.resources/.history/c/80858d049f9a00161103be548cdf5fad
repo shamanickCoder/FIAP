@@ -1,0 +1,12 @@
+package br.com.fiap.dao;
+
+import java.sql.PreparedStatement;
+
+public class FuncionarioDAO {
+
+	public FuncionarioDAO() {
+		
+		private PreparedStatement stmt = null;
+	}
+
+}

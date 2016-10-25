@@ -1,0 +1,27 @@
+package br.com.fiap.testes;
+
+import java.sql.Connection;
+
+import br.com.fiap.beans.Cargo;
+import br.com.fiap.beans.Funcionario;
+import br.com.fiap.conexao.ConexaoFactory;
+
+public class TesteFuncionarioDAO {
+
+	public static void main(String[] args) throws Exception{
+		Connection c = null;
+		Funcionario f = null;
+		try {
+			Connection c = ConexaoFactory.controlarInstancia().getConnection("", "");
+			c.setAutoCommit(false);
+
+			do {
+				f = 
+			}
+		}
+		catch(Exception e) {
+
+		}
+	}
+
+}

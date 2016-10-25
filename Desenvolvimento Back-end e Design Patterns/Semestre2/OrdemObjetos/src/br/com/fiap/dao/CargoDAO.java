@@ -71,17 +71,30 @@ public class CargoDAO {
 		return lstCargos;
 	}
 
-	public List<Cargo> consultar(String pCargo, Connection conexao)throws Exception{
+	public List<Cargo> consultar2(String pCargo, Connection conexao)throws Exception{
 		List<Cargo> lista = new ArrayList<Cargo>();
 		PreparedStatement estrutura = conexao.prepareStatement("SELECT * FROM TB_CARGO WHERE NM_CARGO = ?");
 		estrutura.setString(1, pCargo);
 		ResultSet resultado = estrutura.executeQuery();
 		while(resultado.next()){
-			lista.add(new Cargo(resultado.getString("NM_CARGO"), resultado.getString("DS_NIVEL"), resultado.getDouble("VL_SALARIO")));
+			lista.add(new Cargo(resultado.getInt("CD_CARGO"),resultado.getString("NM_CARGO"), resultado.getString("DS_NIVEL"), resultado.getDouble("VL_SALARIO")));
 		}
 		resultado.close();
 		estrutura.close();
 		return lista;
+	}
+	
+	public Cargo consultar(String pCargo, Connection conexao)throws Exception{
+		Cargo c = new Cargo();
+		PreparedStatement estrutura = conexao.prepareStatement("SELECT * FROM TB_CARGO WHERE NM_CARGO = ?");
+		estrutura.setString(1, pCargo);
+		ResultSet resultado = estrutura.executeQuery();
+		if(resultado.next()){
+			c = new Cargo(resultado.getInt("CD_CARGO"),resultado.getString("NM_CARGO"), resultado.getString("DS_NIVEL"), resultado.getDouble("VL_SALARIO"));
+		}
+		resultado.close();
+		estrutura.close();
+		return c;
 	}
 	
 	public void deletar(String cargoDigitado, Connection conexao) throws Exception{
