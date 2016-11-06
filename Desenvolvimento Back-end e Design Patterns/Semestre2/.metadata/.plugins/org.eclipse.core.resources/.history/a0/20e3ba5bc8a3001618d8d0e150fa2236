@@ -1,0 +1,23 @@
+package br.com.fiap.teste;
+
+import javax.swing.JOptionPane;
+
+public class Excecao_02 {
+	public static void main(String[] args){
+		int nota=0, div=0, resultado=0;
+		try{
+			nota = Integer.parseInt(JOptionPane.showInputDialog("Digite a nota: "));
+			div = Integer.parseInt(JOptionPane.showInputDialog("Digite o divisor: "));
+			resultado = nota / div;
+			System.out.println("Resultado: " + resultado);
+		} catch(ArithmeticException e){
+			System.out.println("Valor 0 no divisor - " + e);
+		} catch(NumberFormatException e){
+			System.out.println("Foi digitado um caractere no divisor - " + e);
+		} 
+		finally{
+			System.out.println("Nota: " + nota);
+			System.out.close();
+		}
+	}
+}

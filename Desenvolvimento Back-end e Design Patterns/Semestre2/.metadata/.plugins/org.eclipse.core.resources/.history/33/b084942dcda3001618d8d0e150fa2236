@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class ContaCorrente {
+
+	public ContaCorrente() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

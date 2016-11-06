@@ -1,0 +1,9 @@
+package br.com.fiap.teste;
+
+public class Excecao_03 {
+
+	public Excecao_03() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class Titular {
+
+	public Titular() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,10 @@
+package br.com.fiap.beans;
+
+public class Titular {
+	private String nome = new String();
+	private String cpf = new String();
+	public Titular() {
+		super();
+	}
+	
+}

@@ -1,0 +1,8 @@
+package br.com.fiap.beans;
+
+public class ContaPoupanca extends ContaBancaria{
+	private double taxaJuros = 0.0d;
+	
+	
+	
+}

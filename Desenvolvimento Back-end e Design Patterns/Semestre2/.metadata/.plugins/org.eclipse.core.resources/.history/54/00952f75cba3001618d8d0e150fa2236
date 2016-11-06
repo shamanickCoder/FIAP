@@ -1,0 +1,13 @@
+package br.com.fiap.teste;
+
+public class Excecoes_Cliente_01 {
+	public static void main(String[] args) throws Excecoes{
+		try{
+			Cliente objCliente = new Cliente();
+			objCliente.setCodigo(Long.parseLong(JOptionPane.showInputDialog("Digite o código: ")));
+		} catch(Exception e){
+			throw new Excecoes("Ocorreu uma falha.", e);
+		}
+	}
+
+}

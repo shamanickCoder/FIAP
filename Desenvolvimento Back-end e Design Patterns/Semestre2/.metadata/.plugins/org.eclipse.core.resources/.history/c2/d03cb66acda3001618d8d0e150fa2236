@@ -1,0 +1,9 @@
+package br.com.fiap.beans;
+
+public class ContaBancaria {
+
+	public ContaBancaria() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

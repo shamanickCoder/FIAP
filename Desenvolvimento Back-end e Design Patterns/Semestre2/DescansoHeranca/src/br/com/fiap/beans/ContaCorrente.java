@@ -1,0 +1,11 @@
+package br.com.fiap.beans;
+
+public class ContaCorrente extends ContaBancaria{
+	private double limiteCredito = 0.0d;
+
+	public ContaCorrente(double limiteCredito) {
+		super(saldo, titular, agencia, numeroConta);
+		this.limiteCredito = limiteCredito;
+	}
+	
+}

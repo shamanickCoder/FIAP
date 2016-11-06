@@ -1,0 +1,13 @@
+package br.com.fiap.teste;
+
+import br.com.fiap.beans.Cliente;
+
+public class Excecoes_Cliente_01 {
+	public static void main(String[] args){
+		try{
+			Cliente objCliente = new Cliente();
+			objCliente.setCodigo();
+		}
+	}
+
+}

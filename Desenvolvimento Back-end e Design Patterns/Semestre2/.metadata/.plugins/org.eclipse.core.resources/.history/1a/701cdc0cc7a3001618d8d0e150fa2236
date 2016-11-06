@@ -1,0 +1,14 @@
+package br.com.fiap.teste;
+
+public class Excecao_01 {
+
+	public Excecao_01() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

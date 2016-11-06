@@ -1,0 +1,7 @@
+package br.com.fiap.teste;
+
+public class Excecao_03 {
+	public static void main(String[] args){
+		
+	}
+}

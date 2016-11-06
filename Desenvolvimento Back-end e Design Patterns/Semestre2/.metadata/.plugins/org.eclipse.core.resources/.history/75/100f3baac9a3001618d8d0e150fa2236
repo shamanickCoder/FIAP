@@ -1,0 +1,14 @@
+package br.com.fiap.beans;
+
+public class Cliente {
+	private String nome = new String();
+	private byte qtdeEstrelas = 0;
+	private long codigo = 0;
+	public Cliente() {
+	}
+	public Cliente(String nome, byte qtdeEstrelas, int codigo){
+		this.nome = nome;
+		this.qtdeEstrelas = qtdeEstrelas;
+		this.codigo = codigo;
+	}
+}

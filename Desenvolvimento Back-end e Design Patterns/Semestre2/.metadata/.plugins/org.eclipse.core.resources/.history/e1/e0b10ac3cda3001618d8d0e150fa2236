@@ -1,0 +1,20 @@
+package br.com.fiap.beans;
+
+public class ContaBancaria {
+	private double saldo = 0.0d;
+	private Titular titular = new Titular();
+	private int agencia = 0;
+	private String numeroConta = new String();
+	
+	public ContaBancaria(){}
+	
+	public ContaBancaria(double saldo, Titular titular, int agencia, String numeroConta) {
+		super();
+		this.saldo = saldo;
+		this.titular = titular;
+		this.agencia = agencia;
+		this.numeroConta = numeroConta;
+	} 
+	
+	
+}

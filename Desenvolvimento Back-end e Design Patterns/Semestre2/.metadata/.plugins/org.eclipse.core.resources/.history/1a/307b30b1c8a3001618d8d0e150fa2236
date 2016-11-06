@@ -1,0 +1,9 @@
+package br.com.fiap.excecao;
+
+public class Excecoes {
+
+	public Excecoes() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

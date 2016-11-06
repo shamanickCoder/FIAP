@@ -1,0 +1,6 @@
+package br.com.fiap.excecao;
+
+public class Excecoes extends Exception{
+	
+
+}

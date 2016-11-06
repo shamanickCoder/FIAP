@@ -1,0 +1,9 @@
+package br.com.fiap.teste;
+
+public class Excecoes_Cliente_01 {
+
+	public Excecoes_Cliente_01() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
